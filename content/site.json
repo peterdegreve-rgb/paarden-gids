@@ -1,0 +1,3342 @@
+{
+  "note": "Paardenfeiten, verhalen en fotobijschriften komen uit de gepubliceerde gids. Niet herschrijven. Inhoud is van Fien en Noa. De app-schil leest dit bestand alleen.",
+  "breeds": [
+    {
+      "slug": "belgisch-trekpaard",
+      "name": "Belgisch trekpaard",
+      "english": "Belgian draft",
+      "regions": [
+        "België"
+      ],
+      "origin": "Brabant, België",
+      "size": "zwaar",
+      "height": "163–173 cm",
+      "weight": "800–1000 kg",
+      "colors": "Meestal vos, met lichte manen en staart",
+      "colorTags": [
+        "vos"
+      ],
+      "temperament": "Kalm, gewillig en sterk. Een paard dat rustig blijft bij zwaar werk.",
+      "tempTag": "rustig",
+      "uses": "Vroeger landbouw, nu prijskampen, mennen en soms boswerk",
+      "useTags": [
+        "werk",
+        "mennen"
+      ],
+      "feather": "Weinig behang",
+      "summary": "Het Belgisch trekpaard is een van de zwaarste paardenrassen ter wereld. Het komt uit Brabant en werd eeuwenlang gefokt om te trekken.",
+      "paragraphs": [
+        "Je herkent het aan de massieve hals, de brede borst en de zware achterhand. De meeste paarden zijn vos. Hun manen en staart zijn vaak blond. Aan de benen zit weinig lang haar. Daarin verschillen ze van een Shire of een Clydesdale.",
+        "Tot diep in de twintigste eeuw trok dit paard de ploeg, de kar en de hooiwagen. Een tractor doet dat werk nu sneller. Het ras bleef bestaan omdat mensen het wilden houden: op prijskampen, voor de wagen, en als levend stuk landbouwgeschiedenis.",
+        "De schofthoogte ligt vaak tussen 163 en 173 centimeter. Het gewicht loopt snel naar 800 tot 1000 kilogram. Maten zijn richtcijfers. Binnen het ras bestaan lichtere en zwaardere dieren."
+      ],
+      "anecdotes": [
+        "Rond 1900 kochten fokkers uit Amerika veel Belgische trekpaarden. Het American Belgian van vandaag stamt voor een groot deel van die dieren af. Een klein land leverde zo een wereldberoemd werkpaard.",
+        "In de middeleeuwen waren zware paarden uit Vlaanderen en Brabant al bekend over de grens. Engelse fokkers haalden zulke paarden over de zee. In de geschiedenis van het Shire-paard zit daarom ook bloed uit de Lage Landen.",
+        "Brooklyn Supreme, een vos van dit bloed in Amerika, werd bijna twee meter en woog meer dan 1400 kilo. Hij toont het uiterste van de maat, niet de gewone wei."
+      ],
+      "facts": [
+        "Het stamboek heet de Koninklijke Maatschappij van het Belgisch Trekpaard.",
+        "Een vos is een bruinrood paard. Bij dit ras hoort daar vaak een lichte manen bij.",
+        "Trekpaarden werken het best in een rustig tempo. Hun kracht zit in duwen en trekken, niet in een snelle galop.",
+        "Het Amerikaanse Belgian heeft soms meer behang dan het Europese trekpaard. Zelfde oorsprong, andere keuze van de fokkers."
+      ],
+      "imageAlt": "Vos Belgisch trekpaard met blonde manen op een boerenerf"
+    },
+    {
+      "slug": "ardenner",
+      "name": "Ardenner",
+      "english": "Ardennes",
+      "regions": [
+        "België",
+        "Frankrijk",
+        "Luxemburg"
+      ],
+      "origin": "De Ardennen, gedeeld door België, Frankrijk en Luxemburg",
+      "size": "zwaar",
+      "height": "152–163 cm",
+      "weight": "600–800 kg",
+      "colors": "Vaak vos, bruin of een schimmelkleur zoals vosschimmel",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "schimmel"
+      ],
+      "temperament": "Rustig, hard en tevreden met eenvoudig voer.",
+      "tempTag": "rustig",
+      "uses": "Boswerk, mennen en fokkerij van trekpaarden",
+      "useTags": [
+        "werk",
+        "mennen",
+        "natuur"
+      ],
+      "feather": "Weinig behang",
+      "summary": "De Ardenner is het trekpaard van de heuvels tussen België, Frankrijk en Luxemburg. Korter en compacter dan het Belgisch trekpaard, en erg zeker op zijn voeten.",
+      "paragraphs": [
+        "Dit ras hoort bij één streek die over drie landen loopt. In Luxemburg is de Ardenner het traditionele paard. Er is geen ander beroemd Luxemburgs ras dat daarnaast staat.",
+        "Ardenners zijn laag bij de grond, met een brede borst en sterke benen. Veel paarden hebben een gemengde vacht: vosschimmel of bruinschimmel. Dat betekent dat witte haren door de basiskleur zitten.",
+        "Vandaag slepen sommige Ardenners nog stammen uit het bos. Tussen de bomen is een paard soms zachter voor de bodem dan een zware machine. Het werk vraagt een kalm dier dat niet schrikt van takken."
+      ],
+      "anecdotes": [
+        "Mensen noemen de Ardenner soms een van de oudste trektypes van Europa. Het paard leefde al lang in een streek met koude winters en armere weiden. Daardoor werd het hard, niet fijn.",
+        "Op een helling telt evenwicht meer dan hoogte. Een korter paard kan een last laag houden. Daarom bleef de Ardenner bruikbaar toen grotere trekpaarden vooral op de vlakte werkten.",
+        "In oorlogen werden Ardenners voor geschut gezet, omdat ze kort, sterk en rustig bij lawaai waren. Dat werk is voorbij. Het kalme hoofd is gebleven."
+      ],
+      "facts": [
+        "Een Ardenner is meestal kleiner dan een Belgisch trekpaard, maar nog altijd een zwaar paard.",
+        "Het ras komt in drie landen voor. De grens deelt de streek, niet het paard.",
+        "Vosschimmel is geen ziekte. Het is een kleur, met witte haren door een vosvacht.",
+        "Een Ardenner op een helling houdt de last laag. Daarom bleef het ras bruikbaar in bossen waar een hoger paard onhandig wordt."
+      ],
+      "imageAlt": "Compacte Ardenner in een mistig bos"
+    },
+    {
+      "slug": "bwp",
+      "name": "Belgisch warmbloed",
+      "english": "Belgian Warmblood, BWP",
+      "regions": [
+        "België"
+      ],
+      "origin": "België",
+      "size": "groot",
+      "height": "165–175 cm",
+      "weight": "550–650 kg",
+      "colors": "Bruin, vos, zwart en soms schimmel",
+      "colorTags": [
+        "bruin",
+        "vos",
+        "zwart",
+        "schimmel"
+      ],
+      "temperament": "Werkwillig en atletisch. Gevoelig genoeg voor fijne hulpen.",
+      "tempTag": "energiek",
+      "uses": "Springen, dressuur en eventing",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "Het BWP is geen oud gesloten ras, maar een Belgisch sportstamboek. De paarden springen en werken op het hoogste niveau.",
+      "paragraphs": [
+        "Een stamboek is een register van paarden die aan bepaalde regels voldoen. Het BWP staat open: fokkers mogen bloed van andere sportpaarden gebruiken, zoals Holsteiners of Franse springpaarden. Zo blijft het type modern.",
+        "Het stamboek groeide toen tractoren het trekpaard vervingen. België koos voor lichtere rijpaarden. Vandaag is het land klein, maar de springpaarden zijn dat niet.",
+        "Naast het BWP bestaat in België ook Zangersheide, een stamboek dat sterk op springen staat. Twee registers, één idee: een paard dat kracht en zorgvuldigheid combineert."
+      ],
+      "anecdotes": [
+        "De hengst Darco, geboren in 1980, was een belangrijk BWP-springpaard. In veel stambomen van latere springpaarden duikt zijn naam nog op.",
+        "Een warmbloed is een sportpaard tussen het snelle Engels volbloed en het zware trekpaard in. Het woord zegt niets over de temperatuur van het bloed. Het is een fokkersterm.",
+        "Het Belgisch warmbloed werd een springpaard met een naam. Hingsten als Darco staan in stambomen over de hele wereld. Een land zonder grote vlakte fokte toch een sportpaard dat op hindernissen telt."
+      ],
+      "facts": [
+        "BWP betekent Belgisch Warmbloedpaard.",
+        "Een open stamboek mag nieuw bloed inschrijven. Een gesloten stamboek houdt het ras strikter apart.",
+        "Schofthoogte rond 165 tot 175 centimeter is gewoon. Springpaarden hebben ruimte nodig in schouder en achterhand.",
+        "BWP is een stamboek, geen kleur. Een paard wordt warmbloed door afstamming en een fokdoel, niet door zijn temperatuur."
+      ],
+      "imageAlt": "Bruin Belgisch warmbloedpaard in een buitenpiste"
+    },
+    {
+      "slug": "friese",
+      "name": "Fries paard",
+      "english": "Friesian",
+      "regions": [
+        "Nederland"
+      ],
+      "origin": "Friesland, Nederland",
+      "size": "middel",
+      "height": "155–170 cm",
+      "weight": "550–700 kg",
+      "colors": "Bijna altijd zwart",
+      "colorTags": [
+        "zwart"
+      ],
+      "temperament": "Werklustig, trots in de houding, en vaak gehecht aan mensen.",
+      "tempTag": "gevoelig",
+      "uses": "Dressuur, mennen en shows",
+      "useTags": [
+        "sport",
+        "mennen",
+        "vrije tijd"
+      ],
+      "feather": "Veel behang",
+      "summary": "Het Friese paard is zwart, met een lange manen en haar aan de onderbenen. Het stamboek is een van de oudste van Nederland.",
+      "paragraphs": [
+        "De typische Fries heeft een gewelfde hals en tilt de knieën duidelijk op in draf. Dat geeft een barok silhouet: rond, opgericht, met veel haar. Behang is het woord voor dat lange haar rond de koot.",
+        "Het Koninklijk Friesch Paarden-Stamboek bestaat sinds 1879. In het begin van de twintigste eeuw was het ras bijna weg. Er waren nog maar een paar goedgekeurde hengsten. Alle Friese paarden van nu komen uit die kleine groep.",
+        "Zwart is de klassieke kleur. Er bestaan ook vossen, maar het beeld dat je kent — zwart, met een volle staart — is het paard van het hoofdregister."
+      ],
+      "anecdotes": [
+        "Omdat het ras door een flessenhals ging, letten fokkers scherp op gezondheid en familie. Een mooi uiterlijk alleen is niet genoeg om een hengst goed te keuren.",
+        "Friese paarden zie je vaak voor een sjees, een lichte tweewielige wagen. Het hoge voorbeen is daar geen toeval. Het hoort bij het type.",
+        "In de twintigste eeuw kwam het Friese paard dicht bij verdwijnen. Het ras werd herbouwd uit weinig hengstenlijnen. Daarom lijken Friesen sterk op elkaar: dezelfde glans, en ook dezelfde kwetsbare plekken in de stamboom."
+      ],
+      "facts": [
+        "Behang moet proper blijven. Nat haar tegen de huid kan irriteren.",
+        "Een Fries is meestal minder hoog dan een modern springpaard, maar oogt zwaar door haar en hals.",
+        "Het ras komt uit Friesland, niet uit België. In Vlaamse weiden zie je het toch vaak.",
+        "Zwart is de kleur van het hoofdregister. Vossen bestaan, maar ze horen niet vanzelf bij het beeld dat het stamboek het langst bewaakte."
+      ],
+      "imageAlt": "Zwart Fries paard met lange manen in een weide"
+    },
+    {
+      "slug": "kwpn",
+      "name": "Nederlands warmbloed",
+      "english": "KWPN",
+      "regions": [
+        "Nederland"
+      ],
+      "origin": "Nederland",
+      "size": "groot",
+      "height": "165–178 cm",
+      "weight": "550–700 kg",
+      "colors": "Vooral bruin, vos en zwart",
+      "colorTags": [
+        "bruin",
+        "vos",
+        "zwart"
+      ],
+      "temperament": "Vooruitdenkend en atletisch, met een duidelijke werkinstelling.",
+      "tempTag": "energiek",
+      "uses": "Dressuur, springen en mennen als tuigpaard",
+      "useTags": [
+        "sport",
+        "mennen"
+      ],
+      "summary": "Het KWPN is het koninklijke Nederlandse sportstamboek. Het hoort bij de sterkste dressuur- en springlanden ter wereld.",
+      "paragraphs": [
+        "KWPN betekent Koninklijk Warmbloed Paardenstamboek Nederland. Het boek heeft richtingen. Een dressuurpaard, een springpaard, een tuigpaard en de Gelderlander zijn niet hetzelfde type, ook al delen ze een stamboek.",
+        "Het tuigpaard trekt een lichte showwagen en tilt de voorbenen zeer hoog. Dat is een andere tak dan het paard dat in een rijbaan piaffe leert.",
+        "Het stamboek is open. Engels volbloed en andere sportpaarden mogen mee, als het veulen daarna aan de eisen voldoet. Zo blijft de fokkerij bewegen."
+      ],
+      "anecdotes": [
+        "Het KWPN-paard Valegro werd wereldberoemd in de dressuur. Hij toonde hoe klein een hulp kan zijn, en hoe groot de beweging daarna.",
+        "De Gelderlander heeft binnen het KWPN een eigen richting. Zo verdwijnt het oudere karrenpaard niet helemaal in het moderne sportpaard.",
+        "Valegro, het dressuurpaard dat jarenlang de muziek leek te dragen in plaats van een ruiter, was een KWPN. Totilas ook. Nederland fokte zo paarden die een proef tot op de centimeter kunnen."
+      ],
+      "facts": [
+        "Een tuigpaard is een menpaard voor de show, geen trekpaard voor de ploeg.",
+        "Dressuur is geen circus. Het is gymnastiek: het paard draagt zichzelf in evenwicht.",
+        "Nederland fokt veel sportpaarden op een kleine oppervlakte. Selectie op beweging is daar heel streng.",
+        "Het KWPN keurt jonge paarden op aanleg, niet alleen op de namen van de ouders. Een mooie stamboom moet nog een lichaam worden."
+      ],
+      "imageAlt": "Donkerbruin Nederlands warmbloed in een buitenbak"
+    },
+    {
+      "slug": "gelderlander",
+      "name": "Gelderlander",
+      "english": "Gelderland",
+      "regions": [
+        "Nederland"
+      ],
+      "origin": "Gelderland, Nederland",
+      "size": "groot",
+      "height": "160–172 cm",
+      "weight": "550–700 kg",
+      "colors": "Vaak vos met een bles en witte voeten",
+      "colorTags": [
+        "vos"
+      ],
+      "temperament": "Braaf, nuchter en gewend aan werk op straat en erf.",
+      "tempTag": "rustig",
+      "uses": "Mennen, recreatie en behoud van het oude type",
+      "useTags": [
+        "mennen",
+        "werk",
+        "vrije tijd"
+      ],
+      "summary": "De Gelderlander is het Nederlandse paard met de blonde manen, de witte bles en de betrouwbare stap voor de wagen.",
+      "paragraphs": [
+        "Boeren in Gelderland wilden één paard voor veel taken: een rit naar de markt, een lichte kar, en soms de ploeg op zachte grond. Het paard werd daarom noch een zwaar trekpaard, noch een renpaard.",
+        "De kleur is een herkenningsteken, geen wet. Toch denk je bij een Gelderlander snel aan vos, een brede bles en witte sokken. De bouw is rechthoekig, met een vriendelijke kop.",
+        "Toen het KWPN ontstond, verdween de Gelderlander bijna in het sportpaard. Een aparte fokrichting houdt het type nu zichtbaar."
+      ],
+      "anecdotes": [
+        "Op oude foto’s uit Gelderland staat dit paard vaak aangespannen voor een boerenwagen, niet in een springtuin. De houding is rustig. Oren naar voren, één been ontspannen.",
+        "De lichte manen bij een vos noemen ruiters soms vlas. Het is dezelfde kleur die je ook bij de Haflinger ziet, op een heel ander lichaam.",
+        "Voor er een sportpaard was, bracht de Gelderlander de dokter en de melk. Hij moest kunnen draven op de weg en toch een wagen trekken. Dat dubbele werk zit nog in de wat zwaardere bouw."
+      ],
+      "facts": [
+        "Een bles is de witte streep op het hoofd.",
+        "De Gelderlander hoort bij Nederland, en is een voorouder van veel KWPN-paarden.",
+        "Mennen betekent dat het paard een wagen trekt, met een menner op de bok.",
+        "Veel KWPN-paarden hebben Gelderse voorouders. Het moderne sportpaard staat op een ouder rijtuigpaard."
+      ],
+      "imageAlt": "Vos Gelderlander met bles en witte sokken bij een hek"
+    },
+    {
+      "slug": "groninger",
+      "name": "Groninger",
+      "english": "Groningen horse",
+      "regions": [
+        "Nederland"
+      ],
+      "origin": "Groningen, Nederland",
+      "size": "middel",
+      "height": "155–165 cm",
+      "weight": "600–750 kg",
+      "colors": "Vaak zwart of bruin",
+      "colorTags": [
+        "zwart",
+        "bruin"
+      ],
+      "temperament": "Kalm en stabiel. Een paard met een zwaar karakter in de goede zin.",
+      "tempTag": "rustig",
+      "uses": "Mennen, recreatie en rasbehoud",
+      "useTags": [
+        "mennen",
+        "werk",
+        "vrije tijd"
+      ],
+      "summary": "Het Groninger paard is zwaarder dan een modern sportpaard en lichter dan een trekpaard. Het was bijna verdwenen, en is teruggefokt.",
+      "paragraphs": [
+        "Op de kleigrond van Groningen moest een paard kracht hebben zonder de fijnheid van een koetspaard helemaal te verliezen. Zwart komt veel voor. De indruk is breed en rustig.",
+        "Na de tractor wilden veel boeren een lichter rijpaard. Het oude Groninger type werd zeldzaam. Een kleine groep fokkers hield merries en hengsten apart, zodat het ras niet oploste.",
+        "Vandaag blijft het een klein ras. Je ziet het vaker voor een wagen dan in een grote springpiste. Dat is geen achterstand. Het is een ander doel."
+      ],
+      "anecdotes": [
+        "Rasbehoud lijkt soms op een redding. Mensen schrijven stambomen bij, kiezen hengsten zorgvuldig, en aanvaarden dat er weinig dieren zijn. Zonder dat werk was de Groninger een foto geworden.",
+        "Een paard dat bijna verdwijnt, verliest ook variatie. Fokkers letten daarom niet alleen op kleur, maar op familie, benen en karakter.",
+        "De Groninger hoorde bij zware klei. Een licht paard zakte weg. Een iets zwaarder paard met een rustige draf hield de boer en de weg samen. Toen tractoren kwamen, werd het ras zeldzaam."
+      ],
+      "facts": [
+        "Het Groninger paard is een warmbloed van het zwaardere type, geen Belgisch trekpaard.",
+        "Zwart is gewoon, maar niet verplicht.",
+        "Een klein ras heeft een stamboek nodig. Anders weet niemand meer wie de ouders zijn.",
+        "Zeldzaam betekent hier: weinig merries die nog echt als Groninger worden gefokt, niet dat het paard uit de geschiedenis is."
+      ],
+      "imageAlt": "Zwaar zwart Groninger paard in een groene polder"
+    },
+    {
+      "slug": "holsteiner",
+      "name": "Holsteiner",
+      "english": "Holsteiner",
+      "regions": [
+        "Duitsland"
+      ],
+      "origin": "Sleeswijk-Holstein, Duitsland",
+      "size": "groot",
+      "height": "165–178 cm",
+      "weight": "550–700 kg",
+      "colors": "Vaak bruin",
+      "colorTags": [
+        "bruin",
+        "vos",
+        "zwart"
+      ],
+      "temperament": "Dapper en krachtig, met zin om voorwaarts te gaan.",
+      "tempTag": "energiek",
+      "uses": "Vooral springen, ook dressuur",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "De Holsteiner komt uit het noorden van Duitsland en is een van de bekendste springpaarden ter wereld.",
+      "paragraphs": [
+        "De streek heeft zware grond en wind van de zee. Het oude Holsteiner paard moest een koets of een kanon kunnen trekken en daarna nog een ruiter dragen. Die kracht zit nog in de achterhand.",
+        "In de tweede helft van de twintigste eeuw kwam er meer volbloedbloed in het ras, onder meer via de Franse hengst Cor de la Bryère. Het paard werd lichter en elastischer, en beter in het springen.",
+        "Een moderne Holsteiner is een sportpaard: lange lijnen, een sterke rug, en een galop die terrein pakt. Bruin is de kleur die je het vaakst ziet."
+      ],
+      "anecdotes": [
+        "Cor de la Bryère was zelf een Selle Français. Eén hengst kan een hele fokkerij een andere kant op duwen. Zijn naam staat nog in talloze stambomen van springpaarden.",
+        "Holsteiners dragen vaak een brandmerk van hun stamboek. Een brandmerk is een teken in de huid, gezet als het paard jong is. Niet elk land doet dat nog op dezelfde manier.",
+        "Holstein is moeras en wind. De boeren daar wilden een paard dat een koets trok en ook een ruiter droeg als het moest. Uit dat dubbele dier kwam later een van de sterkste springlijnen van Europa."
+      ],
+      "facts": [
+        "Het ras komt uit Noord-Duitsland, niet uit Holland. De namen lijken op elkaar, de paarden niet.",
+        "Springen vraagt achterhand, rug en moed. Hoogte alleen is niet genoeg.",
+        "Een open sportstamboek verandert sneller dan een oud gesloten ras.",
+        "De hengst Cor de la Bryère, een Selle Français, veranderde het Holsteiner stamboek in de twintigste eeuw. Een ras blijft niet stil."
+      ],
+      "imageAlt": "Krachtig bruin Holsteiner sportpaard in een weide"
+    },
+    {
+      "slug": "hannovers",
+      "name": "Hannoveraan",
+      "english": "Hanoverian",
+      "regions": [
+        "Duitsland"
+      ],
+      "origin": "Hannover, Duitsland",
+      "size": "groot",
+      "height": "165–175 cm",
+      "weight": "550–680 kg",
+      "colors": "Vooral bruin, ook vos en zwart",
+      "colorTags": [
+        "bruin",
+        "vos",
+        "zwart"
+      ],
+      "temperament": "Evenwichtig en leerbaar. Een paard dat werk serieus neemt.",
+      "tempTag": "energiek",
+      "uses": "Dressuur en springen",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "De Hannoveraan is het staatsras van de stoeterij Celle. Dressuur en springen zitten allebei in de fokkerij.",
+      "paragraphs": [
+        "De stoeterij in Celle werd in 1735 gesticht, in de tijd van keurvorst George II. Die man was ook koning van Groot-Brittannië. Paarden fokken was toen staatszaak, niet alleen een hobby.",
+        "Eeuwenlang mengden fokkers lokale paarden met Engels volbloed. Ze wilden een rijpaard dat een ruiter dagenlang kon dragen. Later werd dat een paard voor de sport.",
+        "De kop is vaak edel, de hals lang, het kader groot. Een Hannoveraan kan in de dressuur schitteren of een parcours springen. De familie beslist mee welke kant het op gaat."
+      ],
+      "anecdotes": [
+        "Een landstoeterij houdt hengsten die boeren en fokkers mogen gebruiken. Celle deed dat eeuwenlang. Zo kreeg een hele streek een herkenbaar paard.",
+        "George II liet paarden fokken in een eeuw waarin een goed paard sneller was dan elk bericht. De post, het leger en de koets hingen ervan af.",
+        "In Celle, in Nedersaksen, stond een landgestüt: een stoeterij van de staat. Hengsten werden naar de dorpen gestuurd. Zo kreeg het Hannoveraanse paard één richting, in plaats van honderd losse ideeën."
+      ],
+      "facts": [
+        "Celle ligt in Nedersaksen, in het noorden van Duitsland.",
+        "1735 is oud voor een stoeterij die nog altijd sportpaarden levert.",
+        "Edel wil bij een paardenkop zeggen: droog, fijn, met een wakker oog. Het is geen titel.",
+        "Het Hannoveraan is een dressuurpaard in veel stallen, maar het stamboek fokt ook springpaarden. Eén ras, meer dan één werk."
+      ],
+      "imageAlt": "Donkerbruine Hannoveraan onder eiken"
+    },
+    {
+      "slug": "trakehner",
+      "name": "Trakehner",
+      "english": "Trakehner",
+      "regions": [
+        "Duitsland"
+      ],
+      "origin": "Oost-Pruisen, nu deels Rusland; daarna West-Duitsland",
+      "size": "groot",
+      "height": "162–172 cm",
+      "weight": "500–650 kg",
+      "colors": "Bruin, donkerbruin, zwart en vos",
+      "colorTags": [
+        "bruin",
+        "zwart",
+        "vos"
+      ],
+      "temperament": "Gevoelig, voorwaarts en vaak scherp van reactie.",
+      "tempTag": "gevoelig",
+      "uses": "Dressuur, eventing en springen",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "De Trakehner is het meest volbloedachtige Duitse warmbloed. Het ras overleefde een lange tocht naar het westen in 1945.",
+      "paragraphs": [
+        "De hoofdstoeterij Trakehnen werd in de achttiende eeuw gesticht in Oost-Pruisen. Die streek hoort nu bij Rusland. Het paard was een rijpaard voor grote afstanden, met veel Engels en Arabisch bloed.",
+        "Aan het einde van de Tweede Wereldoorlog moesten mensen met hun paarden naar het westen. De tocht was zwaar. Veel paarden haalden het niet. De dieren die wel aankwamen, werden de basis van het ras in Duitsland.",
+        "Je herkent een Trakehner aan de fijnere benen en de drogere kop. Er zit meer renpaard in dan bij een zware Holsteiner. Het brandmerk is een elandgewei."
+      ],
+      "anecdotes": [
+        "Het elandgewei als merk verwijst naar de oude stoeterij. Een eland leefde in die noordelijke bossen. Het teken bleef, ook toen de paarden verhuisden.",
+        "Een gevoelig paard leert snel, en schrikt ook sneller. Trakehners vragen een ruiter die zacht en duidelijk is. Hardheid past slecht bij dit ras.",
+        "Aan het einde van de Tweede Wereldoorlog trokken fokkers met hun Trakehners westwaarts, weg uit Oost-Pruisen. Veel paarden haalden de tocht niet. Het ras van nu stamt van de dieren die wel aankwamen."
+      ],
+      "facts": [
+        "Het ras is Duits in zijn stamboek, maar de geboortestreek ligt vandaag buiten Duitsland.",
+        "Meer volbloedbloed betekent vaak meer uithouding en een fijner frame.",
+        "Eventing is een samengestelde wedstrijd: dressuur, een cross door het terrein, en springen.",
+        "De Trakehner heeft vaak meer volbloed in de stamboom dan andere Duitse warmbloeden. Vandaar de fijnere benen."
+      ],
+      "imageAlt": "Verfijnd donkerbruin Trakehnerpaard in een weide"
+    },
+    {
+      "slug": "oldenburger",
+      "name": "Oldenburger",
+      "english": "Oldenburg",
+      "regions": [
+        "Duitsland"
+      ],
+      "origin": "Oldenburg, Duitsland",
+      "size": "groot",
+      "height": "165–178 cm",
+      "weight": "550–700 kg",
+      "colors": "Zwart, bruin en vos",
+      "colorTags": [
+        "zwart",
+        "bruin",
+        "vos"
+      ],
+      "temperament": "Aanwezig en werkwillig, met een grote beweging.",
+      "tempTag": "energiek",
+      "uses": "Vooral dressuur, ook springen",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "De Oldenburger begon als koetspaard en werd een modern sportpaard. De draf is vaak machtig.",
+      "paragraphs": [
+        "In de zeventiende eeuw stimuleerde graaf Anton Günther de paardenfokkerij rond Oldenburg. Hij wilde een paard dat een koets met stijl en kracht trok. Het frame was toen zwaarder dan nu.",
+        "Later kwam er, net als bij andere Duitse stamboeken, meer bloed van sportpaarden en volbloeden bij. De Oldenburger van nu is een rijpaard. Dressuur is de richting die het meest opvalt.",
+        "Het stamboek heeft ook een springtak. Eén naam dekt dus twee doelen. Op papier kijk je naar de afstamming, niet alleen naar het woord Oldenburger."
+      ],
+      "anecdotes": [
+        "Een koetspaard moest er indrukwekkend uitzien op een stadsplein. Die show heeft de fokkerij lang gestuurd. De grote beweging van vandaag komt daar deels vandaan.",
+        "Oldenburg ligt in het noorden, dicht bij de Noordzee. Natte weiden en een vlak land horen bij de geschiedenis van het paard.",
+        "De oude Oldenburger was een zwaar koetspaard, gebouwd voor de weg tussen steden. De moderne is lichter en sportiever. De naam bleef. Het lichaam veranderde mee met wat mensen vroegen."
+      ],
+      "facts": [
+        "Anton Günther leefde in de zeventiende eeuw. Het stamboek is daarna nog vaak van richting veranderd.",
+        "Een machtige draf betekent veel schoudervrijheid en een dragende achterhand.",
+        "Zwart komt bij Oldenburgers geregeld voor, maar het is geen verplichting zoals bij de klassieke Fries.",
+        "Een merk op de bil, vroeger een teken van de fokkerij, vertelde uit welke streek een paard kwam. Niet elk paard draagt dat teken nog."
+      ],
+      "imageAlt": "Zwart Oldenburger dressuurpaard"
+    },
+    {
+      "slug": "selle-francais",
+      "name": "Selle Français",
+      "english": "French saddle horse",
+      "regions": [
+        "Frankrijk"
+      ],
+      "origin": "Frankrijk",
+      "size": "groot",
+      "height": "165–175 cm",
+      "weight": "550–650 kg",
+      "colors": "Vos, bruin en andere kleuren",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Vlug en moedig, met een talent voor afzetten.",
+      "tempTag": "energiek",
+      "uses": "Vooral springen",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "Selle Français betekent Frans zadelpaard. Het is het sportpaard van Frankrijk, beroemd in het springen.",
+      "paragraphs": [
+        "Het stamboek ontstond in 1958 uit oudere Franse rijpaarden, vooral de Anglo-Normandiër. Dat was een kruising van lokale paarden uit Normandië met Engelse paarden.",
+        "Normandië had al koetspaarden en rijpaarden met een goede galop. Springen werd de sport waarin dit bloed het meest opviel. Veel internationale hindernissen zijn door Franse paarden gesprongen.",
+        "Het type is atletisch en eerder licht. Een vos Selle Français in een weide kan op een volbloed lijken, tot je de springbouw ziet: sterke achterhand, schuine schouder."
+      ],
+      "anecdotes": [
+        "De naam zegt letterlijk wat het paard moet doen: onder een zadel werken. Trekken was niet het doel.",
+        "Cor de la Bryère, een Selle Français, werd later een stamvader in Holstein. Sportpaarden steken dus in beide richtingen de grens over.",
+        "De naam betekent Frans zadelpaard. Eronder zit een mix van Normandische koetspaarden en Engels volbloed. Frankrijk wilde één sportpaard in plaats van tien streeknamen."
+      ],
+      "facts": [
+        "Anglo wijst op Engels bloed. Normandiër wijst op de Franse streek.",
+        "Het stamboek is jonger dan het paardentype zelf.",
+        "Frankrijk heeft ook zware rassen, zoals de Percheron. Die horen niet in dit stamboek.",
+        "Veel Franse springpaarden op grote hindernissen zijn Selle Français. Het ras is een doel, geen oude kleur."
+      ],
+      "imageAlt": "Vos Frans sportpaard in een groene streek"
+    },
+    {
+      "slug": "percheron",
+      "name": "Percheron",
+      "english": "Percheron",
+      "regions": [
+        "Frankrijk"
+      ],
+      "origin": "Le Perche, Frankrijk",
+      "size": "zwaar",
+      "height": "160–178 cm",
+      "weight": "700–1000 kg",
+      "colors": "Schimmel of zwart",
+      "colorTags": [
+        "schimmel",
+        "zwart"
+      ],
+      "temperament": "Kalm en waardig, met meer verfijning dan je van een trekpaard verwacht.",
+      "tempTag": "rustig",
+      "uses": "Mennen, shows en vroeger stadsvervoer",
+      "useTags": [
+        "werk",
+        "mennen"
+      ],
+      "feather": "Weinig behang",
+      "summary": "De Percheron is het grijze of zwarte trekpaard uit Le Perche. De kop is fijner dan bij veel andere zware rassen.",
+      "paragraphs": [
+        "Le Perche ligt ten zuidwesten van Parijs. Daar fokten mensen een paard dat zwaar kon trekken en er toch elegant uitzag. Schimmel is de kleur die je het vaakst op foto’s ziet. Zwart hoort er even goed bij.",
+        "Een schimmel wordt lichter met de jaren. Een veulen kan donker geboren worden en later grijs of bijna wit ogen. De huid blijft donker. Dat heet uitschimmen.",
+        "De benen zijn proper, zonder dik behang. Dat was handig in de stad, waar modder en keien aan lang haar trokken."
+      ],
+      "anecdotes": [
+        "Voor er vrachtwagens waren, trokken Percherons in steden wagens met goederen, en soms trams. Hun grijze vacht viel op tussen de huizen.",
+        "Mensen vertellen dat oosterse paarden ooit meespeelden in de fokkerij. Zeker is dat de kop fijner is dan bij een Belgisch trekpaard. Het verhaal over kruisvaarders blijft een verhaal.",
+        "In Parijs trokken Percherons de omnibus, de voorloper van de stadsbus. Weinig behang was daar een voordeel: modder en keien bleven niet in lange veren hangen."
+      ],
+      "facts": [
+        "Schimmel is een kleurproces, geen vuil en geen ziekte.",
+        "Weinig behang maakt de benen droger en makkelijker te verzorgen.",
+        "Een Percheron kan even zwaar zijn als een Belgisch trekpaard, met een andere kop en kleur.",
+        "Een Percheron wordt vaak grijs en oogt wit. Zwart komt ook voor. De fijne kop onderscheidt hem van veel zwaardere trekpaarden."
+      ],
+      "imageAlt": "Appelschimmel Percheron op een stenen erf"
+    },
+    {
+      "slug": "camargue",
+      "name": "Camargue",
+      "english": "Camargue horse",
+      "regions": [
+        "Frankrijk"
+      ],
+      "origin": "De Camargue, de Rhône-delta in Zuid-Frankrijk",
+      "size": "klein",
+      "height": "135–150 cm",
+      "weight": "300–400 kg",
+      "colors": "Witgrijs als volwassen paard",
+      "colorTags": [
+        "schimmel"
+      ],
+      "temperament": "Zelfstandig, nuchter en gewend aan water en wind.",
+      "tempTag": "zelfstandig",
+      "uses": "Werk met runderen, buitenritten",
+      "useTags": [
+        "natuur",
+        "werk"
+      ],
+      "summary": "Het Camargue-paard leeft in de moerassen van de Rhône. Veulens zijn donker. Volwassen paarden worden wit.",
+      "paragraphs": [
+        "De Camargue is een vlakke delta met riet, zout en ondiep water. De paarden staan weer en wind toe. Hun hoeven zijn hard. Hun vacht schimmelt uit tot een lichte grijze of witte kleur.",
+        "De ruiters van de streek heten gardians. Ze werken met zwarte stieren. Het paard moet stilstaan in water, een kudde volgen en niet schrikken van riet dat beweegt.",
+        "Het ras is klein en stevig. Mensen noemen het soms een paard en niet een pony, omdat het werk doet dat een rijpaard doet. De schoft blijft meestal onder de 150 centimeter."
+      ],
+      "anecdotes": [
+        "Een donker veulen naast een witte merrie hoort bij dit ras. Bezoekers denken soms dat het een ander paard is. Een jaar later is de vacht al lichter.",
+        "In de film en op foto’s lopen witte paarden door ondiep water. Dat beeld klopt. Het is geen versiering. Zo ziet de streek eruit.",
+        "Een Camargue-veulen is donker. Het wit komt later, zoals bij andere schimmels. Op foto’s lijkt de kudde sneeuwwit. In de wei lopen ook grijze en bijna zwarte jongen."
+      ],
+      "facts": [
+        "Uitschimmen duurt jaren. Een jong paard is nog niet wit.",
+        "De Camargue-stier is zwart en wordt met paarden gehoed.",
+        "Zout, muggen en modder horen bij het leven van dit paard. Het is geen stalras.",
+        "De gardians, de ruiters van de delta, werken met deze paarden tussen zwarte stieren. Het paard moet stilstaan in water en niet schrikken van riet."
+      ],
+      "imageAlt": "Wit Camargue-paard in ondiep moeraswater"
+    },
+    {
+      "slug": "merens",
+      "name": "Mérens",
+      "english": "Mérens",
+      "regions": [
+        "Frankrijk"
+      ],
+      "origin": "Ariège, in de Pyreneeën",
+      "size": "middel",
+      "height": "145–157 cm",
+      "weight": "350–500 kg",
+      "colors": "Zwart",
+      "colorTags": [
+        "zwart"
+      ],
+      "temperament": "Zelfstandig, zeker op steile paden, en kalm als het vertrouwen heeft.",
+      "tempTag": "zelfstandig",
+      "uses": "Paden in de bergen, mennen en buitenritten",
+      "useTags": [
+        "natuur",
+        "werk",
+        "vrije tijd"
+      ],
+      "summary": "De Mérens is het zwarte bergpaard van de Franse Pyreneeën. Het draagt lasten op paden waar een groter paard last heeft.",
+      "paragraphs": [
+        "Ariège is een departement tegen Spanje en Andorra. De winters zijn koud, de paden smal. Een lager zwaartepunt helpt. De Mérens is daarom compacter dan een sportpaard.",
+        "De vacht is zwart. In de zon kan ze bruin oplichten, maar het ras blijft een zwart paard. De manen zijn dik. Dat beschermt tegen weer op de berg.",
+        "Vroeger droegen deze paarden hout, hooi en voorraden tussen dorpen. Vandaag gaan ze mee op tochten. Hun werk is traag en aandachtig: een hoef op de juiste steen."
+      ],
+      "anecdotes": [
+        "In grotten van de Pyreneeën staan oude tekeningen van paarden. Mensen zien een gelijkenis met de Mérens. Dat is een indruk, geen bewijs dat het dezelfde raslijn is.",
+        "Een bergpaard kiest soms zelf de beste plek voor zijn voet. Ruiters die haasten, maken het paard onzeker. Tijd hoort bij dit werk.",
+        "In de Pyreneeën droeg de Mérens lasten over paden waar een kar niet kwam. Het zwarte bergpaard is klein genoeg voor de bocht en sterk genoeg voor de zak."
+      ],
+      "facts": [
+        "De Pyreneeën vormen de grens tussen Frankrijk en Spanje.",
+        "Zwart is hier de raskleur, net als bij de klassieke Fries, maar het lichaam is heel anders.",
+        "Een pakpaard draagt gewicht op de rug, niet alleen een ruiter.",
+        "In de zon kan de zwarte vacht bruin oplichten. Het ras blijft een zwart paard. Kleur lees je in de schaduw, niet alleen in het felle licht."
+      ],
+      "imageAlt": "Zwart Mérens-bergpaard op een stenig pad"
+    },
+    {
+      "slug": "arabier",
+      "name": "Arabier",
+      "english": "Arabian",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Arabisch Schiereiland",
+      "size": "middel",
+      "height": "145–155 cm",
+      "weight": "350–450 kg",
+      "colors": "Schimmel, vos, bruin en zwart",
+      "colorTags": [
+        "schimmel",
+        "vos",
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Gevoelig, scherp van geest en heel uithoudend.",
+      "tempTag": "gevoelig",
+      "uses": "Uithoudingsritten, shows en fokkerij",
+      "useTags": [
+        "sport",
+        "vrije tijd"
+      ],
+      "summary": "De Arabier is een oud woestijnpaard met een holle kop, een hoog gedragen staart en een uitzonderlijk uithoudingsvermogen.",
+      "paragraphs": [
+        "De kop heeft een hol profiel, grote ogen en een kleine neus. De staart wordt hoog gedragen. Dat silhouet herken je snel, ook als het paard niet grijs is.",
+        "In de woestijn telt een paard dat ver kan lopen op weinig water en voer. Die selectie duurde eeuwen. Vandaag winnen Arabieren nog vaak lange endurancewedstrijden, soms van meer dan tachtig kilometer.",
+        "Veel Arabieren hebben één lendenwervel en één paar ribben minder dan andere paarden. Dat zie je niet van buiten. De rug is daardoor kort en sterk. Het geldt niet voor elk individu."
+      ],
+      "anecdotes": [
+        "Een oud verhaal spreekt over vijf merries die zo trouw waren dat ze terugkwamen toen ze werden weggestuurd. Mensen noemen ze Al Khamsa, de vijf. Het is een verhaal dat fokkers doorgeven, geen laboratoriumbewijs.",
+        "Bijna elk Engels volbloed heeft Arabische hengsten in de verre mannelijke lijn. Het woestijnpaard zit dus in de renpaarden van vandaag.",
+        "Bedoeïenen vertelden dat dit paard een geschenk was, geteld in zuivere stammen. Het echte werk was harder: een dier fokken dat hitte, afstand en weinig water aankan, met een huid zo fijn dat een ader zichtbaar blijft."
+      ],
+      "facts": [
+        "Holle kop betekent dat de neuslijn naar binnen buigt. Dat heet een dished face.",
+        "Endurance is een wedstrijd over lange afstand, niet over snelheid op een korte baan.",
+        "Een Arabier is vaak kleiner dan een warmbloed, maar geen pony in karakter of werk.",
+        "Bijna elk licht rijpaard van nu heeft ergens een Arabier in de verre stamboom. Het Engelse volbloed begint zelfs bij Arabische hengsten."
+      ],
+      "imageAlt": "Grijze Arabier met holle kop in warm licht"
+    },
+    {
+      "slug": "engels-volbloed",
+      "name": "Engels volbloed",
+      "english": "Thoroughbred",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Engeland",
+      "size": "groot",
+      "height": "155–170 cm",
+      "weight": "450–550 kg",
+      "colors": "Bruin, vos, zwart en schimmel",
+      "colorTags": [
+        "bruin",
+        "vos",
+        "zwart",
+        "schimmel"
+      ],
+      "temperament": "Snel, gevoelig en gemaakt om vooruit te gaan.",
+      "tempTag": "energiek",
+      "uses": "Rennen en als bloed in sportpaarden",
+      "useTags": [
+        "rennen",
+        "sport"
+      ],
+      "summary": "Het Engels volbloed is het renpaard. Alle paarden in het stamboek gaan terug op drie hengsten uit de zeventiende en achttiende eeuw.",
+      "paragraphs": [
+        "Die drie heten de Byerley Turk, de Darley Arabian en de Godolphin Arabian. Ze kwamen uit het oosten naar Engeland. Gekruist met lokale renmerries ontstond een nieuw paard. Het General Stud Book opende in 1791.",
+        "Het lichaam is lang, de benen fijn, de longen en het hart groot voor hun werk. Op de renbaan telt een korte, hevige inspanning. In de sportfokkerij geeft dit ras snelheid en uithouding aan warmbloeden.",
+        "Bijna elk modern spring- of dressuurpaard heeft ergens een volbloed in de stamboom. Fokkers gebruiken het ras als verbeteraar. Dat woord betekent: het brengt een eigenschap binnen die ze willen versterken."
+      ],
+      "anecdotes": [
+        "Een gewoon paardenhart weegt ongeveer vier kilogram. Bij het renpaard Secretariat vonden dierenartsen een hart dat veel zwaarder was. Niet elk volbloed heeft dat. Het laat wel zien hoe ver selectie op rennen kan gaan.",
+        "De benen zijn fijn voor de snelheid die ze dragen. Verzorging van pezen en hoeven hoort bij dit ras. Een volbloed is geen paard dat je verwaarloost.",
+        "Alle Engelse volbloeden gaan terug op een kleine groep, onder wie drie beroemde hengsten: de Darley Arabian, de Godolphin Arabian en de Byerley Turk. Een wereldwijd ras heeft een smalle deur."
+      ],
+      "facts": [
+        "Volbloed betekent hier een gesloten renpaardenstamboek, niet zomaar een paard met veel energie.",
+        "De drie stamhengsten leefden rond 1700. Elke mannelijke lijn van nu komt bij een van hen uit.",
+        "Schimmels bestaan ook bij volbloeden. Grijs is niet voorbehouden aan de Arabier.",
+        "Het General Stud Book is gesloten. Een paard is volbloed door papier én ouders, niet door het gevoel dat het snel oogt."
+      ],
+      "imageAlt": "Bruin Engels volbloed in ochtendmist"
+    },
+    {
+      "slug": "andalusier",
+      "name": "Andalusiër",
+      "english": "PRE, Pura Raza Española",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Spanje",
+      "size": "middel",
+      "height": "155–165 cm",
+      "weight": "450–550 kg",
+      "colors": "Vaak schimmel, ook bruin en zwart",
+      "colorTags": [
+        "schimmel",
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Gevoelig, dapper en graag bij de ruiter.",
+      "tempTag": "gevoelig",
+      "uses": "Klassieke dressuur en werk met runderen",
+      "useTags": [
+        "sport",
+        "werk"
+      ],
+      "summary": "De Andalusiër, officieel Pura Raza Española, is het barokke paard van Spanje. Verzameld, wendbaar en vaak grijs.",
+      "paragraphs": [
+        "Barok betekent hier een bouw met een ronde hals, een korte rug en veel vermogen om de achterhand te buigen. Het paard kan klein lijken terwijl het toch krachtig draagt.",
+        "Kloosters, onder meer kartuizers bij Jerez, hielden eeuwenlang eigen lijnen bij. Zo bleef een type stabiel terwijl elders paarden steeds opnieuw gekruist werden.",
+        "In de doma vaquera werkt de ruiter met runderen vanuit een verzameld paard. De hulpen zijn fijn. Het paard moet snel zijwaarts kunnen en daarna weer stilstaan."
+      ],
+      "anecdotes": [
+        "Veel mensen denken dat een Andalusiër altijd wit is. Een jong schimmelpaard is nog donker. En lang niet elk Spaans paard is een schimmel. Bruin en zwart komen voor.",
+        "De Lipizzaner en de Lusitano zijn familie van dit Iberische type. De stamboeken zijn later gesplitst. De houding lijkt nog altijd.",
+        "Het Spaanse paard leerde in de rijschool de verzamelde gangen: kort, rond, de achterhand eronder. Dat beeld van ‘dansen’ is training, geen aard van het veulen op dag één."
+      ],
+      "facts": [
+        "PRE is de Spaanse afkorting voor het zuivere Spaanse ras.",
+        "Verzameld wil zeggen dat het paard het gewicht meer op de achterhand neemt en de voorhand licht maakt.",
+        "Jerez de la Frontera in Andalusië is een oude paardenstad.",
+        "PRE betekent Pura Raza Española, het stamboek. Een wit paard is vaak een oudere schimmel. Een jong dier kan nog donker zijn."
+      ],
+      "imageAlt": "Grijze Andalusiër met gewelfde hals op een binnenplaats"
+    },
+    {
+      "slug": "ijslander",
+      "name": "IJslander",
+      "english": "Icelandic horse",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "IJsland",
+      "size": "klein",
+      "height": "130–145 cm",
+      "weight": "300–400 kg",
+      "colors": "Bijna alle kleuren, ook bont en wildkleur",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "zwart",
+        "schimmel",
+        "bont",
+        "wildkleur"
+      ],
+      "temperament": "Zelfstandig, vriendelijk en zeker in slecht weer.",
+      "tempTag": "zelfstandig",
+      "uses": "Buitenritten en gangenwedstrijden",
+      "useTags": [
+        "vrije tijd",
+        "sport"
+      ],
+      "summary": "De IJslander is klein en sterk, en heeft naast stap, draf en galop vaak twee extra gangen: tölt en telgang.",
+      "paragraphs": [
+        "Vikingen brachten paarden naar IJsland in de negende en tiende eeuw. Daarna bleef het eiland gesloten voor andere rassen. Een IJslander die het land verlaat, mag niet terug. Zo blijven ziektes buiten.",
+        "Op IJsland noemen mensen dit dier een paard, geen pony. Het draagt volwassenen, leeft buiten in de winter en heeft een dikke vacht. De maat ligt meestal tussen 130 en 145 centimeter.",
+        "Tölt is een viertakt zonder zweefmoment. De rug blijft rustig. Telgang, of skeið, is een snelle laterale gang voor korte stukken. Niet elk paard toont beide even zuiver."
+      ],
+      "anecdotes": [
+        "Ruiters zeggen dat je in tölt een beker kunt vasthouden zonder te morsen. Dat is een beeld, geen wetenschappelijke test. De gang is wel opvallend vlak.",
+        "In de winter groeit een dubbele vacht. In de lente verhaart het paard in plukken. Dat hoort bij een dier dat zonder deken in de wind staat.",
+        "Een paard dat IJsland verlaat, mag niet terug. Het eiland wil ziekten buiten houden. Die regel maakt de IJslander tot een ras dat zijn land letterlijk niet opnieuw binnenstapt."
+      ],
+      "facts": [
+        "Vijf gangen betekent stap, draf, galop, tölt en telgang. Sommige paarden tonen er vier.",
+        "Het invoerverbod geldt al eeuwen en is nog altijd streng.",
+        "Kleine maat zegt niets over kracht. Dit paard draagt een volwassene op een dagtocht.",
+        "Naast stap, draf en galop kennen veel IJslanders tölt en soms telgang. Vijf gangen is een erfenis, geen truc die je erop zet."
+      ],
+      "imageAlt": "Stevige IJslander met dikke manen in een lavalandschap"
+    },
+    {
+      "slug": "fjord",
+      "name": "Fjord",
+      "english": "Norwegian Fjord",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "West-Noorwegen",
+      "size": "klein",
+      "height": "135–150 cm",
+      "weight": "400–500 kg",
+      "colors": "Altijd wildkleur, met een aalstreep",
+      "colorTags": [
+        "wildkleur"
+      ],
+      "temperament": "Nuchter, sterk en gewend aan hellingen.",
+      "tempTag": "rustig",
+      "uses": "Mennen, buitenritten en vroeger boerderijwerk",
+      "useTags": [
+        "vrije tijd",
+        "mennen",
+        "werk"
+      ],
+      "summary": "Het Fjordpaard is vaal, met een donkere streep over de rug en een korte manen die rechtop staat. De manen toont twee kleuren.",
+      "paragraphs": [
+        "Wildkleur, of dun, is een vacht met camouflage: een aalstreep op de rug, soms strepen op de benen, en een donkerder rand. Alle Fjorden hebben die tekening. De tint loopt van licht vaal tot roder of grijzer.",
+        "De manen wordt kort geschoren zodat ze rechtop blijft. In het midden loopt de donkere streep door. Aan de zijkanten is het haar lichter. Zo zie je het raskenmerk meteen.",
+        "Het type leeft al heel lang in Noorwegen. Boeren gebruikten het op steile akkertjes. Vandaag trekt het wagens en gaat het mee op trektochten. De hoeven zijn hard."
+      ],
+      "anecdotes": [
+        "Als de manen te lang wordt, valt ze opzij en verdwijnt het tweekleurige beeld. Scheren is dus geen mode. Het laat de streep zien.",
+        "De aalstreep loopt vaak door in de staart. Kinderen zoeken die lijn van oren tot staart. Ze hoort bij het ras, zoals strepen bij een zebra, maar veel fijner.",
+        "De manen worden vaak kort geschoren zodat de donkere middenstreep rechtop blijft staan, als een kam. Dat is een teken van het ras, geen mode alleen."
+      ],
+      "facts": [
+        "Een Fjord is nooit zwart of bont. Wildkleur is de regel.",
+        "De Noorse naam is fjordhest.",
+        "Primitive marking is het Engelse woord voor die oude tekening. In het Nederlands zeg je wildtekening.",
+        "De aalstreep op de rug en soms zebrastrepen op de benen horen bij wildkleur. Een Fjord zonder die streep is zeldzaam."
+      ],
+      "imageAlt": "Vaal Fjordpaard met tweekleurige manen aan een fjord"
+    },
+    {
+      "slug": "shetland",
+      "name": "Shetlandpony",
+      "english": "Shetland pony",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Shetlandeilanden, Schotland",
+      "size": "klein",
+      "height": "Tot 107 cm",
+      "weight": "150–200 kg",
+      "colors": "Bijna alle kleuren",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "zwart",
+        "schimmel",
+        "bont"
+      ],
+      "temperament": "Zelfstandig en slim. Klein betekent niet automatisch braaf.",
+      "tempTag": "zelfstandig",
+      "uses": "Kinderpony, mennen en gezelschap",
+      "useTags": [
+        "vrije tijd",
+        "mennen"
+      ],
+      "summary": "De Shetlandpony komt van koude eilanden ten noorden van Schotland. Ze is zeer klein en, voor haar maat, opvallend sterk.",
+      "paragraphs": [
+        "Op de eilanden was weinig eten en veel wind. Paarden die kleiner werden, hadden minder voer nodig en hielden warmte beter vast. Het klassieke stamboek zet de maximale schoft op 107 centimeter, ongeveer 42 inch.",
+        "In de winter groeit een zeer dikke vacht. In de zomer verhaart die. Onder die vacht zit een kort, breed lichaam en een dikke nek.",
+        "Vroeger trokken Shetlands karren met turf. Omdat ze klein en sterk waren, werkten ze ook in mijngangen. Vandaag zijn het kinderpony’s en menpony’s. Ze denken zelf mee. Duidelijke regels helpen."
+      ],
+      "anecdotes": [
+        "Een Shetland kan een kind dragen en daarna nog koppig blijven staan als het gras interessanter is. Dat is karakter, geen defect. Kleine paarden hebben een eigen wil.",
+        "Amerikaanse Shetlands zijn soms groter en fijner. Dat is een ander register. De eilandpony blijft de lage, ruige versie.",
+        "Shetlanders werkten in kolenmijnen, omdat ze klein waren en toch een kar konden trekken. Dat werk was donker en zwaar. Het is voorbij. Het verklaart wel waarom ‘klein’ niet ‘zwak’ betekent."
+      ],
+      "facts": [
+        "107 centimeter is de klassieke bovengrens, geen gemiddelde van alle pony’s ter wereld.",
+        "Een pony is in veel stamboeken een paard onder een bepaalde schoftmaat. Het woord zegt niets over leeftijd.",
+        "Dikke wintervacht is geen verwaarlozing. Scheren doe je alleen als een deskundige dat vraagt.",
+        "Een Shetlander kan, naar zijn gewicht, opvallend veel trekken. De maat zit in de benen en de wil, niet in de schoft alleen."
+      ],
+      "imageAlt": "Kleine donkere Shetlandpony met dikke vacht aan de kust"
+    },
+    {
+      "slug": "haflinger",
+      "name": "Haflinger",
+      "english": "Haflinger",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Zuid-Tirol, in de Alpen",
+      "size": "klein",
+      "height": "138–150 cm",
+      "weight": "400–550 kg",
+      "colors": "Altijd vos met lichte manen en staart",
+      "colorTags": [
+        "vos"
+      ],
+      "temperament": "Rustig, stevig en graag aan het werk.",
+      "tempTag": "rustig",
+      "uses": "Buitenritten, mennen en bergen",
+      "useTags": [
+        "vrije tijd",
+        "mennen",
+        "werk"
+      ],
+      "summary": "De Haflinger is altijd vos met een blonde manen. Het ras komt uit de bergen rond het dorp Hafling.",
+      "paragraphs": [
+        "Hafling, of Avelengo, ligt in Zuid-Tirol. Het paard moest een ruiter en een last op smalle paden dragen. De bouw is compact, de benen zijn droog, de hoeven zijn hard.",
+        "Bijna alle Haflingers stammen in rechte mannelijke lijn af van de hengst Folie, geboren in 1874. Dat maakt de kleur stabiel: vos, en een lichte manen en staart. Andere kleuren horen niet in het ras.",
+        "Veel Haflingers dragen een edelweiss als brandmerk, de bergbloem. Vandaag werken ze ook voor de wagen en in therapieprogramma’s, omdat ze kalm kunnen blijven naast nieuwe mensen."
+      ],
+      "anecdotes": [
+        "Mensen verwarren een Haflinger soms met een Belgisch trekpaard, want beide zijn vos met blond haar. Kijk naar de maat. Een Haflinger blijft rond de 140 tot 150 centimeter. Een trekpaard is een klasse zwaarder.",
+        "Folie is één hengst. Dat de hele mannelijke lijn naar hem wijst, is zeldzaam. Fokkers bewaren die lijn al meer dan een eeuw.",
+        "Bijna alle Haflingers gaan terug op de hengst Folie, in de negentiende eeuw in Zuid-Tirol. Eén stamvader, en daarna een hele berg vol vossen met een lichte manen."
+      ],
+      "facts": [
+        "Edelweiss is een witte bergbloem, en ook het merk van het ras.",
+        "Vos met vlasmanen is hier verplicht, niet alleen gewoon.",
+        "Zuid-Tirol ligt in de Alpen, op de grens van de Italiaanse en Duitse taal.",
+        "Het merk met de edelweiss herinnert aan de bergen. Een Haflinger is vos. Een andere kleur hoort niet bij het stamboek."
+      ],
+      "imageAlt": "Vos Haflinger met blonde manen in een alpenweide"
+    },
+    {
+      "slug": "quarter-horse",
+      "name": "Quarter Horse",
+      "english": "American Quarter Horse",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Verenigde Staten",
+      "size": "middel",
+      "height": "145–160 cm",
+      "weight": "450–550 kg",
+      "colors": "Vaak vos, ook veel andere effen kleuren",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Nuchter en snel in korte actie. Veel paarden blijven rustig bij vee.",
+      "tempTag": "rustig",
+      "uses": "Werk met runderen, korte races en vrije tijd",
+      "useTags": [
+        "werk",
+        "sport",
+        "rennen"
+      ],
+      "summary": "De Quarter Horse is het ranchpaard van Amerika. De naam komt van een kwart mijl, ongeveer 400 meter.",
+      "paragraphs": [
+        "In de kolonies waren Engelse paarden gekruist met paarden van Spaanse oorsprong, onder meer types die bij de Chickasaw leefden. Over een korte afstand was dit paard sneller dan de andere. De achterhand is gespierd, het lichaam compact.",
+        "Het American Quarter Horse Association is een van de grootste paardenregisters ter wereld. Er zijn verschillende types: een ranchpaard, een renpaard op de korte baan, en een zwaarder showtype.",
+        "Cow sense is het woord voor een paard dat een kalf lijkt te lezen. Het draait mee, wacht, en verspert de weg. Dat is training én aanleg."
+      ],
+      "anecdotes": [
+        "Een kwart mijl is geen kwartier. Het is een afstand. Vroeger reden mensen die sprint op dorpswegen, niet alleen op een renbaan.",
+        "Een vos Quarter Horse noemen Amerikanen vaak sorrel. In het Vlaams zeg je gewoon vos.",
+        "De naam komt van wedrennen over een kwart mijl, ongeveer vierhonderd meter, vaak op een dorpsstraat. Op die afstand was dit paard sneller dan een volbloed dat gemaakt is voor langere banen."
+      ],
+      "facts": [
+        "De korte sprint vroeg om een zware achterhand, niet om de lange lijn van een volbloed.",
+        "Ranchwerk is traag wachten en dan één snelle beweging.",
+        "Effen kleuren horen bij dit register. Gevlekte paarden hebben vaak een eigen stamboek, zoals de Paint.",
+        "Het Quarter Horse-stamboek is een van de grootste ter wereld. ‘Cow sense’ betekent dat het paard een rund lijkt te lezen. Dat is fokkerij en training samen."
+      ],
+      "imageAlt": "Gespierde vos Quarter Horse in een ranchweide"
+    },
+    {
+      "slug": "appaloosa",
+      "name": "Appaloosa",
+      "english": "Appaloosa",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Noordwesten van de Verenigde Staten",
+      "size": "middel",
+      "height": "145–165 cm",
+      "weight": "450–570 kg",
+      "colors": "Gespikkeld, met een deken, luipaardpatroon of sneeuwvlokken",
+      "colorTags": [
+        "gespikkeld"
+      ],
+      "temperament": "Zelfstandig en veelzijdig.",
+      "tempTag": "zelfstandig",
+      "uses": "Werk, buitenritten en shows",
+      "useTags": [
+        "werk",
+        "vrije tijd"
+      ],
+      "summary": "De Appaloosa is het gespikkelde paard dat het volk van de Nez Perce zorgvuldig fokte.",
+      "paragraphs": [
+        "De Nez Perce leven in het noordwesten van Amerika. Zij selecteerden paarden die sterk waren in de bergen en een opvallende vacht hadden. Het patroon kan een witte deken met vlekken zijn, of een lichaam vol kleine stippen.",
+        "Bij het ras horen ook andere tekens: een gevlekte huid rond de neus, een wit oogwit dat je ziet, en soms gestreepte hoeven. Niet elk paard toont alle vier de kenmerken even duidelijk.",
+        "Later raakte de kudde verspreid. In de twintigste eeuw bouwden fokkers het register opnieuw op. De vacht blijft het herkenningsteken, het werk is dat van een rijpaard."
+      ],
+      "anecdotes": [
+        "Twee Appaloosa’s uit dezelfde familie kunnen er heel anders uitzien. Het ene veulen krijgt een deken, het andere bijna geen vlekken. Kleur is genetica, geen verf.",
+        "Gestreepte hoeven zie je als je de voet proper maakt. Donkere en lichtere banen lopen van de kroon naar de grond.",
+        "De Nez Perce, een volk in het noordwesten van Amerika, fokten gespikkelde paarden. De naam Appaloosa komt van de Palouse, de rivier en de streek. Het patroon is van mensen, niet van een toeval in de wei."
+      ],
+      "facts": [
+        "Nez Perce spreek je ongeveer uit als nee pers.",
+        "Een luipaardpatroon betekent stippen over het hele lichaam.",
+        "Oogwit dat zichtbaar is, heet hier een kenmerk. Bij andere rassen kan veel oogwit ook spanning betekenen. Kijk dus naar het hele paard.",
+        "Kijk ook naar de hoef en de neus. Gestreept hoorn en een gespikkelde huid horen bij het ras, naast de vlekken in de vacht."
+      ],
+      "imageAlt": "Appaloosa met gespikkelde achterhand in een dennenweide"
+    },
+    {
+      "slug": "shire",
+      "name": "Shire",
+      "english": "Shire",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Engeland",
+      "size": "zwaar",
+      "height": "170–190 cm",
+      "weight": "850–1100 kg",
+      "colors": "Zwart, bruin of schimmel, vaak met een bles",
+      "colorTags": [
+        "zwart",
+        "bruin",
+        "schimmel"
+      ],
+      "temperament": "Opvallend kalm voor zo’n groot lichaam.",
+      "tempTag": "rustig",
+      "uses": "Shows, mennen en soms boswerk",
+      "useTags": [
+        "werk",
+        "mennen"
+      ],
+      "feather": "Veel behang",
+      "summary": "De Shire is een van de grootste paarden ter wereld. Lange haren rond de hoeven en een rustig karakter horen bij het ras.",
+      "paragraphs": [
+        "Het type groeide in Engeland uit zware paarden die een ridder of een kar konden dragen, later gekruist met andere grote paarden. In die geschiedenis zitten ook dieren uit de Lage Landen.",
+        "Een volwassen Shire steekt vaak boven de 170 centimeter uit. Sommige paarden naderen twee meter. Het gewicht kan voorbij 1000 kilogram gaan. Ondanks die massa zijn het meestal vriendelijke dieren.",
+        "Het behang aan de benen is lang en fijn. Op shows wordt het proper gehouden. In modder vraagt het extra zorg, anders blijft de huid niet gezond."
+      ],
+      "anecdotes": [
+        "Een Shire uit de negentiende eeuw, Mammoth, is het hoogste paard waarvan een meting bekend is. Hij stak ruim boven de twee meter uit. Dat is een uitschieter, niet de maat van elke Shire.",
+        "Naast een Shire lijkt een volbloed bijna teer. Toch hebben beide rassen Engeland als land van herkomst. Grootte was een ander fokdoel dan snelheid.",
+        "Het Shire-paard trok de bierwagen en de ploeg in Engeland. Op prenten staat het tot aan de klink van een deur. De tekening overdrijft soms. De schoft van een echt Shire is nog altijd de hoogste onder de trekpaarden."
+      ],
+      "facts": [
+        "Behang is haar, geen veer. Het groeit uit de onderkant van het been.",
+        "Hoogte meet je op de schoft, niet aan de oren. Een hoog gedragen kop telt niet mee.",
+        "Een groot paard heeft grote hoeven en veel voer. De verzorging schaalt mee.",
+        "Veel behang vraagt onderhoud. Modder die dagen in het haar blijft, maakt de huid kapot. Mooi haar is ook werk."
+      ],
+      "imageAlt": "Zeer grote zwarte Shire met wit behang bij een stenen schuur"
+    },
+    {
+      "slug": "clydesdale",
+      "name": "Clydesdale",
+      "english": "Clydesdale",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Het dal van de Clyde, Schotland",
+      "size": "zwaar",
+      "height": "168–183 cm",
+      "weight": "700–900 kg",
+      "colors": "Vaak bruin met een brede bles en vier witte benen",
+      "colorTags": [
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Actief voor een trekpaard, en toch handelbaar.",
+      "tempTag": "rustig",
+      "uses": "Mennen in meerspan, shows en vroeger landbouw",
+      "useTags": [
+        "werk",
+        "mennen"
+      ],
+      "feather": "Veel behang",
+      "summary": "De Clydesdale is het Schotse trekpaard met de witte bles, de witte voeten en het zware behang.",
+      "paragraphs": [
+        "Het ras ontstond in de achttiende en negentiende eeuw rond de rivier de Clyde. Fokkers gebruikten ook zware paarden van het Europese vasteland. Kracht en een opvallend uiterlijk gingen samen.",
+        "Het klassieke beeld is bruin, een brede witte streep over het hoofd, en wit tot boven de knie of de sprong. Het behang is lang. In draf lijkt dat haar te bewegen als water.",
+        "Clydesdales werkten op de boerderij en in de stad. Vandaag zie je ze vaak in een meerspan: meerdere paarden voor één wagen, in hetzelfde tempo."
+      ],
+      "anecdotes": [
+        "Een meerspan vraagt paarden die dezelfde paslengte hebben. Fokkers letten daarom niet alleen op kleur, maar op ritme. Mooi wit haar zonder een gelijke stap is niet genoeg.",
+        "Zet een Clydesdale naast een Belgisch trekpaard. Beide zijn zwaar. De Schot heeft meer behang en meer wit. De Belg is vaker vos en droger van been.",
+        "De Clydesdale komt uit het dal van de Clyde in Schotland. Het ras werd in de twintigste eeuw zeldzaam en daarna opnieuw gefokt. Grote aanspanningen van meerdere paarden hielden het beeld levend."
+      ],
+      "facts": [
+        "De Clyde is een rivier in Schotland. Het ras draagt die naam.",
+        "Vier witte benen zijn gewoon, niet verplicht bij elk paard.",
+        "Een meerspan is een team. De paarden moeten naar elkaar luisteren.",
+        "Een brede bles en veel wit aan de benen komen vaak voor. Wit is geen bewijs. De bouw en het stamboek beslissen."
+      ],
+      "imageAlt": "Bruine Clydesdale met bles en wit behang"
+    },
+    {
+      "slug": "akhal-teke",
+      "name": "Akhal-Teke",
+      "english": "Akhal-Teke",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Turkmenistan",
+      "size": "middel",
+      "height": "150–163 cm",
+      "weight": "400–500 kg",
+      "colors": "Vaak metaalgoud, ook bruin, vos en zwart",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Gevoelig, trouw aan één persoon, en gemaakt voor afstand.",
+      "tempTag": "gevoelig",
+      "uses": "Uithouding, dressuur en rasbehoud",
+      "useTags": [
+        "sport",
+        "vrije tijd"
+      ],
+      "summary": "De Akhal-Teke is het paard met de metalen glans. Het komt uit de woestijn van Turkmenistan en is zeldzaam.",
+      "paragraphs": [
+        "De vacht glanst omdat de haarstructuur het licht anders terugkaatst. Goud is de bekendste kleur. Het paard kan ook donker zijn en toch glimmen. De huid is dun, het haar fijn, de bouw droog.",
+        "Het volk van de Teke fokte dit paard bij de Akhal-oase. Afstand en hitte bepaalden de selectie. Een ruiter en zijn paard leefden dicht op elkaar. Het karakter is daarom gehecht, en soms gereserveerd naar vreemden.",
+        "Het ras is klein in aantal. Fokkers over de hele wereld houden de lijn bij. Een glans alleen maakt een paard nog geen Akhal-Teke. De stamboom telt."
+      ],
+      "anecdotes": [
+        "In 1935 liep een groep van deze paarden van Turkmenistan naar Moskou, meer dan 4000 kilometer, in 84 dagen. Het was een tocht om uithouding te tonen, geen gewone rit.",
+        "Mensen noemen het paard soms gouden. In de zon klopt dat beeld. In de schaduw zie je dat er een gewoon, fijn paardenlichaam onder zit.",
+        "In 1935 reden ruiters met Akhal-Tekes van Asjchabad naar Moskou, duizenden kilometers, om te tonen wat een woestijnpaard uithoudt. De glans van de vacht was al bekend. De tocht maakte het ras een bewijs."
+      ],
+      "facts": [
+        "Turkmenistan ligt in Centraal-Azië, ten oosten van de Kaspische Zee.",
+        "Metaalglans is een eigenschap van het haar, geen verf.",
+        "Een zeldzaam ras heeft weinig dieren. Elke merrie telt voor de toekomst.",
+        "De gouden glans komt doordat het haar dun is en de huid meespeelt met het licht. Het is metaal noch verf."
+      ],
+      "imageAlt": "Gouden Akhal-Teke met glanzende vacht op de steppe"
+    },
+    {
+      "slug": "przewalski",
+      "name": "Przewalskipaard",
+      "english": "Przewalski’s horse",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "De steppe van Mongolië",
+      "size": "klein",
+      "height": "125–145 cm",
+      "weight": "250–350 kg",
+      "colors": "Wildkleur, met steile manen",
+      "colorTags": [
+        "wildkleur"
+      ],
+      "temperament": "Wild en zelfstandig. Dit is geen huispaard.",
+      "tempTag": "zelfstandig",
+      "uses": "Leven in een kudde, zonder ruiter",
+      "useTags": [
+        "natuur"
+      ],
+      "summary": "Het Przewalskipaard is een wilde paardensoort. Het was even weg uit de natuur en leeft nu weer op de steppe. De naam klinkt als psjevalski.",
+      "paragraphs": [
+        "Dit dier is geen mustang. Een mustang stamt af van huispaarden die vrij gingen leven. Het Przewalskipaard is een eigen lijn. Het heeft 66 chromosomen. Een huispaard heeft er 64. Chromosomen zijn de pakketjes waarin een lichaam zijn bouwplan bewaart.",
+        "Je herkent het aan de steile manen, het ontbreken van een kuif, de vaalbruine vacht en de lichte neus. De benen zijn donkerder. Het lichaam is kort en sterk.",
+        "In de jaren zestig verdween het uit het wild. Dierentuinen hielden de soort in leven. Vanaf de jaren negentig keerden paarden terug naar Mongolië. Daar heten ze takhi."
+      ],
+      "anecdotes": [
+        "De Russische ontdekkingsreiziger Nikolaj Przewalski beschreef de paarden in de negentiende eeuw. De dieren hadden daarvoor al een eigen naam bij de mensen van de steppe.",
+        "Oudere vondsten tonen dat mensen heel vroeg andere paarden hielden, verwant aan deze soort. Onze huispaarden komen van een latere groep, niet rechtstreeks van de takhi.",
+        "Het Przewalskipaard verdween uit het wild. In dierentuinen bleef een kleine kudde. Later werd het teruggebracht naar Mongolië. Een soort die op papier bijna weg was, staat weer op een steppe."
+      ],
+      "facts": [
+        "66 chromosomen tegenover 64 is een echt verschil tussen soorten, geen detail voor specialisten alleen.",
+        "Een steile manen valt niet opzij. Er is geen lange kuif op het voorhoofd.",
+        "Terugzetten in het wild lukt alleen als de steppe genoeg gras en water heeft.",
+        "Het heeft meer chromosomen dan een huispaard. Wetenschappers onderzoeken of de lijn heel vroeg bij mensen leefde. Het is geen mustang die gisteren ontsnapte."
+      ],
+      "imageAlt": "Wildkleurig Przewalskipaard met steile manen op de steppe"
+    },
+    {
+      "slug": "tinker",
+      "name": "Tinker",
+      "english": "Irish Cob, Gypsy Cob",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Ierland",
+      "size": "middel",
+      "height": "140–160 cm",
+      "weight": "500–700 kg",
+      "colors": "Vaak bont: zwartbont of bruinschimmel-bont",
+      "colorTags": [
+        "bont",
+        "zwart",
+        "bruin"
+      ],
+      "temperament": "Rustig en graag bij mensen. Een breed, stabiel rijpaard.",
+      "tempTag": "rustig",
+      "uses": "Gezinspaard, mennen en buitenritten",
+      "useTags": [
+        "vrije tijd",
+        "mennen"
+      ],
+      "feather": "Veel behang",
+      "summary": "De tinker, of Ierse cob, is het bonte paard met de zware manen en het lange behang. In Vlaanderen zie je het overal in de weide.",
+      "paragraphs": [
+        "Het type komt uit Ierland. Reizende families fokten kleurige, sterke paarden die een woonwagen konden trekken en ook een kind droegen. Er was lang geen enkel officieel stamboek. Kijk en karakter telden.",
+        "Vandaag bestaan er verschillende registers. De namen lopen uiteen: tinker, Ierse cob, Gypsy Cob, coloured horse. Het beeld blijft: een korte rug, een brede borst, veel haar, en vaak grote platen wit en donker.",
+        "In België en Nederland is dit een van de paarden die je het vaakst ziet. Het behang vraagt zorg. Haar dat nat en vuil blijft, irriteert de huid. Proper en droog is het doel, niet een strik."
+      ],
+      "anecdotes": [
+        "Een tinker kan zwartbont zijn, maar ook bijna helemaal donker met weinig wit. Kleur is geen bewijs. De bouw en het haar vertellen meer.",
+        "Omdat het ras uit gebruik ontstond, en niet uit een koninklijk decreet, zijn de maten ruim. Twee tinkers naast elkaar kunnen een handbreedte schelen.",
+        "Reizende families in Ierland en Engeland fokten een paard dat de woonwagen trok en toch een metgezel was. In het Nederlands werd dat de tinker. Kleur was bijzaak. Kracht en een rustig hoofd waren de eis."
+      ],
+      "facts": [
+        "Bont betekent grote vlekken. Gespikkeld, zoals bij de Appaloosa, is iets anders.",
+        "Zwartbont heet in het Engels piebald. Bruin met wit heet skewbald.",
+        "Een breed paard draagt een zadel anders dan een smal volbloed. Het zadel moet passen, niet knellen.",
+        "Bont is vaak, niet altijd. Een donker paard met weinig wit kan toch de bouw en het behang van een tinker hebben."
+      ],
+      "imageAlt": "Bonte tinker met zwaar behang in een Vlaamse weide"
+    },
+    {
+      "slug": "lipizzaner",
+      "name": "Lipizzaner",
+      "english": "Lipizzan",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Lipica, nu Slovenië, en de Spaanse Rijschool in Wenen",
+      "size": "middel",
+      "height": "155–165 cm",
+      "weight": "450–550 kg",
+      "colors": "Uitgeschimmeld wit; veulens worden donker geboren",
+      "colorTags": [
+        "schimmel"
+      ],
+      "temperament": "Geduldig, gevoelig en gemaakt voor jarenlang werk.",
+      "tempTag": "gevoelig",
+      "uses": "Klassieke dressuur",
+      "useTags": [
+        "sport"
+      ],
+      "summary": "De Lipizzaner is het witte paard van de Spaanse Rijschool. Een veulen is nog donker. Het wit komt met de jaren.",
+      "paragraphs": [
+        "De stoeterij Lipica werd in 1580 gesticht, in wat nu Slovenië is. De Spaanse Rijschool in Wenen bestaat sinds 1572. Het woord Spaans wijst op het Iberische paardentype, niet op de stad.",
+        "Hengsten leren daar de klassieke dressuur. Sommige oefeningen heten scholen boven de grond. Bij de levade zit het paard bijna, met de achterhand gebogen en de voorbenen opgetrokken. Bij de capriole springt het omhoog en strekt het de achterbenen. Dat duurt jaren.",
+        "Merries en jonge paarden leven vaak op een andere stoeterij, zoals Piber in Oostenrijk. In de rijzaal zie je vooral volwassen hengsten, al wit uitgeschimmeld."
+      ],
+      "anecdotes": [
+        "Bezoekers denken soms dat de paarden wit geboren worden. Een foto van een donker veulen naast een witte merrie verbaast hen. Het is hetzelfde ras, een andere leeftijd.",
+        "Tijdens de oorlog deden mensen veel moeite om de schoolhengsten veilig te verplaatsen. Het ras bleef daardoor bestaan. De details zijn een geschiedenisles op zich.",
+        "De stoeterij van Lipica begon in 1580, toen die streek bij het Habsburgse rijk hoorde. Oorlogen hebben de kudde meer dan eens verplaatst. Een wit paard in Wenen heeft een paspoort vol grenzen."
+      ],
+      "facts": [
+        "Lipica ligt vandaag in Slovenië, dicht bij de Italiaanse grens.",
+        "Niet elke Lipizzaner leert de sprongen. De basis is verzamelde dressuur.",
+        "Een ruin of een merrie kan ook Lipizzaner zijn. De rijzaal toont vooral hengsten.",
+        "De airs boven de grond zijn sprongen uit een oude rijschool. Een veulen kan ze niet. Jaren komen eerst."
+      ],
+      "imageAlt": "Witte Lipizzaner in een klassieke rijzaal"
+    },
+    {
+      "slug": "welsh",
+      "name": "Welsh pony en cob",
+      "english": "Welsh",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Wales",
+      "size": "klein",
+      "height": "Tot ongeveer 155 cm, afhankelijk van de sectie",
+      "weight": "200–500 kg",
+      "colors": "Schimmel, vos, bruin en zwart komen veel voor",
+      "colorTags": [
+        "schimmel",
+        "vos",
+        "bruin",
+        "zwart"
+      ],
+      "temperament": "Vlug en dapper, met een ponyhoofd en een groot hart voor werk.",
+      "tempTag": "energiek",
+      "uses": "Kinderpony, mennen en buitenritten",
+      "useTags": [
+        "vrije tijd",
+        "sport",
+        "mennen"
+      ],
+      "summary": "De Welsh komt uit de heuvels van Wales en bestaat in vier secties, van kleine bergpony tot stevige cob.",
+      "paragraphs": [
+        "Sectie A is de Welsh Mountain-pony, tot 122 centimeter. Sectie B is fijner en groter, tot 137 centimeter. Sectie C is een cob-type onder diezelfde maat. Sectie D, de Welsh cob, is hoger en heeft geen lage bovengrens in de praktijk rond de 155 centimeter.",
+        "De bergpony heeft een fijn hoofd, een beetje zoals een Arabier, en toch harde benen. De cob is breder en sterker, geliefd voor de wagen. Alle vier horen ze bij één stamboek met verschillende afdelingen.",
+        "In de heuvels was voer schaars en het weer nat. De pony’s bleven gezond op weinig. Die hardheid maakt ze nog altijd geliefd als eerste pony en als menpony."
+      ],
+      "anecdotes": [
+        "Wie Welsh zegt, moet vragen welke sectie. Een A naast een D lijkt bijna een ander dier. Het hoofd verraadt de familie.",
+        "Veel kinderpony’s in Europa hebben Welsh bloed, ook als ze niet zuiver in één sectie staan. Het type is een bouwsteen.",
+        "De Welsh cob, de zwaardere sectie, stond bekend om een draf die een hele dag kon duren. Boeren reden ermee naar de markt en terug. Snelheid was hier geen renbaan, wel een weg."
+      ],
+      "facts": [
+        "Wales is een land binnen het Verenigd Koninkrijk, ten westen van Engeland.",
+        "Cob betekent hier een kort, sterk paard, niet een maïs.",
+        "122 centimeter is de grens van de kleinste sectie. Grotere Welsh pony’s zijn geen vergissing.",
+        "Eén rasvereniging, vier secties: van de kleine Welsh mountain tot een cob die als klein paard oogt. De letter naast de naam zegt de maat."
+      ],
+      "imageAlt": "Grijze Welsh cob in de heuvels"
+    },
+    {
+      "slug": "lusitano",
+      "name": "Lusitano",
+      "english": "Lusitano",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Portugal",
+      "size": "middel",
+      "height": "155–165 cm",
+      "weight": "450–550 kg",
+      "colors": "Schimmel, bruin en vos",
+      "colorTags": [
+        "schimmel",
+        "bruin",
+        "vos"
+      ],
+      "temperament": "Dapper, wendbaar en gehecht aan de ruiter.",
+      "tempTag": "gevoelig",
+      "uses": "Werk met stieren, klassieke rijkunst",
+      "useTags": [
+        "sport",
+        "werk"
+      ],
+      "summary": "De Lusitano is het Portugese barokpaard, nauw verwant aan de Andalusiër. Wendbaarheid is het doel.",
+      "paragraphs": [
+        "Portugal en Spanje deelden eeuwenlang hetzelfde Iberische paard. De stamboeken zijn later gesplitst. De Lusitano heet ook Puro Sangue Lusitano. Lusitania is de oude Romeinse naam voor Portugal.",
+        "Het paard werkt van oudsher met stieren. Het moet zijwaarts springen, stilstaan en opnieuw vertrekken. Dat vraagt evenwicht op de achterhand en een ruiter die weinig kracht gebruikt.",
+        "De hals is gewelfd, de rug kort, de staart vol. Schimmel komt veel voor, net als bruin. Het karakter is heet in de goede zin: wakker, niet nerveus zonder reden."
+      ],
+      "anecdotes": [
+        "In de Portugese werkreiding blijft het paard tussen de ruiter en het rund. De kunst is ruimte houden, niet botsen. Jaren training zitten in één zijwaartse pas.",
+        "Mensen zien een grijze Lusitano en zeggen Andalusiër. Kijk naar het stamboek. De familie is echt, de registers zijn apart.",
+        "De Lusitano werd gefokt om dicht bij een stier te werken: korte wendingen, verzameld, een ruiter die weinig hoeft te vragen. Dat werk is omstreden. De wendbaarheid van het paard is een feit apart."
+      ],
+      "facts": [
+        "Puro Sangue betekent hier zuiver bloed binnen het Portugese boek, niet Engels volbloed.",
+        "Barok is een bouw, geen tijdperk waarin het paard moet leven.",
+        "Kurkeiken horen bij het Portugese landschap waar veel paarden weiden.",
+        "Lusitania is de Romeinse naam voor het land dat nu Portugal is. Het stamboek is verwant aan het Spaanse, en toch een eigen boek."
+      ],
+      "imageAlt": "Bruine Lusitano met gewelfde hals tussen kurkeiken"
+    },
+    {
+      "slug": "mustang",
+      "name": "Mustang",
+      "english": "Mustang",
+      "regions": [
+        "Wereld"
+      ],
+      "origin": "Het westen van de Verenigde Staten",
+      "size": "klein",
+      "height": "135–152 cm",
+      "weight": "300–450 kg",
+      "colors": "Zeer gemengd",
+      "colorTags": [
+        "vos",
+        "bruin",
+        "zwart",
+        "schimmel",
+        "bont",
+        "wildkleur"
+      ],
+      "temperament": "Zelfstandig en waaks. Een kuddepaard, geen stalpaard van nature.",
+      "tempTag": "zelfstandig",
+      "uses": "Leven in vrijheid; sommige paarden worden later bereden",
+      "useTags": [
+        "natuur"
+      ],
+      "summary": "De mustang is een vrij levend paard in het Amerikaanse westen. De voorouders waren huispaarden, vooral van Spaanse oorsprong.",
+      "paragraphs": [
+        "Het woord komt van mesteño: een dier dat bij niemand in de wei stond. Vanaf de zestiende eeuw verspreidden Spaanse paarden zich over het continent. Later kwamen er ranchpaarden bij die ontsnapten of werden losgelaten.",
+        "Een kudde heeft vaak een hengst, merries en jonge dieren. Andere hengsten leven in vrijgezellengroepen. Ze kennen de waterplaatsen en de paden. De vacht is dik in de winter en de kleuren lopen door elkaar.",
+        "Omdat een gebied maar een beperkt aantal dieren kan voeden, worden de kuddes geteld en soms verplaatst. Een mustang is dus wild in zijn leven, maar niet ongezien."
+      ],
+      "anecdotes": [
+        "Niet elke mustang lijkt op de andere. De ene is compact en vaal, de andere hoger en bont. Vrijheid mengt families. Er is geen enkele kleurregel.",
+        "Een paard dat uit vrijheid komt, heeft tijd nodig om een halster gewoon te vinden. Dat leerproces is traag. Haast maakt het dier harder, niet tammer.",
+        "Een mustang wordt vrij geboren. Zijn voorouders niet. Het zijn verwilderde huispaarden, meegekomen met Spanjaarden en later andere kolonisten. Vrij en wild is hier niet hetzelfde woord."
+      ],
+      "facts": [
+        "Een mustang is geen Przewalskipaard. De ene stamt van huispaarden af, de andere is een wilde soort.",
+        "Mesteño is Spaans en wijst op dieren zonder eigenaar.",
+        "Vrij leven betekent zoeken naar gras en water, niet een leven zonder gevaar.",
+        "In de Verenigde Staten worden kuddes beheerd omdat het land ook aan andere dieren en aan mensen toebehoort. Vrij rondlopen is dus geen leven zonder regels."
+      ],
+      "imageAlt": "Waakse voskleurige mustang in de woestijn"
+    }
+  ],
+  "filters": {
+    "streek": [
+      {
+        "id": "België",
+        "label": "België"
+      },
+      {
+        "id": "Nederland",
+        "label": "Nederland"
+      },
+      {
+        "id": "Duitsland",
+        "label": "Duitsland"
+      },
+      {
+        "id": "Frankrijk",
+        "label": "Frankrijk"
+      },
+      {
+        "id": "Luxemburg",
+        "label": "Luxemburg"
+      },
+      {
+        "id": "Wereld",
+        "label": "Wereld"
+      }
+    ],
+    "grootte": [
+      {
+        "id": "klein",
+        "label": "Klein"
+      },
+      {
+        "id": "middel",
+        "label": "Middelgroot"
+      },
+      {
+        "id": "groot",
+        "label": "Groot"
+      },
+      {
+        "id": "zwaar",
+        "label": "Zwaar"
+      }
+    ],
+    "gebruik": [
+      {
+        "id": "sport",
+        "label": "Sport"
+      },
+      {
+        "id": "werk",
+        "label": "Werk"
+      },
+      {
+        "id": "mennen",
+        "label": "Mennen"
+      },
+      {
+        "id": "vrije tijd",
+        "label": "Vrije tijd"
+      },
+      {
+        "id": "natuur",
+        "label": "Natuur"
+      },
+      {
+        "id": "rennen",
+        "label": "Rennen"
+      }
+    ],
+    "kleur": [
+      {
+        "id": "vos",
+        "label": "Vos"
+      },
+      {
+        "id": "bruin",
+        "label": "Bruin"
+      },
+      {
+        "id": "zwart",
+        "label": "Zwart"
+      },
+      {
+        "id": "schimmel",
+        "label": "Schimmel"
+      },
+      {
+        "id": "bont",
+        "label": "Bont"
+      },
+      {
+        "id": "gespikkeld",
+        "label": "Gespikkeld"
+      },
+      {
+        "id": "wildkleur",
+        "label": "Wildkleur"
+      }
+    ],
+    "karakter": [
+      {
+        "id": "rustig",
+        "label": "Rustig"
+      },
+      {
+        "id": "energiek",
+        "label": "Energiek"
+      },
+      {
+        "id": "gevoelig",
+        "label": "Gevoelig"
+      },
+      {
+        "id": "zelfstandig",
+        "label": "Zelfstandig"
+      }
+    ]
+  },
+  "sizeLabels": {
+    "klein": "Klein",
+    "middel": "Middelgroot",
+    "groot": "Groot",
+    "zwaar": "Zwaar trektype"
+  },
+  "regionOrder": [
+    "België",
+    "Nederland",
+    "Duitsland",
+    "Frankrijk",
+    "Luxemburg",
+    "Wereld"
+  ],
+  "learn": [
+    {
+      "to": "/beroepen",
+      "title": "Beroepen",
+      "text": "Garnalen vangen te paard, de hoefsmid, de renbaan, de oude postkoets."
+    },
+    {
+      "to": "/legendes",
+      "title": "Legendes",
+      "text": "Pegasus, de eenhoorn, Sleipnir, de kelpie. Verhaal en studie naast elkaar."
+    },
+    {
+      "to": "/beroemd",
+      "title": "Beroemde paarden",
+      "text": "Bucephalus, Red Rum, Valegro, Darco. Namen, en wat daarvan klopt."
+    },
+    {
+      "to": "/verhalen",
+      "title": "Verhalen",
+      "text": "Het Ros Beiaard, de schimmel van Sinterklaas, en paarden in gewone zinnen."
+    },
+    {
+      "to": "/gangen",
+      "title": "Gangen",
+      "text": "Stap, draf en galop. Tel de hoeven, tik de volgende pas aan."
+    },
+    {
+      "to": "/lichaam",
+      "title": "Lichaam en zintuigen",
+      "text": "Ogen, hoeven, maag en schoft. Tik een deel aan en lees wat het doet."
+    },
+    {
+      "to": "/leven",
+      "title": "Leven en gedrag",
+      "text": "Kudde, oren, een dag op de weide en het eerste uur van een veulen."
+    },
+    {
+      "to": "/geschiedenis",
+      "title": "Geschiedenis",
+      "text": "Van een klein bosdier met meerdere tenen tot partner van mensen."
+    },
+    {
+      "to": "/verzorging",
+      "title": "Verzorging",
+      "text": "Water, hooi, hoeven en het moment waarop je een volwassene roept."
+    },
+    {
+      "to": "/weetjes",
+      "title": "Weetjes",
+      "text": "Korte feiten die niet bij één ras horen."
+    },
+    {
+      "to": "/woorden",
+      "title": "Woordenlijst",
+      "text": "Schoft, vos, behang, tölt en andere woorden uit de stal."
+    },
+    {
+      "to": "/check",
+      "title": "Check",
+      "text": "Korte vragen. Geen examen, wel een manier om te zien wat bleef hangen."
+    }
+  ],
+  "care": [
+    {
+      "title": "Water en ruwvoer",
+      "paragraphs": [
+        "Een paard heeft altijd proper water nodig. Daarna komt ruwvoer: gras of hooi. Dat hoort de basis te zijn, niet een emmer krachtvoer.",
+        "De maag is klein. Lange pauzes zonder eten passen slecht. Veel paarden doen het goed met hooi verspreid over de dag.",
+        "Jong lentegras is rijk. Sommige paarden, vooral pony’s en paarden die snel dik worden, kunnen daar hoefpijn van krijgen. Dat heet hoefbevangenheid. Een weide is dus niet altijd onschuldig. De eigenaar past de uren aan."
+      ]
+    },
+    {
+      "title": "Hoeven en benen",
+      "paragraphs": [
+        "Een hoefsmid bekapt de hoef of zet een ijzer als het werk dat vraagt. Niet elk paard heeft ijzers nodig. Elk paard heeft wel een hoef die in balans blijft.",
+        "Voor en na het werk kijk je naar de benen. Een wond, een dikke pees of een hoef die warm aanvoelt terwijl de andere koud is: dat vertel je aan een volwassene.",
+        "Behang bij een tinker, een Fries of een Shire kam je uit en houd je droog. Modder die dagen blijft zitten, is geen landelijk sfeerbeeld. Het is een huidprobleem in wording."
+      ]
+    },
+    {
+      "title": "Tanden, vacht en deken",
+      "paragraphs": [
+        "Eén keer per jaar, soms vaker, kijkt een tandarts in de mond. Paarden verstopgen kiespijn. Ze eten trager of laten hooi vallen.",
+        "Poetsen haalt modder en los haar weg en laat je meteen wonden zien. Een paard dat buiten leeft, heeft zijn vet in de vacht nodig. Elke dag helemaal wassen is geen zorg.",
+        "Een deken is geen sier. Een geschoren paard of een oud paard zonder wintervacht kan er één nodig hebben. Een paard met een natte deken onder een regenjas heeft het koud, niet warm."
+      ]
+    },
+    {
+      "title": "Beweging en gezelschap",
+      "paragraphs": [
+        "Een paard is gebouwd om te stappen, urenlang. Alleen een uur rijden en daarna 23 uur op een kleine stal is mager. Weidegang, een paddock of stapmolen vult dat aan.",
+        "Gezelschap telt even hard als voer. Een paard dat de hele dag alleen staat, kan zich gaan vervelen. Sommige gaan kribbebijten of weven. Vrienden, ruwvoer en beweging helpen meer dan een straf.",
+        "Kinderen rijden of borstelen alleen met een volwassene die het paard kent. Een helm hoort bij rijden. Een paard is geen speeltoestel en geen knuffel op bestelling."
+      ]
+    },
+    {
+      "title": "Wanneer je iemand roept",
+      "paragraphs": [
+        "Koliek herken je niet aan één teken. Wel aan een paard dat niet eet, naar de buik kijkt, gaat liggen en weer opstaat, of zweet zonder werk. Dat is haast voor een volwassene en vaak een dierenarts.",
+        "Een paard dat op drie benen staat, een diepe wond heeft, of niet wil drinken, hoort niet te wachten tot morgen.",
+        "Deze gids legt uit hoe een paard in elkaar zit. Ze vervangt geen hoefsmid, geen dierenarts en geen rij-instructeur."
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": "Van bosdier tot één hoef",
+      "paragraphs": [
+        "De verre voorouder van het paard leefde ongeveer 55 miljoen jaar geleden. Hij was zo groot als een vos, at bladeren in het bos en had meerdere tenen.",
+        "Het klimaat werd droger. Graslanden groeiden. Dieren die snel konden lopen en gras konden kauwen, hadden een voordeel. De tanden werden hoger. De zijtenen verdwenen. Wat overbleef, is één sterke teen: de hoef.",
+        "Het paard van nu, Equus, ontstond enkele miljoenen jaren geleden. De hoef is dus geen schoen die iemand heeft uitgevonden. Het is een teen die de grond raakt."
+      ]
+    },
+    {
+      "title": "Het begin van het huispaard",
+      "paragraphs": [
+        "Ongeveer 4200 jaar geleden, op de steppe ten noorden van de Zwarte Zee en de Kaspische Zee, begon de lijn van onze huispaarden. Daarna verspreidden ze zich snel met mensen mee.",
+        "Er zijn oudere sporen van mensen die paarden hielden. Die dieren waren familie van het Przewalskipaard, niet de directe voorouders van het paard in de wei.",
+        "Een huispaard kan een ruiter dragen, een wagen trekken en wennen aan een halster. Dat is het verschil met de takhi op de steppe, die wild blijft."
+      ]
+    },
+    {
+      "title": "Werk, reis en sport",
+      "paragraphs": [
+        "Duizenden jaren waren paarden de motor van reizen, landbouw en legers. Een bericht ging niet sneller dan het paard dat het droeg. Steden kregen hooi, graan en steenkool per kar.",
+        "Toen motoren kwamen, verdween dat dagelijkse werk. Sommige trekpaarden werden zeldzaam. Andere rassen veranderden mee en werden sportpaarden: springen, dressuur, eventing, mennen.",
+        "Sport is nieuw als beroep, niet als idee. Mensen vergeleken paarden al eeuwen op kracht, gangen en uithouding. Alleen de hindernissen en de jury zijn moderner."
+      ]
+    },
+    {
+      "title": "In de Lage Landen",
+      "paragraphs": [
+        "Vlaanderen en Brabant waren beroemd om zware paarden. Die kracht zit nog in het Belgisch trekpaard, en in de geschiedenis van Engelse trekpaarden die Vlaams bloed kregen.",
+        "De Ardennen delen één ras over België, Frankrijk en Luxemburg. Nederland heeft het Friese paard, de Gelderlander, de Groninger en het grote sportstamboek KWPN.",
+        "In een Vlaamse wei zie je vandaag vaak tinkers, warmbloeden en pony's naast elkaar. Het landschap is veranderd. Het paard is gebleven, als sportpartner en als buur."
+      ]
+    },
+    {
+      "title": "Paardenkracht",
+      "paragraphs": [
+        "Toen stoommachines kwamen, moesten kopers weten hoe sterk zo’n machine was. James Watt vergeleek haar met een paard dat een last optrekt. Daaruit komt de paardenkracht: ongeveer 736 watt. Het is een rekenmaat, geen levend dier dat de hele dag die kracht geeft.",
+        "Een echt paard werkt in stappen, met rust, water en een hoef die meedoet. Een motor kent die pauze niet. Daarom verdween het paard van de akker, niet omdat het zwak was, maar omdat een machine niet moe wordt op dezelfde manier.",
+        "In de taal bleef het dier. We zeggen nog dat een motor zoveel paardenkracht heeft. Het paard zelf staat dan allang in de wei, of in een beroep dat een motor niet kan: een bos waar de bodem zacht is, of een branding waar een trekpaard de zee leest."
+      ]
+    }
+  ],
+  "life": [
+    {
+      "title": "Een kuddedier",
+      "paragraphs": [
+        "Paarden willen gezelschap. Alleen staan in een stal, zonder zicht op een ander paard, is voor veel dieren zwaar. Vrienden, of minstens een rustig buurpaard, horen bij een goed leven.",
+        "In een kudde is de leider vaak een ervaren merrie, niet automatisch de hengst. Zij kent de paden en de waterplaats. De hengst bewaakt eerder de groep.",
+        "Paarden hebben vriendschappen. Twee dieren staan dan kop naar staart, zodat elk de vliegen van de ander kan jagen. Ze krabben elkaar op de schoft. Dat is vrede, geen spel alleen."
+      ]
+    },
+    {
+      "title": "Eerst vluchten",
+      "paragraphs": [
+        "Een paard is een vluchtdier. De eerste gedachte bij schrik is ruimte maken, niet vechten. Daarna kijkt het opnieuw. Een ruiter leert het paard dat een plastic zak geen roofdier is.",
+        "Als je nadert, doe je dat zichtbaar en rustig. Praat. Kom niet plots vanachter de staart. Geef het paard tijd om te ruiken.",
+        "Trappen en bijten zijn meestal grenzen, geen gemeen karakter. Een paard dat opeengepakt staat of pijn heeft, verdedigt zich. Afstand en een volwassene zijn dan de juiste reactie."
+      ]
+    },
+    {
+      "title": "Een dag op de weide",
+      "paragraphs": [
+        "Een paard graast 14 tot 16 uur per dag, in korte beurten. Tussenin dut het, staat het bij een vriend, of rolt het in het zand. Rollen verzorgt de vacht en lijkt ook gewoon prettig.",
+        "Slaap is kort. Alles bij elkaar een paar uur, verspreid over het etmaal. Licht slapen kan rechtop. Diepe slaap, waarin het lichaam echt uitrust, gebeurt liggend. Een paard moet dus kunnen gaan liggen op een droge plek.",
+        "Drinken gebeurt in teugen, vaak meerdere keren per dag. Een paard dat niet eet en niet drinkt, is geen rustig paard. Het is een paard dat iemand moet nakijken."
+      ]
+    },
+    {
+      "title": "Het eerste uur van een veulen",
+      "paragraphs": [
+        "Een merrie draagt haar veulen ongeveer elf maanden. De geboorte zelf gaat vaak snel. Daarna moet het veulen proberen te staan.",
+        "De benen van een pasgeboren veulen zijn al bijna zo lang als die van een volwassen paard. Zo kan het mee met de kudde. Het wankelt, valt, en staat opnieuw. Binnen ongeveer een uur lukt staan bij een gezond veulen. Daarna zoekt het melk.",
+        "De eerste melk, biest, zit vol afweerstoffen. Het veulen moet die snel krijgen. De merrie likt het droog. Aanraken mag alleen als de eigenaar dat vraagt. Een merrie met een veulen bewaakt haar ruimte."
+      ]
+    },
+    {
+      "title": "Een gesprek zonder woorden",
+      "paragraphs": [
+        "Paarden praten met oren, hals, lippen en afstand. Een paard dat zacht in de mond kauwt en de achterhand laat hangen, is vaker op zijn gemak dan een paard dat hoog in de hals staat en niet knippert. Eén teken liegt. Drie tekens samen zeggen meer.",
+        "Vrienden krabben elkaar op de schoft. Een vreemd paard krijgt eerst een neus, daarna een waarschuwing als het te dicht komt: oren, een zwiep, soms een schop in de lucht. Dat is etiquette, geen gemeenheid. Mensen die tussen twee paarden gaan staan, missen die regels.",
+        "Een ruiter leest hetzelfde lichaam van bovenaf. Een staart die zacht meebeweegt, een oor dat naar de stem draait, een pas die gelijk blijft. Wie alleen de teugels voelt en het paard niet ziet, hoort de helft niet."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "dode-hoek",
+      "title": "Twee dode hoeken",
+      "text": "Een paard ziet bijna rondom, maar niet vlak voor de neus en niet recht achter zich. Daarom roep je voor je achter een paard langs loopt."
+    },
+    {
+      "id": "geen-braken",
+      "title": "Geen weg terug",
+      "text": "Een paard kan bijna niet overgeven. De ingang van de maag laat voer niet terug. Daarom is bedorven voer extra gevaarlijk."
+    },
+    {
+      "id": "staan-slapen",
+      "title": "Slapen op de benen",
+      "text": "Pezen kunnen de benen op slot zetten. Het paard dut rechtop. Voor diepe slaap gaat het toch liggen, meestal maar kort."
+    },
+    {
+      "id": "kleine-maag",
+      "title": "Een kleine maag",
+      "text": "De maag is klein, de darmen zijn groot. Grazende paarden eten de hele dag een beetje. Eén enorme maaltijd past niet bij dat lichaam."
+    },
+    {
+      "id": "merrie-leider",
+      "title": "Vaak een merrie vooraan",
+      "text": "In veel kuddes bepaalt een ervaren merrie waar de groep naartoe gaat. De hengst is niet automatisch de baas van de route."
+    },
+    {
+      "id": "lange-benen",
+      "title": "Lange benen vanaf dag één",
+      "text": "Een veulen staat op benen die al bijna volwassen lengte hebben. Zo kan het mee, terwijl de rest van het lichaam nog moet groeien."
+    },
+    {
+      "id": "elf-maanden",
+      "title": "Elf maanden dragen",
+      "text": "De dracht duurt ongeveer 340 dagen. Dat is lang. Een veulen dat te vroeg komt, heeft meteen warmte en melk nodig."
+    },
+    {
+      "id": "hart",
+      "title": "Een traag hart in rust",
+      "text": "In rust klopt het hart vaak maar 30 tot 40 keer per minuut. Tijdens een galop kan dat cijfer boven de 200 uitkomen."
+    },
+    {
+      "id": "zweet",
+      "title": "Zweten zoals wij",
+      "text": "Paarden zweten over bijna het hele lichaam om af te koelen. Weinig andere dieren doen dat op dezelfde manier."
+    },
+    {
+      "id": "hand",
+      "title": "Hand of centimeter",
+      "text": "In België meten we in centimeter. In Engeland en Amerika zegt men nog vaak hand. Eén hand is 10,16 centimeter, ongeveer de breedte van een handpalm."
+    },
+    {
+      "id": "schoft",
+      "title": "Altijd op de schoft",
+      "text": "De officiële hoogte is de schoft, het botpunt tussen hals en rug. Zo blijft de maat gelijk, hoe het paard zijn kop ook houdt."
+    },
+    {
+      "id": "kleur-vos",
+      "title": "Vos is geen vos",
+      "text": "Een voskleurig paard heeft niets met het dier vos te maken, behalve de rode kleur. Bruin betekent bij paarden: bruin lichaam, zwarte manen en staart."
+    },
+    {
+      "id": "schimmel",
+      "title": "Wit worden duurt jaren",
+      "text": "Een schimmel wordt lichter naarmate hij ouder wordt. De huid blijft donker. Echt wit met roze huid is een andere kleur."
+    },
+    {
+      "id": "tastharen",
+      "title": "Snorharen zijn gereedschap",
+      "text": "De stijve haren rond de neus voelen de wereld vlakbij. Daarom laten veel wedstrijdregels ze met rust."
+    },
+    {
+      "id": "biest",
+      "title": "De eerste melk telt",
+      "text": "Biest zit vol stoffen die het veulen beschermen. Het moet die in de eerste uren drinken. Gewone melk daarna voedt, maar vervangt die start niet."
+    },
+    {
+      "id": "rol",
+      "title": "Rollen is niet altijd pijn",
+      "text": "Een tevreden paard rolt en staat daarna op om zich uit te schudden. Een paard dat blijft rollen, zweet en niet eet, heeft hulp nodig."
+    },
+    {
+      "id": "zee",
+      "title": "Alleen in Oostduinkerke",
+      "text": "Nergens anders ter wereld vangen vissers nog garnalen te paard. Het paard is een Belgisch trekpaard, en de traditie staat sinds 2013 bij UNESCO."
+    },
+    {
+      "id": "beiaard",
+      "title": "Een paard dat gedragen wordt",
+      "text": "Het Ros Beiaard van Dendermonde rolt niet. Twaalf mannen dragen het houten paard, om de tien jaar, met vier broers op de rug."
+    },
+    {
+      "id": "viertakt",
+      "title": "Vier tellen in de stap",
+      "text": "In stap raakt elke hoef apart de grond. In draf hoor je twee tellen, omdat de diagonale hoeven samen landen."
+    },
+    {
+      "id": "blik",
+      "title": "Bijna de hele cirkel",
+      "text": "De ogen staan opzij. Een paard ziet een zeer wijde boog, en mist een strook vlak voor de neus en recht achter de staart. Beweging ziet het eerder dan een klein detail dichtbij."
+    },
+    {
+      "id": "drinken",
+      "title": "Een emmer is een begin",
+      "text": "Een paard drinkt tientallen liters per dag, meer als het warm is of als het gewerkt heeft. Een lege bak is geen detail. Het is het eerste wat je nakijkt."
+    },
+    {
+      "id": "pk",
+      "title": "Paardenkracht is een maat",
+      "text": "Eén paardenkracht is ongeveer 736 watt. James Watt bedacht die maat om machines te vergelijken met een werkpaard. Een levend paard levert dat niet de hele dag."
+    },
+    {
+      "id": "eenhoorn-tand",
+      "title": "De hoorn was een tand",
+      "text": "Wat middeleeuwse schatkamers een eenhoornhoorn noemden, was vaak de lange tand van een narwal. Het paard met één hoorn blijft een verhaal. De walvis is echt."
+    },
+    {
+      "id": "acht",
+      "title": "Acht benen, geen bouwplan",
+      "text": "Sleipnir, het paard van Odin, heeft in het verhaal acht benen. Dat zegt iets over snelheid en de grens van de dood. Een paardenlichaam is op vier benen gebouwd."
+    },
+    {
+      "id": "hans",
+      "title": "Slim in mensen, niet in sommen",
+      "text": "Kluger Hans tikte juiste antwoorden met de hoef, tot de vragensteller het antwoord zelf niet kende. Het paard las een gezicht. Rekenen deed het niet."
+    },
+    {
+      "id": "krijt",
+      "title": "Een paard van krijt",
+      "text": "Het witte paard van Uffington is een oude tekening in een Engelse heuvel. Geen ras, geen graf. Een lijn die verdwijnt als niemand het gras weghaalt."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Schoft",
+      "text": "Het hoge punt tussen hals en rug. Daar meten we de hoogte."
+    },
+    {
+      "term": "Stokmaat",
+      "text": "Een ander woord voor schofthoogte."
+    },
+    {
+      "term": "Merrie",
+      "text": "Een vrouwelijk paard."
+    },
+    {
+      "term": "Hengst",
+      "text": "Een mannelijk paard dat niet gecastreerd is."
+    },
+    {
+      "term": "Ruin",
+      "text": "Een gecastreerd mannelijk paard. De meeste rijpaarden zijn ruinen of merries."
+    },
+    {
+      "term": "Veulen",
+      "text": "Een jong paard in zijn eerste levensmaanden."
+    },
+    {
+      "term": "Vos",
+      "text": "Een roodbruin paard. Manen en staart zijn dezelfde kleur of lichter."
+    },
+    {
+      "term": "Bruin",
+      "text": "Een bruin lichaam met zwarte manen, staart en vaak zwarte benen."
+    },
+    {
+      "term": "Schimmel",
+      "text": "Een paard dat lichter wordt en grijs of wit oogt, met donkere huid."
+    },
+    {
+      "term": "Bont",
+      "text": "Grote vlekken, zoals bij een tinker. Niet hetzelfde als stippen."
+    },
+    {
+      "term": "Wildkleur",
+      "text": "Een vaalbruine vacht met een donkere streep op de rug, zoals bij het Fjordpaard."
+    },
+    {
+      "term": "Behang",
+      "text": "Lang haar aan de onderbenen, bij een Fries, een tinker of een Shire."
+    },
+    {
+      "term": "Bles",
+      "text": "Een witte streep op het hoofd."
+    },
+    {
+      "term": "Stamboek",
+      "text": "Een register van paarden van een ras of fokdoel, met hun ouders."
+    },
+    {
+      "term": "Warmbloed",
+      "text": "Een sportpaard tussen trekpaard en volbloed in. Geen temperatuur."
+    },
+    {
+      "term": "Volbloed",
+      "text": "Hier: het Engelse renpaard uit een gesloten stamboek."
+    },
+    {
+      "term": "Tölt",
+      "text": "Een viertaktgang van de IJslander. De rug blijft opvallend rustig."
+    },
+    {
+      "term": "Mennen",
+      "text": "Een paard vanaf een wagen leiden, met leidsels."
+    },
+    {
+      "term": "Ruwvoer",
+      "text": "Gras, hooi of voordroog. De basis van het rantsoen."
+    },
+    {
+      "term": "Koliek",
+      "text": "Buikpijn bij het paard. Dat kan ernstig zijn en hoort bij een dierenarts."
+    },
+    {
+      "term": "Hoefsmid",
+      "text": "Iemand die de hoef bekapt en, als het nodig is, een ijzer zet."
+    },
+    {
+      "term": "Laagtij",
+      "text": "Het moment van laagwater. De garnaalvissers werken rond dat uur."
+    },
+    {
+      "term": "Zuidwester",
+      "text": "De hoed van een erkende garnaalvisser te paard in Oostduinkerke."
+    },
+    {
+      "term": "Pijnders",
+      "text": "De gilde in Dendermonde die het houten Ros Beiaard draagt."
+    },
+    {
+      "term": "Draf",
+      "text": "Een tweetaktgang. De diagonale hoeven raken samen de grond."
+    },
+    {
+      "term": "Galop",
+      "text": "Een drietaktgang met een zweefmoment. Eén voorhoef leidt."
+    },
+    {
+      "term": "Pegasus",
+      "text": "Een gevleugeld paard uit Griekse verhalen. Geen ras. Wel een sterrenbeeld dat mensen naar hem noemden."
+    },
+    {
+      "term": "Eenhoorn",
+      "text": "Een verhaalpaard met één hoorn. In schatkamers lag vaak de tand van een narwal."
+    },
+    {
+      "term": "Sleipnir",
+      "text": "Het achtbenige paard van Odin in Noordse verhalen. Een beeld van snelheid, geen bouwplan."
+    },
+    {
+      "term": "Kelpie",
+      "text": "Een Schots waterpaard uit een waarschuwingsverhaal. Het gevaar is het water, niet een ras."
+    },
+    {
+      "term": "Hippocampus",
+      "text": "Half paard, half vis in de Griekse zeeverhalen. Dezelfde naam zit nu op het zeepaardje en op een deel van de hersenen."
+    },
+    {
+      "term": "Beiaard",
+      "text": "Het paard van de vier Heemskinderen. In Dendermonde een houten ros dat mensen dragen."
+    },
+    {
+      "term": "Paardenkracht",
+      "text": "Een oude maat voor machines, ongeveer 736 watt. Geen levend paard."
+    },
+    {
+      "term": "Jaagpad",
+      "text": "Het pad naast een kanaal waar een paard de boot voorttrok."
+    },
+    {
+      "term": "Jockey",
+      "text": "De ruiter van een renpaard. Volwassen werk, geen doel om lichter voor te worden als kind."
+    },
+    {
+      "term": "Palomino",
+      "text": "Een goudkleurige vacht met een lichte manen en staart. Een kleur, geen ras."
+    },
+    {
+      "term": "Kluger Hans",
+      "text": "Een paard dat leek te rekenen, en in werkelijkheid kleine signalen van mensen las."
+    }
+  ],
+  "body": [
+    {
+      "id": "oog",
+      "name": "Ogen",
+      "x": 21,
+      "y": 31,
+      "paragraphs": [
+        "De ogen staan opzij. Daardoor ziet een paard bijna helemaal rond zich heen. Vlak voor de neus en recht achter de staart is een dode hoek. Een paard schrikt sneller als je plots in die dode hoek opduikt.",
+        "Paarden zien vooral blauw en groen. Rood zien ze slecht. Ze merken beweging heel goed, ook in weinig licht. Scherp kijken naar iets kleins vlakbij is minder hun talent. Daarvoor draaien ze het hoofd."
+      ]
+    },
+    {
+      "id": "oor",
+      "name": "Oren",
+      "x": 22,
+      "y": 16,
+      "paragraphs": [
+        "Elk oor draait apart, bijna een halve cirkel. Het paard kan naar jou luisteren en tegelijk een geluid achter zich volgen.",
+        "Oren naar voren: aandacht. Oren zijwaarts: vaak ontspannen. Oren plat naar achteren: ergernis of pijn. Lees de oren samen met de staart en het lichaam, niet als één teken."
+      ]
+    },
+    {
+      "id": "neus",
+      "name": "Neus en reuk",
+      "x": 14,
+      "y": 45,
+      "paragraphs": [
+        "De reuk is sterk. Paarden herkennen elkaar en mensen aan geur. Een nieuwe deken of een vreemd voer wordt eerst besnuffeld.",
+        "Soms krult een paard de bovenlip op. Dat heet flemen. Zo duwt het geur naar een extra orgaan in de neus. Hengsten doen het vaak, merries ook."
+      ]
+    },
+    {
+      "id": "mond",
+      "name": "Mond en tanden",
+      "x": 15,
+      "y": 42,
+      "paragraphs": [
+        "Paardentanden groeien lang door en slijten door kauwen. Dierenartsen schatten de leeftijd soms aan de tanden, maar dat blijft een schatting.",
+        "Scherpe punten op de kiezen kunnen het wangslijm irriteren. Een paardentandarts vijlt die dan bij. Dat heet raspen. Een paard kan niet overgeven. Wat het inslikt, moet de hele weg door de darmen."
+      ]
+    },
+    {
+      "id": "manen",
+      "name": "Manen",
+      "x": 34,
+      "y": 27,
+      "paragraphs": [
+        "De manen beschermt de hals tegen weer en vliegen. Bij een Fjord wordt ze kort gehouden zodat de donkere middenstreep zichtbaar blijft. Bij een Fries mag ze lang zijn.",
+        "Vlechten voor een wedstrijd is netheid, geen noodzaak voor het paard. Een klit die aan de huid trekt, haal je wel uit."
+      ]
+    },
+    {
+      "id": "schoft",
+      "name": "Schoft",
+      "x": 43,
+      "y": 37,
+      "paragraphs": [
+        "De schoft is het hoge punt waar de hals in de rug overgaat. Daar meet je de schofthoogte. Die maat heet ook stokmaat.",
+        "Je meet niet aan de oren. Een paard dat de kop hoog draagt, is daardoor niet groter. De schoft blijft dezelfde plek."
+      ]
+    },
+    {
+      "id": "rug",
+      "name": "Rug",
+      "x": 58,
+      "y": 39,
+      "paragraphs": [
+        "De rug draagt het zadel en de ruiter. Een te lange of slappe rug heeft het moeilijker. Een korte rug, zoals bij veel Arabieren, is sterk maar soms minder soepel.",
+        "Achter de schoft, rond de manenkam, krabben paarden elkaar. Die plek is een sociale zone. Veel paarden worden er rustig van."
+      ]
+    },
+    {
+      "id": "buik",
+      "name": "Maag en darmen",
+      "x": 54,
+      "y": 56,
+      "paragraphs": [
+        "De maag is klein voor zo’n groot dier, ongeveer 8 tot 15 liter. De darmen daarna zijn enorm. Een paard is gemaakt om de hele dag kleine beetjes gras te eten, niet één grote maaltijd.",
+        "De darmen moeten blijven bewegen. Te veel rijk voer ineens, of te lang zonder ruwvoer, kan buikpijn geven. Die pijn heet koliek. Dan is een volwassene nodig."
+      ]
+    },
+    {
+      "id": "achterhand",
+      "name": "Achterhand",
+      "x": 73,
+      "y": 46,
+      "paragraphs": [
+        "De motor zit achteraan. Springen, aanzetten en dragen in dressuur komen uit de achterhand. Een trekpaard heeft daar extra massa.",
+        "De sprong is het gewricht halverwege het achterbeen. Het moet droog en schoon blijven. Dikke, warme zwelling is een teken dat een deskundige moet kijken."
+      ]
+    },
+    {
+      "id": "benen",
+      "name": "Benen",
+      "x": 40,
+      "y": 70,
+      "paragraphs": [
+        "Paarden hebben geen spieren onder de knie en de sprong, alleen pezen, bot en huid. De spieren zitten hoger. Daarom oogt een onderbeen droog.",
+        "Dankzij een systeem van pezen en gewrichten kunnen ze staan slapen. Die sluimer is licht. Voor diepe slaap moet een paard gaan liggen."
+      ]
+    },
+    {
+      "id": "hoef",
+      "name": "Hoeven",
+      "x": 41,
+      "y": 88,
+      "paragraphs": [
+        "De hoef is een versterkte nagel. Ze groeit bijna een centimeter per maand en slijt door beweging. Op zachte bodem slijt ze minder. Een hoefsmid komt dan ongeveer om de zes tot acht weken.",
+        "Onderaan zit de zool en de straal, een veerkrachtige driehoek. De straal helpt schokken opvangen. Een hoef ruikt normaal neutraal. Een sterke rotte geur hoort niet."
+      ]
+    },
+    {
+      "id": "staart",
+      "name": "Staart",
+      "x": 84,
+      "y": 55,
+      "paragraphs": [
+        "De staart jaagt vliegen weg en helpt bij het evenwicht. Een paard dat rustig staat, laat de staart hangen.",
+        "Hard slaan met de staart kan irritatie zijn: insecten, of ergernis over een hulp. Ook hier telt het hele plaatje, niet één zwiep."
+      ]
+    },
+    {
+      "id": "huid",
+      "name": "Huid en tastharen",
+      "paragraphs": [
+        "De huid voelt een vlieg die landt. Paarden zweten, net als mensen, om af te koelen. Na werk moet een nat paard kunnen drogen, uit de tocht.",
+        "Rond de neus zitten stijve tastharen. Die voelen afstand en diepte, een beetje zoals snorharen bij een kat. Bij veel wedstrijden mogen die haren niet meer afgeschoren worden."
+      ]
+    },
+    {
+      "id": "hart",
+      "name": "Hart en longen",
+      "paragraphs": [
+        "In rust slaat een paardenhart ongeveer 28 tot 44 keer per minuut. Dat is trager dan bij een mens. In galop kan het voorbij 200 gaan.",
+        "De longen zijn groot. Een paard ademt bijna alleen door de neus, niet door de mond. Stof in hooi of een dichte stal maakt ademen moeilijker."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "schoft",
+      "prompt": "Waar meet je de hoogte van een paard?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Aan de oren"
+        },
+        {
+          "id": "b",
+          "label": "Op de schoft, waar de hals in de rug overgaat"
+        },
+        {
+          "id": "c",
+          "label": "Aan de hoef"
+        }
+      ],
+      "answer": "b",
+      "why": "De schoft blijft dezelfde plek, ook als het paard de kop hoog of laag houdt."
+    },
+    {
+      "id": "slapen",
+      "prompt": "Waarom kan een paard rechtop dutten?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Omdat pezen en gewrichten de benen kunnen op slot zetten"
+        },
+        {
+          "id": "b",
+          "label": "Omdat het nooit echt slaap nodig heeft"
+        },
+        {
+          "id": "c",
+          "label": "Omdat de hoeven aan de grond kleven"
+        }
+      ],
+      "answer": "a",
+      "why": "Dat lichte dutten kan rechtop. Voor diepe slaap gaat een paard toch liggen."
+    },
+    {
+      "id": "braken",
+      "prompt": "Kan een paard overgeven?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Ja, net als een mens"
+        },
+        {
+          "id": "b",
+          "label": "Nee, de maag laat dat bijna niet toe"
+        },
+        {
+          "id": "c",
+          "label": "Alleen als het een veulen is"
+        }
+      ],
+      "answer": "b",
+      "why": "Daarom moet voer proper zijn. Wat erin gaat, moet langs de darmen verder."
+    },
+    {
+      "id": "dracht",
+      "prompt": "Hoe lang draagt een merrie een veulen?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Ongeveer drie maanden"
+        },
+        {
+          "id": "b",
+          "label": "Ongeveer elf maanden"
+        },
+        {
+          "id": "c",
+          "label": "Ongeveer twee jaar"
+        }
+      ],
+      "answer": "b",
+      "why": "Reken op ongeveer 340 dagen. Dat is lang voor een zoogdier van deze maat."
+    },
+    {
+      "id": "tolt",
+      "prompt": "Wat is tölt?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Een kleur"
+        },
+        {
+          "id": "b",
+          "label": "Een viertaktgang van de IJslander"
+        },
+        {
+          "id": "c",
+          "label": "Een soort hoefijzer"
+        }
+      ],
+      "answer": "b",
+      "why": "Naast stap, draf en galop hebben veel IJslanders deze extra, heel gelijke gang."
+    },
+    {
+      "id": "haflinger",
+      "prompt": "Welk ras is altijd vos met een lichte manen?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Haflinger"
+        },
+        {
+          "id": "b",
+          "label": "Fries paard"
+        },
+        {
+          "id": "c",
+          "label": "Camargue"
+        }
+      ],
+      "answer": "a",
+      "why": "De Fries is bijna altijd zwart. De Camargue wordt witgrijs. De Haflinger blijft vos."
+    },
+    {
+      "id": "przewalski",
+      "prompt": "Wat klopt over het Przewalskipaard?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Het is een pony van de Shetlandeilanden"
+        },
+        {
+          "id": "b",
+          "label": "Het is een wilde soort, geen ontsnapt huispaard"
+        },
+        {
+          "id": "c",
+          "label": "Het is een ander woord voor Engels volbloed"
+        }
+      ],
+      "answer": "b",
+      "why": "De mustang stamt van huispaarden af. De takhi, het Przewalskipaard, is een eigen wilde lijn."
+    },
+    {
+      "id": "eten",
+      "prompt": "Waarom eet een paard zo veel uren per dag?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Omdat de maag klein is en gemaakt voor voortdurend grazen"
+        },
+        {
+          "id": "b",
+          "label": "Omdat het anders zijn kleur verliest"
+        },
+        {
+          "id": "c",
+          "label": "Omdat het geen tanden heeft"
+        }
+      ],
+      "answer": "a",
+      "why": "Kleine beetjes, de hele dag: zo werken maag en darmen het best."
+    },
+    {
+      "id": "brabant",
+      "prompt": "Welk zwaar ras komt uit Brabant?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Belgisch trekpaard"
+        },
+        {
+          "id": "b",
+          "label": "Fjord"
+        },
+        {
+          "id": "c",
+          "label": "Arabier"
+        }
+      ],
+      "answer": "a",
+      "why": "Het Belgisch trekpaard is het zware vospaard uit Brabant. Fjord en Arabier komen van veel verder."
+    },
+    {
+      "id": "vlucht",
+      "prompt": "Wat doet een paard vaak eerst als het schrikt?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Het valt meteen in een diepe slaap"
+        },
+        {
+          "id": "b",
+          "label": "Het wil ruimte, want het is een vluchtdier"
+        },
+        {
+          "id": "c",
+          "label": "Het begint altijd te grazen"
+        }
+      ],
+      "answer": "b",
+      "why": "Vluchten eerst, daarna opnieuw kijken. Daarom nader je rustig en zichtbaar."
+    },
+    {
+      "id": "garnaal",
+      "prompt": "Waar vangen mensen nog garnalen te paard?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Oostduinkerke, aan de Vlaamse kust"
+        },
+        {
+          "id": "b",
+          "label": "Op de heide in de Hoge Venen"
+        },
+        {
+          "id": "c",
+          "label": "Alleen in een circus"
+        }
+      ],
+      "answer": "a",
+      "why": "Oostduinkerke is de enige plaats ter wereld waar dit nog gebeurt. Het paard is een Belgisch trekpaard."
+    },
+    {
+      "id": "ros",
+      "prompt": "Wat is het Ros Beiaard van Dendermonde?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Een levend renpaard"
+        },
+        {
+          "id": "b",
+          "label": "Een groot houten paard dat mannen dragen"
+        },
+        {
+          "id": "c",
+          "label": "Een soort hoefijzer"
+        }
+      ],
+      "answer": "b",
+      "why": "Om de tien jaar dragen de Pijnders het door de stad. Op de rug zitten vier broers."
+    },
+    {
+      "id": "draf-tel",
+      "prompt": "Hoeveel tellen hoor je in een gewone draf?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Twee"
+        },
+        {
+          "id": "b",
+          "label": "Zeven"
+        },
+        {
+          "id": "c",
+          "label": "Eén, want alle hoeven landen samen"
+        }
+      ],
+      "answer": "a",
+      "why": "De diagonale paren landen samen. Daarom is de draf een tweetakt, ook al zijn er vier hoeven."
+    },
+    {
+      "id": "smid",
+      "prompt": "Wie bekapt de hoef en zet desnoods een ijzer?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "De hoefsmid"
+        },
+        {
+          "id": "b",
+          "label": "De menner"
+        },
+        {
+          "id": "c",
+          "label": "Het veulen zelf"
+        }
+      ],
+      "answer": "a",
+      "why": "De hoefsmid leest de hoef. De dierenarts behandelt ziekte. Dat zijn twee beroepen."
+    },
+    {
+      "id": "pegasus-v",
+      "prompt": "Wat klopt over Pegasus?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Het is een ras met vleugels dat nog in Griekenland graast"
+        },
+        {
+          "id": "b",
+          "label": "Het is een verhaalpaard. Een echt paard heeft geen vleugels"
+        },
+        {
+          "id": "c",
+          "label": "Het is een andere naam voor de Fries"
+        }
+      ],
+      "answer": "b",
+      "why": "Vleugels passen niet op het skelet van een paard. Pegasus is een idee, en ook een sterrenbeeld."
+    },
+    {
+      "id": "narwal",
+      "prompt": "Wat lag er vaak in een schatkamer als ‘eenhoornhoorn’?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "De tand van een narwal"
+        },
+        {
+          "id": "b",
+          "label": "Een gewone hoef"
+        },
+        {
+          "id": "c",
+          "label": "De hoorn van een volwassen Arabier"
+        }
+      ],
+      "answer": "a",
+      "why": "De narwal is een walvis met één lange tand. Het paard met de hoorn is het verhaal dat mensen erop legden."
+    },
+    {
+      "id": "hans-q",
+      "prompt": "Waarom tikte Kluger Hans het juiste aantal?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Hij las minieme signalen van de vragensteller"
+        },
+        {
+          "id": "b",
+          "label": "Hij had mensentaal en wiskunde geleerd"
+        },
+        {
+          "id": "c",
+          "label": "De hoef telde vanzelf"
+        }
+      ],
+      "answer": "a",
+      "why": "Als de vragensteller het antwoord niet kende, stopte het wonder. Hans was slim in mensen."
+    },
+    {
+      "id": "pk-q",
+      "prompt": "Wat is een paardenkracht?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Een rekenmaat voor machines, ongeveer 736 watt"
+        },
+        {
+          "id": "b",
+          "label": "Het gewicht van een Belgisch trekpaard"
+        },
+        {
+          "id": "c",
+          "label": "Een gang, tussen stap en draf"
+        }
+      ],
+      "answer": "a",
+      "why": "James Watt vergeleek een stoommachine met een werkpaard. Het getal is een afspraak, geen dier."
+    }
+  ],
+  "jobs": [
+    {
+      "id": "garnaal",
+      "title": "Garnaalvisser te paard",
+      "place": "Oostduinkerke, aan de Vlaamse kust",
+      "image": "/horses/garnaal.jpg",
+      "imageAlt": "Een zwaar vospaard stapt door ondiep zeewater, met een visser in gele oliejas en een groot net",
+      "paragraphs": [
+        "In Oostduinkerke, bij Koksijde, stappen zware paarden de Noordzee in om grijze garnalen te vangen. Het is het enige oord ter wereld waar dat nog gebeurt. Sinds 2013 staat de garnaalvisserij te paard op de lijst van immaterieel erfgoed van UNESCO.",
+        "Het paard is een Belgisch trekpaard, ook Brabander genoemd. Het is rustig in de branding en sterk genoeg voor een trechtervormig net van ongeveer zeven bij tien meter. Twee houten planken houden het net open. Een ketting sleept over het zand. Die schok doet de garnalen opspringen, het net in.",
+        "Het paard loopt evenwijdig met de kust, soms tot aan de borst in het water. Het strand helt hier zacht en heeft geen golfbrekers, dus men kan ver het ondiepe in. Rond laagwater duurt een tocht ongeveer drie uur: van anderhalf uur voor laagtij tot anderhalf uur erna. Om het halfuur gaat het terug naar het strand. Het net wordt geleegd en de vangst gezeefd. Krabben moeten er snel uit, anders knippen ze de garnalen stuk.",
+        "In de koudste wintermaanden blijft het span aan land. Er zijn een vijftiental erkende paardenvissers, uit families die het ambacht doorgeven. De opleiding duurt jaren. Wie slaagt, krijgt de traditionele zuidwester: de hoed die zegt dat je echt mee de zee in mag."
+      ],
+      "anecdote": "Trekpaarden verloren na 1950 veel werk op de akker, omdat tractoren kwamen. Aan zee kregen ze een nieuwe taak. Wat op het land ophield, stapte het water in. Het NAVIGO-museum in Oostduinkerke bewaart dat verhaal, naast de netten en de foto’s.",
+      "remember": "Niet elk groot paard mag de zee in. Het dier moet de golven kennen, de stem van zijn visser, en het moment waarop het net te zwaar trekt."
+    },
+    {
+      "id": "bos",
+      "title": "Houtsleper in het bos",
+      "place": "Ardennen en andere kwetsbare bossen",
+      "image": "/horses/bos.jpg",
+      "imageAlt": "Een voskleurig trekpaard sleept een boomstam over een mosrijk bospad, een begeleider stapt mee",
+      "paragraphs": [
+        "Een machine is snel, maar ze drukt de bodem dicht. Op een nat bospad, of waar jonge planten moeten blijven staan, werkt een paard stiller. In de Ardennen sleept een Ardenner nog stammen uit het bos. Dat heet uitslepen.",
+        "Het paard trekt één stam, of een kleine sleep, over een spoor dat het zelf kiest. De hoeven raken de grond, ze scheuren hem niet open zoals banden. De begeleider stapt aan de schouder en spreekt korte woorden. Het dier kent starten, blijven en een bocht om een boom.",
+        "Dit is geen toneel voor toeristen alleen. In natuurgebieden in België, Frankrijk en Luxemburg is het soms de beste manier om hout te halen zonder het bos kapot te rijden. Het ras dat hier past, is zwaar, kortbenig en kalm: de Ardenner."
+      ],
+      "anecdote": "Een goed bospaard kijkt zelf naar de wortels. Het zet de hoef naast de steen, niet erop. Die aandacht leer je niet in een namiddag. Het dier en de sleper werken jaren samen.",
+      "remember": "Kracht is hier traag. Wie jaagt, maakt het paard onzeker en de stam gevaarlijk."
+    },
+    {
+      "id": "hoefsmid",
+      "title": "Hoefsmid",
+      "place": "Op de hoeve, in de stal of aan de smidse",
+      "image": "/horses/hoefsmid.jpg",
+      "imageAlt": "Een hoefsmid in een leren schort bekapt de hoef van een rustig paard in een stalgang",
+      "paragraphs": [
+        "De hoef is een levende nagel. Ze groeit, slijt, en raakt uit balans als het paard vooral op zachte bodem staat. De hoefsmid komt daarom ongeveer om de zes tot acht weken. Soms alleen om te bekappen. Soms om een ijzer te zetten, als het werk op steen of asfalt de hoef te snel zou afslijten.",
+        "Eerst wordt de oude zool bekeken. De straal, de wig onder de hoef, moet veerkrachtig blijven. De smid snijdt wat te lang is weg en rasp de wand vlak. Een ijzer wordt warm gesmeed tot het de vorm van díe hoef volgt, of koud geplaatst als dat volstaat. Niet elk paard heeft ijzers nodig. Elk paard heeft wel iemand nodig die de hoef leest.",
+        "Hoefsmid en dierenarts zijn twee beroepen. De smid verzorgt de stand en het ijzer. De arts behandelt ziekte. Ze bellen elkaar wel: een hoef die heet aanvoelt, of een paard dat opeens kreupel is, hoort niet te wachten."
+      ],
+      "anecdote": "Vroeger was de dorpssmid ook hoefsmid. Hij maakte ploegen én ijzers. Vandaag is het een vak apart, met een lange leerweg. De geur van hoorn en heet ijzer hoort erbij. De paarden kennen die geur en blijven staan als de hand rustig is.",
+      "remember": "Een ijzer is een stuk gereedschap, geen sieraad. Het moet passen, of het blijft af."
+    },
+    {
+      "id": "menner",
+      "title": "Menner",
+      "place": "Op de bok van een wagen",
+      "image": "/horses/mennen.jpg",
+      "imageAlt": "Een donker paard trekt een open rijtuig over kasseien, de menner houdt de leidsels",
+      "paragraphs": [
+        "Een menner zit niet op het paard. Hij zit op de bok en stuurt met leidsels, stem en zweep als teken, niet als straf. Eén paard voor een sjees, twee naast elkaar, of vier in het groot mennen: het principe blijft. Het paard moet de wagen voelen zonder te schrikken van wat achter hem rolt.",
+        "In Vlaanderen zie je nog menners met een Belgisch trekpaard, een Fries of een warmer rijpaard. Op een bruiloft, een oogstfeest of een wedstrijd. Mennen is ook een sport, met een dressuurproef, een marathon en een hindernisparcours waar de wagen precies tussen de poortjes moet.",
+        "Het gevaar zit in de combinatie. Een paard alleen kan keren. Een paard aan een dissel moet weten dat de wagen volgt. Daarom leert men eerst op een rustige weg, met een menner die het span kent. Kinderen rijden niet alleen mee op de bok."
+      ],
+      "anecdote": "Op kasseien hoor je het ijzer tikken in een vaste maat. Die maat vertelt of het paard in stap blijft of vanzelf in draf valt. Een goede menner hoort dat eerder dan hij het ziet.",
+      "remember": "De leidsels zijn een gesprek. Trekken zonder loslaten maakt een harde mond, geen betere bocht."
+    },
+    {
+      "id": "jaagpad",
+      "title": "Het paard op het jaagpad",
+      "place": "Langs kanalen en rivieren, vroeger",
+      "paragraphs": [
+        "Voor er motoren op schepen stonden, trok een paard de boot voort. Het liep op het jaagpad, de smalle weg naast het water. Een lange lijn verbond het tuig met de mast. De schipper stuurde. Het paard leverde de kracht.",
+        "In Vlaanderen gebeurde dat op kanalen en bij kleine rivieren. Het pad moest vlak blijven, en bruggen kregen een doorgang zodat de lijn niet bleef haken. Een jaagpaard stapte uren, in een tempo dat de boot niet liet slingeren.",
+        "Dat werk is verdwenen. De paden zijn gebleven, nu voor fietsers en wandelaars. Als je langs een kanaal fietst, loop je soms letterlijk in de sporen van die paarden."
+      ],
+      "anecdote": "De lijn mocht niet te kort zijn. Anders trok het paard de boeg naar de oever. Te lang, en de boot zwierde naar het midden. De lengte was een vak, net als de hoef.",
+      "remember": "Niet elk paardenberoep zie je nog. Sommige zitten verstopt in het landschap."
+    },
+    {
+      "id": "arts",
+      "title": "Paardenarts en tandarts",
+      "place": "Op stal, dag en nacht",
+      "paragraphs": [
+        "Een paardenarts studeert eerst dierenarts en leert daarna het paard apart. Een koliek, een wond, een veulen dat niet drinkt: vaak moet het meteen. Paarden verstoppen pijn. Wie alleen op een stille stal let, ziet het te laat. De arts leest adem, hart, tandvlees en de manier waarop het dier staat.",
+        "De tandarts van het paard is soms dezelfde arts, soms een aparte specialist. De kiezen slijten scheef. Scherpe punten snijden in de wang. Het paard eet dan trager of laat propjes hooi vallen, de ‘proppen’. Raspen maakt de kauwvlakte weer bruikbaar. Een paard kan bijna niet braken, dus een mond die niet kauwt, is geen kleinigheid.",
+        "Geen van beide beroepen is een controle van één keer per jaar en klaar. Een stal belt omdat er iets veranderd is: niet gegeten, een dik been, een hoef die warmer is dan de andere."
+      ],
+      "anecdote": "Een arts vraagt eerst: sinds wanneer, wat at het, ligt het vaker, zweet het? De antwoorden van de verzorger zijn de helft van het onderzoek. Daarom telt iemand die het paard elke dag ziet.",
+      "remember": "Deze gids legt uit. Ze vervangt de arts niet, en ook de hoefsmid niet."
+    },
+    {
+      "id": "politie",
+      "title": "Politie te paard",
+      "place": "In de stad, bij drukte",
+      "paragraphs": [
+        "Een agent te paard zit hoog. In een menigte ziet hij verder dan iemand te voet, en mensen maken vanzelf een pad. Het paard is daarop geoefend: vlaggen, muziek, een paraplu die openspringt. Schrikken mag, weglopen niet.",
+        "In Brussel en bij grote evenementen worden nog ruiters ingezet. Het dier werkt korte, intensieve diensten en staat daarna op stal of in een paddock, niet de hele dag op de stenen. De hoeven en het hoofd — het bit, de rust — worden na elke dienst nagekeken.",
+        "Het is geen circusnummer. Het paard is een collega met een eigen grens. Een ruiter die dat vergeet, heeft geen veilig span."
+      ],
+      "anecdote": "Tijdens de opleiding loopt het jonge politiepaard eerst langs rustige straten. Pas later komt de markt, de tram, de trommel. Elke nieuwe schrik wordt klein gemaakt voor hij groot wordt.",
+      "remember": "Hoog zitten helpt alleen als het paard onder je kalm blijft."
+    },
+    {
+      "id": "stal",
+      "title": "Verzorger, fokker, instructeur",
+      "place": "Elke morgen, voor de anderen arriveren",
+      "paragraphs": [
+        "De verzorger is vaak de eerste die ziet dat een paard niet zichzelf is. Mest ruimen, water, hooi, benen afvoelen, deken recht leggen: het klinkt gewoon en het is het echte werk. Zonder die ogen faalt elk mooier beroep eromheen.",
+        "Een fokker kiest ouders met een plan. Niet ‘het liefste veulen’, wel een merrie en een hengst waarvan de bouw, de gangen en het karakter bij elkaar passen. Het stamboek schrijft de familie op. Een veulen krijgt een naam, een chip en een papier. Daarna duurt het jaren voor je weet of de keuze klopte.",
+        "Een instructeur leert de ruiter, niet alleen het paard. Helm, afstand, een stem die niet gilt. Hippotherapie is weer iets anders: daar werkt een therapeut met de stap van het paard. Die stap beweegt het bekken van de ruiter in een ritme dat op wandelen lijkt. Het is zorg, geen toverij, en altijd met een volwassene die het dier kent."
+      ],
+      "anecdote": "Vraag op een stal niet meteen wie de duurste ruiter is. Vraag wie het hooi vanmorgen heeft nagekeken op stof, en wie merkte dat de ruin linksachter een tik gaf. Dat is het beroep dat de rest mogelijk maakt.",
+      "remember": "Paardenberoepen lijken verschillend. Ze steunen allemaal op iemand die blijft kijken."
+    },
+    {
+      "id": "jockey",
+      "title": "Jockey en trainer",
+      "place": "Op de renbaan, en ’s ochtends al op het zand",
+      "image": "/horses/renbaan.jpg",
+      "imageAlt": "Een donker volbloedpaard staat alleen op een mistige grasbaan bij dageraad",
+      "paragraphs": [
+        "Een jockey rijdt een renpaard in galop over een baan. Het werk zit in een kleine houding, een kort gesprek met de hand, en de keuze wanneer je vraagt en wanneer je wacht. De race duurt minuten. De opleiding duurt jaren. In België hoort daar ook Waregem bij, en daarnaast de draversport: paarden die voor een sulky draven, met een menner in plaats van een ruiter op de rug.",
+        "De trainer is de andere helft. Hij bepaalt de ochtend, het voer, de hoef, de dag waarop een paard niet start. Een volbloed is gebouwd om snel te zijn. Snel en gezond tegelijk vraagt iemand die nee durft te zeggen.",
+        "Gewicht hoort bij dit beroep, en dat is geen spel voor een kind. Een groeiend lichaam hoort niet lichter gemaakt te worden om op een renpaard te passen. Dit is volwassen werk. In deze gids blijft het bij kijken en begrijpen."
+      ],
+      "anecdote": "Red Rum, een van de beroemde paarden in deze gids, werd op het strand getraind omdat de zee zijn benen hielp. De baan is het stuk dat je op televisie ziet. Het strand, de stal en de ochtendmist zijn het beroep.",
+      "remember": "De finish is een moment. Het paard leeft de rest van de dag."
+    },
+    {
+      "id": "post",
+      "title": "Postpaard en postkoets",
+      "place": "Op de weg, voor de trein er was",
+      "image": "/horses/postkoets.jpg",
+      "imageAlt": "Twee bruine paarden trekken een donkere koets over een natte laan in de schemer",
+      "paragraphs": [
+        "Voor de spoorweg was het paard de post. Een ruiter met een tas, of een koets met reizigers, wisselde onderweg van span. Op een relais stonden verse paarden. Het vermoeide span at en rustte. Zo kon een bericht verder dan één dier op één dag aankon.",
+        "In de Lage Landen reed de post over kasseien en modder. Herbergen heetten soms nog ‘posthuis’ toen de paarden al weg waren. De naam is een fossiel van een beroep, zoals het jaagpad een fossiel is van de trekschuit.",
+        "Een koets is zwaar. Twee paarden of vier delen de last, en de menner moet weten welk dier trekt en welk dier zich inhoudt. Een span is geen kopie van twee dezelfde paarden. Het is een afspraak."
+      ],
+      "anecdote": "Het woord paardenkracht komt uit die wereld. James Watt vergeleek een stoommachine met het werk van een paard, zodat kopers het zouden snappen. Eén paardenkracht is ongeveer 736 watt. Een levend paard levert dat niet de hele dag. De maat is een afspraak, geen dier.",
+      "remember": "Als een herberg ‘het postpaard’ heet, sta je op een oude halte. Het dier zelf staat er niet meer."
+    },
+    {
+      "id": "film",
+      "title": "Het paard op de set",
+      "place": "Naast de camera, zelden in de aftiteling",
+      "paragraphs": [
+        "Een filmpaard leert cues, zoals een ander paard een stem leert. Blijven staan als een doek klappert. Achteruit op een woord. Het hoofd draaien naar een hand. Wat gevaarlijk oogt, wordt vaak geknipt uit stukjes, met een tweede paard dat de sprong doet en een derde dat stilstaat voor het close-up.",
+        "De trainer op de set is de baas van wat het dier die dag aankan. Licht, lawaai, een natte bodem, een vreemde geur: een paard zegt nee met zijn lichaam lang voor een mens het ziet. Een goede set stopt dan.",
+        "Boeken doen iets anders. Black Beauty liet lezers nadenken over het bit en de stad. Een verzonnen paard heeft geen hoef, maar het kan een echte stal veranderen. Op de bladzijde van de beroemde paarden staan die papieren dieren naast de echte, met het verschil erbij."
+      ],
+      "anecdote": "Trigger, de palomino uit de westerns, was een echt paard met een echte naam: Golden Cloud. De held naast hem was één personage. Het paard was soms een ander dier met dezelfde kleur. Goud in beeld is geen garantie dat het dezelfde rug is.",
+      "remember": "Achter een mooie scène zit een dier dat daarna gewoon wil eten. Dat geldt ook voor een stoet en een renbaan."
+    }
+  ],
+  "legends": {
+    "kinds": {
+      "mythe": "Mythe",
+      "geloof": "Geloof en overlevering",
+      "sage": "Sage en geschiedenis"
+    },
+    "items": [
+      {
+        "id": "pegasus",
+        "title": "Pegasus",
+        "kind": "mythe",
+        "origin": "Griekse verhalen",
+        "image": "/horses/pegasus.jpg",
+        "imageAlt": "Een wit gevleugeld paard vliegt laag over een maanverlichte rotskust",
+        "paragraphs": [
+          "Pegasus is een paard met vleugels. In de Griekse verhalen drinkt hij aan een bron en vliegt hij hoger dan een gewoon paard ooit kan. De held Bellerophon probeert op zijn rug de berg van de goden te bereiken. Het paard gaat door. De ruiter valt.",
+          "Daarna blijft Pegasus aan de hemel. Mensen wezen een groep sterren aan en zeiden: dat is hij. Een sterrenbeeld is een tekening die wij op de nacht leggen. Het paard zelf heeft daar nooit gestaan.",
+          "Het geboorteverhaal is hard. Er wordt verteld dat Pegasus tevoorschijn kwam toen de Gorgo Medusa stierf. Je hoeft dat stuk niet mooi te vinden. Oude verhalen bewaren soms geweld naast wonder."
+        ],
+        "study": "Vleugels aan een paard komen in de natuur niet voor. De botten van een paard dragen een zwaar lijf op de grond. Een vogel heeft holle botten en een andere borstkas. Pegasus is dus een idee: vrijheid, en de grens van hoe hoog een mens mag willen.",
+        "line": "Een echt paard springt. Het vliegt niet. Het verhaal vliegt wel."
+      },
+      {
+        "id": "eenhoorn",
+        "title": "De eenhoorn",
+        "kind": "mythe",
+        "origin": "Europa, middeleeuwen, en oudere vertalingen",
+        "image": "/horses/eenhoorn.jpg",
+        "imageAlt": "Een bleek paard met één gedraaide hoorn in een donker bos bij maanlicht",
+        "paragraphs": [
+          "Een eenhoorn is een paard of een geitachtig dier met één hoorn op het voorhoofd. In middeleeuwse boeken is het wild, snel en bijna niet te vangen. Op wandtapijten jagen mensen het. In die platen is de hoorn een spiraal, lang en bleek.",
+          "Er is nooit een skelet van zo’n dier gevonden. Wat mensen wél in schatkamers legden, was vaak de tand van een narwal: een walvis met één lange tand die als een hoorn oogt. Van ver lijkt die tand op wat de tapijten tonen.",
+          "In sommige oude bijbelvertalingen staat het woord eenhoorn. Het Hebreeuwse woord dat daarachter zit, wijst eerder naar een wilde os of een oeros dan naar een paard met een hoorn. Een vertaling kan een dier verzinnen."
+        ],
+        "study": "De eenhoorn is een mooi voorbeeld van hoe een verhaal en een echt dier in elkaar haken. De narwal is echt. De tapijten zijn echt. Het paard met de hoorn is de brug die mensen ertussen bouwden.",
+        "line": "Vraag bij een wonderdier altijd: welk echt dier heeft dit verhaal gevoed?"
+      },
+      {
+        "id": "sleipnir",
+        "title": "Sleipnir",
+        "kind": "mythe",
+        "origin": "Noordse verhalen",
+        "image": "/horses/sleipnir.jpg",
+        "imageAlt": "Een grijs paard met acht benen op een bergkam onder noorderlicht",
+        "paragraphs": [
+          "Sleipnir is het paard van Odin. Hij heeft acht benen. In de verhalen is hij de snelste die er bestaat, en hij durft de weg naar de dodenwereld. De god Hermod rijdt hem om iemand terug te vragen die niet meer leeft.",
+          "Zijn afkomst is een godenverhaal, geen biologie. Loki, die van gedaante kan veranderen, wordt in het verhaal een merrie en krijgt Sleipnir bij de hengst Svadilfari. Acht benen zijn hier een teken van snelheid over grenzen, niet een bouwplan voor een stal.",
+          "Als je een gewoon paard in galop fotografeert, zie je soms zoveel benen door elkaar dat het lijkt alsof er te veel zijn. De mythe doet dat met opzet. Meer benen, meer wereld die hij aankan."
+        ],
+        "study": "Acht benen zouden een paard niet sneller maken. Pezen en evenwicht zijn op vier benen gebouwd. Het getal acht zegt iets over de god, niet over de hoef. Zo lees je een mythe: eerst het beeld, dan de vraag wat het beeld wil.",
+        "line": "Sleipnir is een gedachte over snelheid en de dood, in de vorm van een paard."
+      },
+      {
+        "id": "kelpie",
+        "title": "De kelpie",
+        "kind": "mythe",
+        "origin": "Schotland en andere waterverhalen",
+        "image": "/horses/kelpie.jpg",
+        "imageAlt": "Een zwart nat paard staat tot de borst in een donker meer bij schemer",
+        "paragraphs": [
+          "Een kelpie is een waterpaard. Het staat aan de oever en lijkt rustig, soms met een zadel dat uit zijn eigen vel groeit. Wie opstapt, kleeft vast. Het paard duikt. In het verhaal kom je niet meer boven.",
+          "Zulke verhalen werden aan kinderen verteld bij diepe meren en snelle beken. Het gevaar is echt: koud water, modder, een stroming die je niet ziet. Het paard is de vorm die het gevaar kreeg, zodat je het onthoudt.",
+          "Er bestaan familie van dit verhaal. In Ierland spreekt men van een each-uisge. Het idee blijft: een mooi paard op de verkeerde plek is een waarschuwing, geen uitnodiging."
+        ],
+        "study": "Geen enkel paard jaagt vanuit een meer op mensen. Een echt paard dat in het water staat, zoals bij de garnaalvissers, doet dat omdat het de zee kent en een mens naast zich heeft. De kelpie keert dat beeld om. Daarom werkt het verhaal zo hard.",
+        "line": "Dit is een waarschuwing die op een paard lijkt. Het water is het gevaar."
+      },
+      {
+        "id": "hippocamp",
+        "title": "Het zeepaard van de goden",
+        "kind": "mythe",
+        "origin": "Griekse zee",
+        "image": "/horses/hippocamp.jpg",
+        "imageAlt": "De voorhelft van een paard duikt door een stormzee, de achterhelft is een vissenstaart",
+        "paragraphs": [
+          "De hippocampus is half paard, half vis. In de Griekse verhalen trekken zulke dieren de wagen van de zeegod. Op oude mozaïeken zie je de voorbenen slaan en de staart als een vin door de golf.",
+          "Het woord leeft nog. Het zeepaardje dat je in een aquarium ziet, heet in het Latijn ook hippocampus. En diep in de hersenen zit een deel met dezelfde naam, omdat het op een zeepaardje lijkt. Een mythisch dier leende zijn naam aan de wetenschap.",
+          "Een paard kan zwemmen. Het krijgt daar geen schubben van. De hippocampus is de droom van een volk dat van de zee leefde en zijn paarden meenam in die droom."
+        ],
+        "study": "Let op de naamsprong. Als een dokter ‘hippocampus’ zegt, bedoelt ze geen god. Ze bedoelt een stuk brein dat herinneringen helpt bewaren. Verhalen laten woorden achter, lang nadat niemand meer in de wagen van de zee gelooft.",
+        "line": "Half paard, half vis: een beeld. De naam ervan zit nu in de biologie."
+      },
+      {
+        "id": "zon",
+        "title": "De paarden van de zon",
+        "kind": "mythe",
+        "origin": "Griekenland",
+        "image": "/horses/zonpaarden.jpg",
+        "imageAlt": "Vier vurige paarden trekken een bronzen wagen door een brandende dageraad",
+        "paragraphs": [
+          "Elke morgen, zo vertelden de Grieken, trekken paarden de zon over de hemel. De god Helios houdt de leidsels. De paarden heten in sommige lijsten Pyrois, Eous, Aethon en Phlegon: de vurige, de ochtendlijke, de brandende en de vlammende.",
+          "Phaethon, een jongen, vraagt één dag die leidsels. De paarden voelen dat de hand anders is. Ze verlaten de baan. De aarde schroeit. Een andere god moet de wagen stoppen. Het is een verhaal over kracht die te groot is voor wie haar nog niet kent.",
+          "Ook andere volken lieten de zon door paarden trekken. In de Noordse verhalen doen Skinfaxi en Hrímfaxi de dag en de nacht. Telkens is het paard de motor van de hemel, omdat mensen paarden kenden als het snelste wat ze hadden."
+        ],
+        "study": "De zon heeft geen wagen nodig. Ze staat stil ten opzichte van de aarde die draait — dat wist men later. Het verhaal blijft bruikbaar als les: een span dat je niet aankan, ga je niet mennen. Dat geldt in een mythe en op een weg.",
+        "line": "De paarden van de zon verklaren de dag. Ze verklaren ook waarom je geen kracht leent die je niet kunt sturen."
+      },
+      {
+        "id": "epona",
+        "title": "Epona",
+        "kind": "geloof",
+        "origin": "Gallië en het Romeinse leger",
+        "paragraphs": [
+          "Epona is een godin van de paarden. Haar naam hangt aan het Keltische woord voor paard. In Gallië, het land dat ook onze streken raakte, kreeg ze beelden: een vrouw, een paard, soms een veulen dat drinkt. Ruiters van het Romeinse leger namen haar verering mee naar forten ver van huis.",
+          "Ze beschermde niet alleen de oorlog. Mensen vroegen haar om de merrie, het veulen, de reis. Een godin van het paard is een godin van wat een huis staande houdt, als het huis van paarden afhangt.",
+          "Beelden van Epona zijn gevonden op stenen, niet in een stal. Het geloof is geschiedenis. De paarden waarvoor men bad, waren gewone dieren met hooi en hoeven."
+        ],
+        "study": "In onze gewesten zaten Keltische en later Romeinse gebruiken door elkaar. Een steen met een vrouw en een paard is een bron. Je leest haar niet als een sprookje alleen, en niet als een bewijs dat de godin ‘echt’ naast de wei stond. Ze toont wat mensen belangrijk genoeg vonden om in steen te zetten.",
+        "line": "Epona is geloof uit een tijd waarin een paard het verschil maakte tussen aankomen en blijven staan."
+      },
+      {
+        "id": "buraq",
+        "title": "Al-Buraq",
+        "kind": "geloof",
+        "origin": "Islamitische overlevering",
+        "paragraphs": [
+          "In de islamitische overlevering is er een rijdier dat Buraq heet. Het draagt de profeet tijdens de nachtreis, van Mekka naar Jeruzalem, sneller dan een verhaal kan bijhouden. Beschrijvingen verschillen. Vaak is het iets tussen een muildier en een paard, wit, en in latere kunst soms met vleugels.",
+          "Dit is een geloofsverhaal, geen fabel om uit te lachen en geen dier voor in een stal. Moslims bewaren het als deel van het leven van de profeet. In deze gids staat het naast andere paardgedaanten, omdat het laat zien hoe wijd het beeld van het paard reikt.",
+          "Op schilderijen uit Perzië en het Ottomaanse rijk krijgt Buraq een mensenhoofd of een rijke tooi. Dat is kunst van een bepaalde tijd, niet de enige vorm. Een verhaal verandert van jas als het van hand tot hand gaat."
+        ],
+        "study": "Als je over het geloof van iemand anders leest, houd je de toon die je voor je eigen verhalen ook wilt. Je mag vragen stellen. Je hoeft het niet te geloven om het juist te vertellen. De vraag hier is: welk dier kiezen mensen als ze een reis bedoelen die groter is dan een dagrit?",
+        "line": "Buraq is een rijdier uit een heilige nacht, geen ras met een stamboek."
+      },
+      {
+        "id": "kanthaka",
+        "title": "Kanthaka",
+        "kind": "geloof",
+        "origin": "Boeddhistische verhalen",
+        "paragraphs": [
+          "Kanthaka is het paard van Siddhartha, de prins die later de Boeddha wordt. In het verhaal verlaat de prins ’s nachts het paleis. Het paard zet zijn hoeven zo zacht dat de wachters niet wakker worden. Een dienaar houdt de staart. Zo begint een ander leven.",
+          "Er wordt bij verteld dat Kanthaka daarna sterft van verdriet, omdat hij zijn ruiter niet meer draagt. Dat is liefde in de vorm van een verhaal. Het zegt hoe zwaar een afscheid kan wegen, niet hoe de biologie van een paard werkt.",
+          "Op oude reliëfs, onder meer uit India, zie je het paard zonder ruiter op de rug: de prins is al vertrokken, of het beeld toont de stap zelf. Kunstenaars kozen wat ze wilden dat je eerst zag."
+        ],
+        "study": "Een paard sterft niet van verdriet op de manier van dit verhaal. Het kan wel een maat missen, eten laten staan, onrustig zoeken. Het verhaal vergroot een echt gevoel tot een teken. Zo werken heiligenverhalen vaak.",
+        "line": "Kanthaka is het paard van een vertrek. De zachte hoef is het detail dat je onthoudt."
+      },
+      {
+        "id": "uchchai",
+        "title": "Uchchaihshravas",
+        "kind": "mythe",
+        "origin": "India, het karnen van de oceaan",
+        "paragraphs": [
+          "Uchchaihshravas is een wit paard met zeven hoofden. In het hindoeïstische verhaal ontstaat hij als goden en tegenstanders de oceaan karnen, zoals je boter uit melk draait. Uit die zee komen schatten. Het paard is er een van. Hij hoort bij Indra, de god van de hemel.",
+          "Zeven hoofden zijn geen fout in de tekening. Het getal zegt volheid, koningschap, iets dat één mond niet kan uitspreken. Net als de acht benen van Sleipnir is het een overdrijving met een bedoeling.",
+          "Het levende paard dat in India en Perzië bewonderd werd, was wit of glanzend, snel, een koningsdier. De mythe zet dat paard op zijn grootst."
+        ],
+        "study": "Het karnen van de oceaan is een scheppingsverhaal. Er komen ook een godin, een gif en een drank van onsterfelijkheid uit. Het paard staat dus niet alleen. Het hoort in een lijst van dingen die de wereld ordenen. Als je één dier uit die lijst haalt, vertel erbij dat de lijst langer is.",
+        "line": "Zeven hoofden: niet een stalpaard, wel een teken van een koninklijk wit paard."
+      },
+      {
+        "id": "tianma",
+        "title": "De hemelse paarden",
+        "kind": "sage",
+        "origin": "China, de Han-keizers, en de steppe",
+        "paragraphs": [
+          "Onder de Han-keizer Wudi wilde het hof paarden uit Dayuan, in de streek van Ferghana. Men noemde ze hemelse paarden, tianma. Ze zweetten, zo zei men, bloed. Gedichten werden voor ze geschreven. Er werd oorlog om ze gevoerd.",
+          "Het ‘bloed’ was waarschijnlijk geen wonder. Een parasiet onder de huid kan zweet rood kleuren. Van ver wordt een ziekte een mirakel, en een mirakel een reden om een leger te sturen. Dat is een les die groter is dan het paard.",
+          "Het Akhal-Teke, het goudglanzende paard uit Turkmenistan, staat in deze gids als levend familielid van die beroemde steppenpaarden. De hemel is eraf. De glans van de vacht is gebleven."
+        ],
+        "study": "Hier raken politiek, poëzie en biologie elkaar. De keizer wilde snelheid en aanzien. De dichters wilden een beeld. Het paard wilde water en schaduw. Als je ze uit elkaar haalt, begrijp je waarom een ras beroemd wordt.",
+        "line": "Hemelse paarden waren echte paarden met een bijna goddelijke reputatie. De reputatie zweette bloed. De verklaring is kleiner en interessanter."
+      },
+      {
+        "id": "centaur",
+        "title": "Centauren en Chiron",
+        "kind": "mythe",
+        "origin": "Griekenland",
+        "paragraphs": [
+          "Een centaur is half mens, half paard. In veel verhalen zijn het wilde gasten, te veel wijn, te snelle woede. Eén van hen is anders: Chiron. Hij is een leraar. Helden komen bij hem voor kruiden, muziek en de omgang met wonden.",
+          "Het lijf is een gedachte over de mens. Het paardendeel is kracht en drift. Het mensendeel is de hand die kan kiezen. Chiron kiest de les. De anderen kiezen de drift. Hetzelfde lijf, een ander gebruik.",
+          "Geen bot van een centaur ligt in een museum. Wel liggen er vazen waarop ze vechten of lesgeven. De vaas is de bron. Het wezen is de tekening."
+        ],
+        "study": "Een centaur is geen paard en geen ruiter. Het is de vraag wat er gebeurt als die twee niet meer los van elkaar zijn. Handig als je over ruiters nadenkt: de ruiter die alleen trekt, en het paard dat alleen vlucht, maken samen soms hetzelfde ongeluk als een centaur zonder leraar.",
+        "line": "Chiron is de versie van het verhaal waarin kracht een vak leert."
+      },
+      {
+        "id": "troje",
+        "title": "Het houten paard",
+        "kind": "sage",
+        "origin": "Het Griekse verhaal van Troje",
+        "paragraphs": [
+          "Het paard van Troje leefde niet. Het was een groot houten dier, hol, met soldaten erin. De stad haalde het binnen als een geschenk. ’s Nachts gingen de deuren open. Zo, vertelt het epos, viel een stad die tien jaar niet gevallen was.",
+          "Of het precies zo gebeurde, is een andere vraag. Troje was een echte plaats. Oorlogen waren echt. Een hol paard als krijgslist staat in een gedicht, de Odyssee en latere vertellingen. Archeologen vinden muren. Ze vinden niet vanzelf het houten paard.",
+          "De zin ‘een paard van Troje’ betekent nog altijd: iets dat vriendelijk oogt en iets anders verbergt. Het Ros Beiaard van Dendermonde is ook van hout, maar dat paard verbergt dragers, geen list. Hout alleen maakt het verhaal niet hetzelfde."
+        ],
+        "study": "Dit is het verschil tussen een sage en een opgraving. De sage geeft een beeld dat je onthoudt. De opgraving geeft lagen, brand, potten, muren. Allebei horen ze bij geschiedenis. Ze bewijzen niet hetzelfde.",
+        "line": "Geen adem, geen hoef, wel een paard. Soms is het paard een idee met een buik."
+      },
+      {
+        "id": "bayard",
+        "title": "Beiaard, het paard dat meegroeide",
+        "kind": "sage",
+        "origin": "Het verhaal van de vier Heemskinderen",
+        "image": "/horses/bayard.jpg",
+        "imageAlt": "Een zwaar vospaard staat in de ochtendmist aan een rivier tussen oude eiken",
+        "paragraphs": [
+          "In een middeleeuws verhaal krijgen vier broers een paard, Beiaard. Hij is wild tot de jongste, Reinout, hem wint. Daarna doet hij iets wat geen stalpaard kan: hij wordt langer als er meer broers op zijn rug zitten, zodat hij hen alle vier draagt. Ze vluchten voor de keizer, door bossen en over rivieren.",
+          "Het einde is hard. De keizer eist het paard. In de versie die Dendermonde bewaart, eindigt Beiaard in de Dender. De stad liet hem niet verdwijnen. Om de tien jaar dragen mensen een houten ros door de straten. Dat levende gebruik staat bij de verhalen. Hier staat het gedicht dat eraan voorafging.",
+          "Het beeld op deze bladzijde is gemaakt om die oever te laten zien. Er stond geen schilder naast de rivier in het jaar van het verhaal. Een echt trekpaard groeit niet als je erop klimt. Het draagt één ruiter, of een last die een hoefsmid kan verantwoorden."
+        ],
+        "study": "Een sage en een stoet zijn familie, geen bewijs van elkaar. Het gedicht legt uit waarom de stad een paard draagt. De ommegang legt uit hoe een stad een gedicht levend houdt. Als je ze door elkaar haalt, wordt een houten dier opeens een wonder, of een wonder opeens een gewicht van 800 kilo. Allebei kloppen, op hun eigen bladzijde.",
+        "line": "Beiaard groeit in het verhaal. In Dendermonde wordt hij gedragen."
+      },
+      {
+        "id": "uffington",
+        "title": "Het witte paard in de heuvel",
+        "kind": "sage",
+        "origin": "Uffington, Engeland",
+        "image": "/horses/uffington.jpg",
+        "imageAlt": "Een gestileerd wit krijtpaard, in lijnen gesneden in een groene heuvel onder een donkere lucht",
+        "paragraphs": [
+          "Op een steile heuvel in Oxfordshire ligt een paard van wit krijt. Het is geen standbeeld. Het is een tekening in de grond: lijnen die het gras weghalen tot de witte steen eronder. Van dichtbij zie je stroken. Van ver zie je één dier, met een snavelachtige kop en poten die los van elkaar lijken te staan.",
+          "Het figuur is oud. Onderzoek van de bodem wijst naar de late bronstijd of de vroege ijzertijd, ergens tussen ruwweg 1400 en 600 voor onze jaartelling. Niemand heeft een brief achtergelaten met de reden. Een stamteken, een godin, een zon, een grens: de voorstellen zijn slimmer dan de zekerheid.",
+          "Het gras wil de lijnen terug. Mensen schuren het paard al eeuwen schoon, vroeger als feest, nu als onderhoud. Zonder dat werk verdwijnt het in de heuvel. Het beeld hier is gemaakt naar dat idee. Het is geen luchtfoto van de echte plek."
+        ],
+        "study": "Dit is geen ras en geen mythe met een naam. Het is een spoor. De vorm lijkt niet op een Arabier of een trekpaard, en dat is geen fout van de makers. Ze tekenden een teken, geen portret. Wie een oud beeld ‘niet realistisch’ noemt, vergeet dat realisme niet hun opdracht was.",
+        "line": "Het wit is krijt. Het paard is een lijn die mensen blijven openhouden."
+      },
+      {
+        "id": "elooi",
+        "title": "Sint-Elooi en de hoef",
+        "kind": "geloof",
+        "origin": "Vlaanderen, en de smeden",
+        "paragraphs": [
+          "Elooi leefde in de zevende eeuw. Hij was goudsmid aan een Frankisch hof, later bisschop. In Vlaanderen heet hij Sint-Elooi, beschermheilige van smeden, metaalbewerkers en hoefsmeden. Op 1 december, zijn dag, hadden gilden vroeger hun feest. Ergens zegende men ook de paarden.",
+          "Een verhaal dat aan hem bleef hangen, is te mooi voor een smidse. Hij zou een been van een lastig paard hebben afgenomen, het ijzer erop gezet, en het been weer teruggeplaatst. Het dier liep daarna beter. Dat is een mirakelverhaal. Het is geen handleiding.",
+          "Wat wel echt is: een beroep dat eeuwenlang naast het paard stond. De smid die de hoef leest, het ijzer vormt en het dier laat staan. De legende maakt die vaardigheid zo groot dat ze niet meer van deze wereld lijkt. De hoefsmid van nu doet het tegenovergestelde: klein, precies, en het been blijft eraan."
+        ],
+        "study": "Geloof en vak lopen hier door elkaar. Je kunt het feest van de smeden respecteren zonder het beenverhaal te geloven. De vraag die het verhaal stelt, is waarom mensen een heilige nodig hadden voor een hoef. Omdat een kreupel paard een huis stillegde. Het ijzer was toen geen detail.",
+        "line": "Sint-Elooi herinnert aan de smid. De smid herinnert eraan dat een been eraan blijft."
+      }
+    ]
+  },
+  "famous": [
+    {
+      "id": "bucephalus",
+      "name": "Bucephalus",
+      "when": "Vierde eeuw voor onze jaartelling",
+      "place": "Macedonië, en daarna de tochten van Alexander",
+      "paragraphs": [
+        "Bucephalus is het zwarte paard uit het verhaal van Alexander. Niemand durfde hem. De jongen draaide hem naar de zon, zodat de schaduw achter hem viel. Daarna waren ze een span, jarenlang, tot in Azië.",
+        "Toen het paard stierf, zou Alexander een stad naar hem genoemd hebben, Bucephala, bij de rivier de Hydaspes. Of elke bijzonderheid klopt, schrijven oude auteurs niet alle op dezelfde manier. Dat een vorst zijn paard een naam gaf die bleef, klopt met hoe mensen hun dieren onthouden."
+      ],
+      "anecdote": "De schaduwtruc is de anekdote die iedereen doorvertelt. Ze past bij een echt paard: schrik zit vaak in de hoek van het oog. Of Alexander het zo deed, weten we niet zeker. We weten wel dat het verhaal al meer dan tweeduizend jaar mee gaat."
+    },
+    {
+      "id": "incitatus",
+      "name": "Incitatus",
+      "when": "Eerste eeuw",
+      "place": "Rome",
+      "paragraphs": [
+        "Incitatus was het renpaard van de Romeinse keizer Caligula. Er werd verteld dat het dier een marmeren stal had, een ivoren kribbe, en dat de keizer hem consul wilde maken, een van de hoogste ambten van de stad.",
+        "Die tekst komt van schrijvers die de keizer haatten of belachelijk wilden maken. Een marmeren stal kan opschepperij zijn. Het consulaat is waarschijnlijk een grap of een roddel: kijk hoe leeg jullie ambt is, een paard zou het ook kunnen."
+      ],
+      "anecdote": "Dit is een paard dat beroemd werd door een gerucht. De studie is: wie schrijft, en waarom. Een oud boek is een stem, geen neutrale camera. Incitatus herinnert je daaraan elke keer dat een verhaal te rond klinkt."
+    },
+    {
+      "id": "marengo",
+      "name": "Marengo",
+      "when": "Rond 1793–1831",
+      "place": "Een klein grijs paard, naast Napoleon",
+      "paragraphs": [
+        "Marengo was een kleine schimmel, vaak een Arabier genoemd, die Napoleon op veldtochten droeg. Hij was niet groot. Veldheren kozen vaker een paard dat uithield dan een paard dat indruk maakte op een plein.",
+        "Na de nederlaag bij Waterloo kwam het paard in Britse handen. Zijn skelet wordt bewaard in het National Army Museum in Londen. Je kunt de botten zien. De veldslagen zelf hoef je niet mooi te vinden om het paard te herkennen als een dier dat te veel oorlog heeft gezien."
+      ],
+      "anecdote": "Klein en beroemd: dat patroon komt vaker terug. Hoogte is niet dezelfde deugd als longen, benen en een hoofd dat niet schrikt van lawaai."
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen",
+      "when": "1808–1836",
+      "place": "Bij Wellington, onder meer bij Waterloo",
+      "paragraphs": [
+        "Copenhagen droeg de Britse hertog van Wellington. Hij stond bekend als een paard met een eigen mening. Na de slag bleef hij nog jaren de hertog dragen, op jacht en op het landgoed.",
+        "Hij werd begraven in Stratfield Saye, in Engeland, met een steen. Dat is ongewoon. De meeste paarden verdwijnen zonder naam. Een steen zegt dat iemand het dier als maat zag, niet alleen als vervoer."
+      ],
+      "anecdote": "Wellington zou na een lange dag nog een rit hebben willen maken. Copenhagen had daar zijn eigen gedachten over. De anekdote wisselt van mond tot mond. De begraafplaats wisselt niet."
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "when": "1764–1789",
+      "place": "Engeland",
+      "paragraphs": [
+        "Eclipse werd geboren tijdens een zonsverduistering. Vandaar de naam. Op de renbaan verloor hij niet. De zin die bleef, luidt ongeveer: Eclipse eerst, de rest nergens.",
+        "Hij was een Engels volbloed, uit de jonge tijd van dat stamboek. Bijna elk renpaard van nu heeft, via vele generaties, bloed dat ook door hem loopt. Een ongeslagen paard wordt zo een voorouder van een hele sport."
+      ],
+      "anecdote": "Na zijn dood bestudeerde men zijn botten. Mensen zochten het geheim in het skelet: een groot hart, een lange schouder. Snelheid zit zelden in één bot. Wel in een lichaam dat klopt, en in training."
+    },
+    {
+      "id": "secretariat",
+      "name": "Secretariat",
+      "when": "1970–1989",
+      "place": "Verenigde Staten",
+      "paragraphs": [
+        "Secretariat, ook Big Red genoemd, won in 1973 de drie grote Amerikaanse derbies. Op de langste ervan, de Belmont, liep hij de andere paarden zo ver achter dat de race een eenzaam beeld werd. Hij was een vos met een enorme pas.",
+        "Na zijn dood bleek zijn hart veel groter dan dat van een gemiddeld paard. Een arts sprak van een hart dat ruim het dubbele woog. Grootte alleen wint geen race. Wel verklaart ze voor een stuk die longen en die durf om vooraan te blijven."
+      ],
+      "anecdote": "Zijn verzorger Eddie Sweat en zijn ruiter Ron Turcotte hoorden bij het verhaal even hard als de eigenaar. Een beroemd paard is altijd een groep. De camera ziet vooral het voslijf in de bocht."
+    },
+    {
+      "id": "seabiscuit",
+      "name": "Seabiscuit",
+      "when": "1933–1947",
+      "place": "Verenigde Staten",
+      "paragraphs": [
+        "Seabiscuit leek geen kampioen. Hij was klein voor een volbloed, met knieën die niet volgens het plaatje stonden, en een karakter dat op de eerste stallen lui werd genoemd. Een trainer en een ruiter zochten een andere manier. Hij begon te winnen.",
+        "In 1938 versloeg hij War Admiral, een paard dat op papier beter was. Het land, midden in een zware economische tijd, hield van een dier dat niet de grootste was en toch vooraan kwam."
+      ],
+      "anecdote": "‘Lui’ was het verkeerde woord. Hij spaarde zich tot de race ertoe deed. Paarden, zoals mensen, laten niet alles zien aan een vreemde die trekt."
+    },
+    {
+      "id": "snowman",
+      "name": "Snowman",
+      "when": "Jaren 1950",
+      "place": "Van de slachtwagen naar de springsport",
+      "paragraphs": [
+        "Snowman was een werkpaard dat op een vrachtwagen naar de slacht stond. Harry deLeyer, een ruiter uit Nederland die in Amerika lesgaf, kocht hem voor een klein bedrag. Het paard bleek te kunnen springen.",
+        "Hij werd kampioen in het open springen. Geen fijn stamboekpaard, wel een dier met een rug die een hindernis aannam en een karakter dat kinderen op de manege vertrouwden."
+      ],
+      "anecdote": "Het verhaal wordt soms te glad verteld, als een sprookje. De kern blijft staan: herkomst zegt niet alles. Een paard dat ergens niet gewild was, kan op een andere plaats precies passen."
+    },
+    {
+      "id": "hans",
+      "name": "Kluger Hans",
+      "when": "Begin twintigste eeuw",
+      "place": "Berlijn",
+      "paragraphs": [
+        "Kluger Hans, Slimme Hans, leek te rekenen. Zijn eigenaar, Wilhelm von Osten, stelde sommen. Het paard tikte het antwoord met de hoef. Kranten schreven over een denkende hengst.",
+        "De onderzoeker Oskar Pfungst keek scherper. Als de vragensteller het antwoord zelf niet kende, faalde Hans. Het paard las minieme spanning in een gezicht of een schouder: ja, tot hier, en dan stop. Hij was slim. Niet in rekenen. In mensen."
+      ],
+      "anecdote": "Dit is een van de nuttigste paardenverhalen die er zijn. Een dier kan gelijk hebben op een manier die jij niet bedoelde. En een mens kan een wonder zien waar een kleine beweging volstaat. De les heet nog altijd het Kluger-Hans-effect."
+    },
+    {
+      "id": "reckless",
+      "name": "Sergeant Reckless",
+      "when": "Koreaanse oorlog, jaren 1950",
+      "place": "Een merrie die een pad uit het hoofd leerde",
+      "paragraphs": [
+        "Reckless was een kleine merrie die bij een legereenheid terechtkwam. Ze leerde een route: naar boven met een zware last, naar beneden zonder dat iemand haar hoefde te leiden. Ze deed dat ook als het lawaai erg was.",
+        "Men gaf haar een militaire rang, sergeant, en later een rustige oude dag. Oorlog is geen avontuur om na te doen. Het bijzondere aan haar is het geheugen en de moed van een paard dat een taak kende."
+      ],
+      "anecdote": "Ze at wat soldaten haar gaven, soms dingen die een paard beter niet eet. Dat deel van de anekdote is grappig en ook een waarschuwing. Bekend worden maakt een dier niet onkwetsbaar. Iemand moet nog steeds de emmer vullen."
+    },
+    {
+      "id": "brooklyn",
+      "name": "Brooklyn Supreme",
+      "when": "1928–1948",
+      "place": "Een Belgisch trekpaard in Amerika",
+      "paragraphs": [
+        "Brooklyn Supreme was een vos van het Amerikaanse Belgische type. Hij werd bijna twee meter op de schoft en woog meer dan 1400 kilo. Op jaarmarkten stond men in de rij om naast die schouder te staan.",
+        "Zijn voorouders kwamen uit de lijn van het Belgisch trekpaard. Het ras dat in Brabant ploegen trok, werd overzee een circus van grootte. Niet elk Belgisch trekpaard is zo uitzonderlijk. Hij was het uiteinde van de maat."
+      ],
+      "anecdote": "Grootte trekt blikken. Ze trekt ook lasten op gewrichten en hoeven. Een paard als dit heeft een smid nodig die weet wat een ton aan gewicht met een zool doet. Bewondering voedt het dier niet."
+    },
+    {
+      "id": "pharlap",
+      "name": "Phar Lap",
+      "when": "1926–1932",
+      "place": "Nieuw-Zeeland, Australië, en een vroege dood in Amerika",
+      "paragraphs": [
+        "Phar Lap was een vos die in Australië een volksheld werd. Hij won de grote handicap van Melbourne met veel gewicht op zijn rug. Toen hij in Amerika stierf, kort na een overwinning, was het land kwaad en verdrietig.",
+        "Zijn hart werd bewaard. Het is opvallend groot, zoals later ook bij Secretariat werd verteld. Het lichaam ligt deels in een museum, de huid opgezet. Dat voelt vreemd. Het toont hoe ver mensen gaan om een paard niet te laten verdwijnen."
+      ],
+      "anecdote": "De doodsoorzaak is nog altijd betwist: ziekte, vergif, een ongelukkige samenloop. Een beroemd einde is niet vanzelf een opgelost einde. Soms blijft de beste zin: we weten het niet zeker."
+    },
+    {
+      "id": "papier",
+      "name": "Rocinante en Black Beauty",
+      "when": "1605 en 1877",
+      "place": "Alleen op papier, en toch echt in het hoofd",
+      "paragraphs": [
+        "Rocinante is het magere paard van Don Quichot. De naam betekent zoiets als: vroeger een knol. Samen met een man die reuzen ziet in windmolens, wordt een gewoon, moe paard een figuur. Je lacht, en je ziet ook hoe zwaar een dier het heeft onder een droom die niet van hem is.",
+        "Black Beauty is een Engels boek van Anna Sewell, geschreven alsof het paard zelf vertelt. Het dier gaat van een goede wei naar een harde stad, als trekker van huurrijtuigen. Het boek veranderde hoe lezers over bit, zweep en rust dachten. Een verzonnen paard kan een echte stal verbeteren."
+      ],
+      "anecdote": "Geen van beide heeft een graf. Beide hebben meer mensen bereikt dan de meeste paarden met een steen. Verhalen zijn ook een soort werk. Soms is dat werk vriendelijker dan de kar."
+    },
+    {
+      "id": "wenen",
+      "name": "De witte paarden van Wenen",
+      "when": "1580 tot nu, en een redding in 1945",
+      "place": "Lipica, en de Spaanse Rijschool",
+      "paragraphs": [
+        "De Lipizzaner van de Spaanse Rijschool is eerder in deze gids langsgekomen: donker geboren, wit geworden, jarenlang geschoold. In 1945, aan het einde van een oorlog, dreigde de kudde uiteen te vallen of erger.",
+        "Kolonel Podhajsky van de rijschool vroeg een Amerikaanse generaal, Patton, om de paarden te beschermen. Elders haalden soldaten een andere groep Lipizzaners weg uit een stoeterij die in het gedrang zat. Mensen die elkaar bevochten, werden het eens over de dieren."
+      ],
+      "anecdote": "De airs, de sprongen boven de grond, zien eruit als spel. Ze zijn het einde van een opleiding die een paard niet overhaast. De redding in 1945 herinnert je eraan dat een stamboek ook een kudde is: namen op papier, en lichamen die moeten eten."
+    },
+    {
+      "id": "red-rum",
+      "name": "Red Rum",
+      "when": "1965–1995",
+      "place": "Aintree, en het strand van Southport",
+      "paragraphs": [
+        "Red Rum is het enige paard dat de Grand National drie keer won: in 1973, 1974 en 1977. Twee andere jaren werd hij tweede. Die race is lang, met hoge heggen en een greppel die je niet onderhandelt. Veel paarden halen de finish niet vooraan. Hij deed het vaker dan wie ook.",
+        "Zijn trainer, Ginger McCain, liet hem werken op het strand. Zout water, zand, een vlakke draf waar de hoeven konden genezen van een kwaal die hem bijna de sport had gekost. Het beroemde stuk is niet alleen de finish. Het is de plek waar een kreupel paard weer bruikbaar werd."
+      ],
+      "anecdote": "Na zijn dood werd hij begraven bij de winpaal van Aintree. Een graf aan de finish is een eer, en ook een teken hoe dicht sport en afscheid bij dit dier lagen. De zee waarin hij trainde, blijft de stillere helft van het verhaal."
+    },
+    {
+      "id": "kincsem",
+      "name": "Kincsem",
+      "when": "1874–1887",
+      "place": "Hongarije, en bijna elke renbaan van Europa",
+      "paragraphs": [
+        "Kincsem was een merrie. Ze startte 54 keer en won 54 keer. Geen tweede plaats ertussen, over meerdere jaren en meerdere landen. Haar naam betekent zoiets als ‘mijn schat’. Ze reisde per trein en per boot naar banen die haar nog niet kenden, en kwam terug met dezelfde uitslag.",
+        "Een ongeslagen reeks is zeldzamer dan één grote dag. Elke start kon de reeks breken. Dat ze heel bleef, zegt iets over longen en benen, en ook over mensen die wisten wanneer ze niet moesten starten."
+      ],
+      "anecdote": "Er wordt verteld dat ze eigen gewoontes had, tot en met het water dat ze dronk. Zulke details worden graag aangedikt. De uitslagenlijst hoeft niet aangedikt te worden. Die is al vreemd genoeg."
+    },
+    {
+      "id": "burmese",
+      "name": "Burmese",
+      "when": "1962–1990",
+      "place": "Een politiepaard naast een koningin",
+      "paragraphs": [
+        "Burmese was een zwarte merrie van de Canadese bereden politie. In 1969 werd ze geschonken aan koningin Elizabeth II. Jarenlang droeg ze de koningin tijdens Trooping the Colour, de grote parade in Londen, tussen muziek, kanonnen en mensenmassa’s.",
+        "Haar laatste parade was in 1986. Daarna bleef de koningin in een rijtuig. Het commentaar was eerlijk: het paard was ouder geworden, en een parade is geen plek om een dier te overvragen. Burmese stierf in 1990."
+      ],
+      "anecdote": "Een paard dat stilstaat terwijl een menigte juicht, heeft dat geleerd. Niets daaraan is vanzelfsprekend. De rang van de ruiter maakt het lawaai niet kleiner."
+    },
+    {
+      "id": "valegro",
+      "name": "Valegro",
+      "when": "Geboren in 2002",
+      "place": "Een KWPN-paard in de dressuur",
+      "paragraphs": [
+        "Valegro is een donkere ruin uit het Nederlandse KWPN-stamboek. Met Charlotte Dujardin en trainer Carl Hester werd hij het gezicht van de dressuur in de jaren 2010: olympisch goud met de ploeg en individueel, en cijfers waar jury’s lang niet aan gewend waren.",
+        "Dressuur ziet er van ver uit als dans. Van dichtbij is het een gesprek in hele kleine hulpen. Valegro liet zien hoe ver dat gesprek kan gaan zonder dat het paard hard in de mond hangt. Hij stopte op tijd, terwijl hij nog kon."
+      ],
+      "anecdote": "In de fiche van het KWPN staat hij ook, omdat een wereldnaam begint in een stamboek. De muziek van de kür is het slot. De keuring van het jonge paard was het begin."
+    },
+    {
+      "id": "darco",
+      "name": "Darco",
+      "when": "1980–2006",
+      "place": "Een Belgisch springpaard dat vader werd",
+      "paragraphs": [
+        "Darco was een Belgisch warmbloed, een bruine hengst die zelf op hoog niveau sprong. Belangrijker dan één beker werd zijn naam in stambomen. Over de hele wereld staan springpaarden die via hem op een Belgische lijn teruggaan.",
+        "Een sportpaard leeft twee levens als het een hengst is: het leven op de hindernis, en het leven daarna als vader. Darco toont het tweede. Het BWP werd zo een boek dat je in het buitenland herkent zonder dat er ‘België’ op het dekkleed staat."
+      ],
+      "anecdote": "Grootte van roem is hier niet de hoogte van één sprong. Het is het aantal veulens dat jaren later nog een hindernis aanneemt met iets van zijn manier van afzetten."
+    },
+    {
+      "id": "godolphin",
+      "name": "De Godolphin Arabian",
+      "when": "Rond 1724–1753",
+      "place": "Van Jemen naar Engeland, aan de wieg van de volbloed",
+      "paragraphs": [
+        "Drie hengsten staan aan het begin van het Engelse volbloed: de Darley Arabian, de Byerley Turk en de Godolphin Arabian. De laatste werd rond 1724 geboren in Jemen, kwam via Noord-Afrika en Frankrijk in Engeland, en stierf in 1753. Bijna elk renpaard van nu heeft die drie ergens in een zeer lange stamboom.",
+        "Hij was geen groot paard. Verhalen maken hem soms een verschoppeling die later de beste dekt. Dat gedeelte is graag verteld. Zeker is dat een handvol oosterse hengsten, gekruist met Engelse merries, een gesloten stamboek openden dat de renbaan nog altijd gebruikt."
+      ],
+      "anecdote": "Eclipse, verderop in deze lijst, hoort bij de tak van de Darley Arabian. Eén naam is dus nooit alleen. Een volbloed is een familie, ook als de camera één vos in de bocht toont."
+    },
+    {
+      "id": "man-o-war",
+      "name": "Man o’ War",
+      "when": "1917–1947",
+      "place": "Verenigde Staten",
+      "paragraphs": [
+        "Man o’ War, ook Big Red, won 20 van zijn 21 races. De enige nederlaag was tegen een paard dat Upset heette, een naam die commentatoren daarna graag gebruikten. Hij liep vooraan en maakte de afstand groter. Zijn zoon War Admiral was later de tegenstander van Seabiscuit.",
+        "Na zijn dood bekeek men ook zijn hart. Het was groot, zoals men later bij Secretariat en Phar Lap zou zeggen. Een groot hart is een stuk van de uitleg, niet de hele. De training, de baan en de dag horen erbij."
+      ],
+      "anecdote": "Hij werd een vader van vaders. In stambomen duikt zijn naam nog op bij paarden die hem nooit gezien hebben. Roem kan zo langer duren dan een lichaam."
+    },
+    {
+      "id": "arkle",
+      "name": "Arkle",
+      "when": "1957–1970",
+      "place": "Ierland",
+      "paragraphs": [
+        "Arkle was een Ierse steeplechaser. Hij won drie keer de Cheltenham Gold Cup en maakte van zijn grote rivaal, Mill House, een tweede. In Ierland was hij meer dan een sportuitslag. Mensen noemden kinderen en boten naar hem.",
+        "Een beenkwaal stopte hem. Hij leefde nog een tijd daarna, niet meer op de baan. Dat slot hoort bij het verhaal: de sprongen waren echt, en de prijs voor die sprongen ook."
+      ],
+      "anecdote": "Toen hij ergens binnenkwam, zou het stil zijn geworden op een manier die je eerder bij een persoon verwacht. Of elke anekdote klopt, is minder zeker dan de bekers. De genegenheid is geen legende."
+    },
+    {
+      "id": "trigger",
+      "name": "Trigger",
+      "when": "1934–1965",
+      "place": "Een palomino in de film",
+      "paragraphs": [
+        "Trigger heette eerst Golden Cloud. Het was een palomino, een goudkleurige vos met een lichte manen, die in films naast Roy Rogers stond. Hij leerde op tekens blijven staan, achteruitgaan, en scènes waarin een paard rustig moet zijn terwijl mensen lawaai maken.",
+        "Eén naam op het scherm is vaak meer dan één paard. Er waren dubbels voor gevaarlijker stukken, en een tweede dier dat op hem leek. Als je een film ziet, zie je een personage. Het dier dat die middag werkte, had daarna hooi nodig, niet applaus."
+      ],
+      "anecdote": "De les is bruikbaar bij elk beroemd film- of boekpaard. Vraag wie er echt stond, en wie er werd bijgeschreven. Een palomino kan echt zijn. De scène is een montage."
+    },
+    {
+      "id": "hidalgo",
+      "name": "Hidalgo, of het paard dat een film werd",
+      "when": "Een film uit 2004, en een verhaal dat niet standhoudt",
+      "place": "De woestijn op het scherm",
+      "paragraphs": [
+        "In de film Hidalgo wint een mustang een enorme race door de woestijn, met een ruiter die Frank Hopkins heet. Het ziet eruit als geschiedenis. Onderzoekers vonden geen betrouwbare bron voor die race, noch voor de records die Hopkins zichzelf toeschreef.",
+        "Het paard in de film was een film-paard: een dier dat cues kende, met een ploeg eromheen. De woestijn, de afstand en de overwinning zijn een verhaal. Dat een verhaal mooi in beeld staat, maakt het geen uitslag."
+      ],
+      "anecdote": "Dit is het nuttigste beroemde paard dat nooit die race liep. Het leert je de vraag die bij deze hele lijst hoort: waar staat het, buiten het verhaal? Een skelet, een stamboek, een krant, een graf. Als dat ontbreekt, blijf je bij de studie."
+    }
+  ],
+  "stories": [
+    {
+      "id": "beiaard",
+      "title": "Het Ros Beiaard van Dendermonde",
+      "place": "Dendermonde, om de tien jaar",
+      "paragraphs": [
+        "In Dendermonde gaat om de tien jaar een reusachtig houten paard door de stad. Het rolt niet. Twaalf mannen van de gilde der Pijnders dragen het, ploeg na ploeg. Het weegt rond de 800 kilo. Op de rug zitten vier broers in harnas: de Heemskinderen.",
+        "Hun namen in het oude verhaal zijn Ritsaert, Writsaert, Adelaert en Reinout. Reinout, de jongste, temde het wilde paard Beiaard. Het wonder van het verhaal: het paard werd langer naarmate er meer broers op zaten, zodat het hen alle vier kon dragen. Later eiste de keizer het paard op. In de legende eindigt Beiaard in de Dender. De stad liet het verhaal niet verdwijnen.",
+        "De regels voor de vier ruiters zijn streng. Het moeten vier broers zijn die elkaar opvolgen, zonder zus ertussen, geboren in Dendermonde, en op de dag van de ommegang tussen 7 en 21 jaar. Ook hun ouders horen uit de stad te komen. Het houten ros verlaat het oude grondgebied niet zomaar. De laatste grote ommegang was in 2022.",
+        "Sinds 2008 hoort dit bij het UNESCO-erfgoed van reuzen en draken in stoeten in België en Frankrijk. Het is geen levend paard. Het is een stad die een paard blijft dragen."
+      ]
+    },
+    {
+      "id": "sinterklaas",
+      "title": "De schimmel van Sinterklaas",
+      "place": "In het verhaal over de daken, in het echt op de kade",
+      "paragraphs": [
+        "In Vlaanderen hoort bij Sinterklaas een schimmel. In het verhaal voor kinderen stapt dat paard over de daken en laat geschenken achter waar een wortel of een nap water klaarstond. Een schimmel is een paard dat lichter wordt naarmate het ouder is. De huid eronder blijft donker.",
+        "In het echt is het een rustig witgrijs paard met een ruiter die de sint speelt. De intocht met de boot in Antwerpen is een bekend moment. Daarna rijdt hij door de straten, op de grond, niet over de pannen. Het paard is geoefend op muziek, kinderen en vlaggen.",
+        "Het verschil is het waard om te kennen. Het dakpaard is een verhaal. Het paard op de kade is een dier dat na de stoet hooi, water en rust nodig heeft, net als elk ander paard in deze gids."
+      ]
+    },
+    {
+      "id": "schaduw",
+      "title": "Het paard dat van zijn schaduw schrok",
+      "place": "Een oud verhaal over een jongen en een wild paard",
+      "paragraphs": [
+        "Mensen vertellen al heel lang over een zwart paard dat niemand durfde naderen. Het schrok van beweging op de grond. Een jongen — in het verhaal Alexander — draaide het paard met het hoofd naar de zon. De schaduw viel toen achter het dier, uit het zicht. Daarna liet het zich leiden.",
+        "Of het precies zo gebeurde, weet niemand. Het idee klopt wel met wat je in de stal ziet. Een paard schrikt van iets dat beweegt in de rand van zijn blik, zeker als het niet begrijpt wat het is. De zon in de ogen is niet prettig, maar een onbegrepen schaduw naast de hoef is erger.",
+        "Het paard in het verhaal heet Bucephalus. Het werd de metgezel van die jongen toen hij later verre tochten maakte. De les die blijft: kijk eerst waarvan het paard schrikt. Vaak is het iets kleins, op de verkeerde plek."
+      ]
+    },
+    {
+      "id": "taal",
+      "title": "Paarden in de taal",
+      "place": "In gewone Vlaamse zinnen",
+      "paragraphs": [
+        "Een gegeven paard kijk je niet in de bek. De tanden verraden de leeftijd, maar een geschenk ga je niet meteen keuren. Het paard achter de wagen spannen betekent: je doet de dingen in de verkeerde volgorde. De wagen moet achter het paard, anders trekt er niets.",
+        "Op je stokpaardje zitten is steeds hetzelfde lievelingsonderwerp nemen. Een stokpaardje was een speelgoedpaard, een stok met een kop. Van je hoge paard vallen is hoog van de toren blazen en dan ongelijk krijgen. Werken als een paard betekent lang en zwaar doorzetten.",
+        "Er is ook het paard van Troje: een houten paard uit een Grieks verhaal, met soldaten erin. Geen echt dier. Als iemand zegt dat een geschenk een paard van Troje is, bedoelt hij: het ziet er vriendelijk uit en er zit iets in verstopt.",
+        "De taal bewaart een tijd waarin iedereen paarden kende. Je hoeft niet te rijden om die zinnen te gebruiken. Wel wordt ze scherper als je weet wat een bek, een wagen en een hoog paard echt zijn."
+      ]
+    },
+    {
+      "id": "wit",
+      "title": "Wit worden duurt jaren",
+      "place": "Bij de Lipizzaner, en bij veel schimmels",
+      "paragraphs": [
+        "De paarden van de Spaanse rijschool in Wenen zijn Lipizzaners. Op foto’s lijken ze wit. Een veulen wordt donker geboren, vaak bijna zwart of grijsbruin. Pas jaar na jaar wordt de vacht lichter. De huid blijft donker. Dat is een schimmel, geen paard met roze huid.",
+        "In de rijschool leren ze passen die eruitzien als zweven: sprongen waarbij het lichaam even loskomt terwijl de ruiter heel stil zit. Dat is het werk van jaren, niet van een truc in een namiddag. Het ras zelf komt uit een oud Europees stamboek, met voorouders die ook in deze gids staan, bij de Andalusiër en de Lipizzaner.",
+        "Als je een wit paard ziet, vraag dan niet ‘waarom is het wit’. Vraag hoe oud het is. Bij een schimmel zit het antwoord vaak in de kleur."
+      ]
+    }
+  ],
+  "gaits": [
+    {
+      "id": "stap",
+      "title": "Stap",
+      "beat": "Viertakt",
+      "hear": "tik · tik · tik · tik",
+      "steps": [
+        {
+          "hooves": [
+            "LA"
+          ],
+          "label": "Linksachter komt los"
+        },
+        {
+          "hooves": [
+            "LV"
+          ],
+          "label": "Linksvoor volgt"
+        },
+        {
+          "hooves": [
+            "RA"
+          ],
+          "label": "Rechtsachter komt los"
+        },
+        {
+          "hooves": [
+            "RV"
+          ],
+          "label": "Rechtsvoor sluit de pas"
+        }
+      ],
+      "paragraphs": [
+        "De stap is de gang van de hele dag. Grazende paarden stappen. Een werkpaard aan zee of in het bos stapt. Er zijn vier tellen, omdat elke hoef apart de grond raakt.",
+        "De volgorde aan één kant begint achteraan. Eerst de achterhoef, dan de voorhoef aan dezelfde kant, daarna de andere achterhoef, dan de andere voorhoef. Het lichaam schommelt zacht. Een ruiter voelt die schommeling in het bekken. Daarom gebruiken therapeuten net de stap, niet de draf.",
+        "Een zuivere stap is niet traag uit luiheid. De achterhoef landt in of voorbij de afdruk van de voorhoef. Blijft hij ver achter, dan is de pas kort. Dat kan pijn zijn, of gewoon een paard dat nog niet los is."
+      ]
+    },
+    {
+      "id": "draf",
+      "title": "Draf",
+      "beat": "Tweetakt",
+      "hear": "tik-tik · tik-tik",
+      "steps": [
+        {
+          "hooves": [
+            "LA",
+            "RV"
+          ],
+          "label": "Linksachter en rechtsvoor samen"
+        },
+        {
+          "hooves": [
+            "RA",
+            "LV"
+          ],
+          "label": "Rechtsachter en linksvoor samen"
+        }
+      ],
+      "paragraphs": [
+        "In draf bewegen twee diagonale hoeven samen. Linksachter met rechtsvoor. Daarna het andere paar. Je hoort twee tellen, ook al raken vier hoeven de grond.",
+        "Tussen de tellen is er een kort moment waarop het lichaam zweeft. Daarom veert een ruiter mee, of zit hij de beweging ‘in’. Een menner hoort de draf aan de wagen: de bok begint te tikken in een snellere maat.",
+        "De IJslander heeft naast deze gang ook de tölt, een viertakt waarin de rug opvallend rustig blijft. Dat is geen draf. Het is een andere afspraak tussen de benen. Niet elk ras heeft die afspraak in het lijf."
+      ]
+    },
+    {
+      "id": "galop",
+      "title": "Galop",
+      "beat": "Drietakt",
+      "hear": "tik · tik-tik · tik",
+      "steps": [
+        {
+          "hooves": [
+            "RA"
+          ],
+          "label": "De buitenste achterhoef zet af"
+        },
+        {
+          "hooves": [
+            "LA",
+            "RV"
+          ],
+          "label": "Een diagonaal paar landt samen"
+        },
+        {
+          "hooves": [
+            "LV"
+          ],
+          "label": "De leidende voorhoef sluit"
+        }
+      ],
+      "paragraphs": [
+        "De galop heeft drie tellen en daarna een zweefmoment. Eén achterhoef begint. Dan een diagonaal paar. Dan de voorhoef die ‘leidt’, de hoef die het verst vooruit reikt. Wij tekenen hier de linker galop: linksvoor leidt.",
+        "In de ren, de aller vlugste gang, splijt dat diagonale paar. Dan hoor je vier tellen. Een renpaard op de baan zit in die gang. Een trekpaard in de zee bijna nooit. Elk lichaam heeft de gang die bij het werk hoort.",
+        "Kijk naar de manen als je de galop niet meteen hoort. Ze slaan op de maat van de sprong. De oren blijven vaak naar voren als het paard de beweging kent en niets vreest."
+      ]
+    }
+  ],
+  "hooves": [
+    {
+      "id": "LA",
+      "label": "Linksachter"
+    },
+    {
+      "id": "RA",
+      "label": "Rechtsachter"
+    },
+    {
+      "id": "LV",
+      "label": "Linksvoor"
+    },
+    {
+      "id": "RV",
+      "label": "Rechtsvoor"
+    }
+  ]
+}
