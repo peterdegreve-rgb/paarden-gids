@@ -1,5 +1,15 @@
 import { firstUnanswered, parseFilters, toggleCompare } from "./src/logic.js";
-import { pageTitle, renderGids, renderNav, renderPage } from "./src/render.js";
+import { esc, pageTitle, renderGids, renderNav, renderPage, shellStatus } from "./src/render.js";
+import {
+  bootMessage,
+  moveIndex,
+  normalizeTextSize,
+  photoMessage,
+  photosFail,
+  savedStatus,
+  shellCopy,
+  textSizeStatus,
+} from "./src/shell.js";
 import { createStore } from "./src/store.js";
 
 const store = createStore(localStorage);
@@ -14,16 +24,20 @@ const state = {
   answers: {},
   compare: [],
   englishNames: false,
+  textSize: "gewoon",
   gaitId: "stap",
   gaitStep: 0,
   bodyId: "oog",
   videoOn: false,
   quizIndex: 0,
   notice: "",
+  online: true,
+  reduceMotion: false,
 };
 
 const main = document.querySelector("#inhoud");
 const dialog = document.querySelector("#gids");
+const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function normalize(pathname) {
   if (pathname.length > 1 && pathname.endsWith("/")) return pathname.slice(0, -1);
@@ -36,27 +50,82 @@ function readLocation() {
 }
 
 function errorHtml() {
+  const online = navigator.onLine;
   return `<div class="empty">
-    <h1>De gids kon niet openen.</h1>
-    <p>Probeer opnieuw. Lukt het niet, dan stond ze nog niet op deze tablet.</p>
-    <button type="button" class="btn btn-moss" data-action="retry">Opnieuw proberen</button>
+    <h1>${esc(shellCopy.bootTitle)}</h1>
+    <p>${esc(online ? shellCopy.bootOnline : shellCopy.bootOffline)}</p>
+    <p>${esc(shellCopy.bootNext)}</p>
+    <button type="button" class="btn btn-moss" data-action="retry">${esc(shellCopy.retry)}</button>
   </div>`;
 }
 
-function paint({ scroll = "keep", focusKey = null } = {}) {
+function pageFailHtml() {
+  return `<div class="empty">
+    <h1>${esc(shellCopy.pageFailTitle)}</h1>
+    <p>${esc(shellCopy.pageFail)}</p>
+    <p><a class="text-link" href="/">${esc(shellCopy.toStart)}</a></p>
+    <button type="button" class="btn btn-line" data-action="retry">${esc(shellCopy.retry)}</button>
+  </div>`;
+}
+
+function say(message, { urgent = false } = {}) {
+  const node = document.querySelector(urgent ? "#alarm" : "#zeg");
+  if (!node || !message || node.dataset.current === message) return;
+  node.dataset.current = message;
+  if (!urgent) {
+    node.textContent = message;
+    return;
+  }
+  node.textContent = "";
+  window.setTimeout(() => {
+    if (node.dataset.current === message) node.textContent = message;
+  }, 40);
+}
+
+function applyTextSize(size) {
+  const next = normalizeTextSize(size);
+  state.textSize = next;
+  document.documentElement.dataset.text = next;
+  for (const button of document.querySelectorAll("[data-action='text-size']")) {
+    const on = button.dataset.size === next;
+    button.setAttribute("aria-checked", on ? "true" : "false");
+    button.tabIndex = on ? 0 : -1;
+  }
+  return next;
+}
+
+function paint({ scroll = "keep", focusKey = null, status = null } = {}) {
   const active = document.activeElement;
   const key = focusKey || active?.dataset?.focusKey || active?.id || "";
   const caret = active && typeof active.selectionStart === "number" ? active.selectionStart : null;
-  document.title = state.site ? pageTitle(state) : "Alles over paarden";
-  if (state.bootError) main.innerHTML = errorHtml();
-  else if (state.site) main.innerHTML = renderPage(state);
+  document.body.dataset.page = state.path || "/";
+  try {
+    document.title = state.site ? pageTitle(state) : "Alles over paarden";
+    if (state.bootError || !state.site) main.innerHTML = errorHtml();
+    else main.innerHTML = renderPage(state);
+  } catch {
+    main.innerHTML = pageFailHtml();
+    say(`${shellCopy.pageFailTitle} ${shellCopy.pageFail}`, { urgent: true });
+    return;
+  }
   const nav = document.querySelector("#tabbar");
   if (nav) nav.innerHTML = state.site ? renderNav(state.path, state.saved.length) : "";
   const gidsButton = document.querySelector("#gids-open");
-  if (gidsButton) gidsButton.setAttribute("aria-expanded", dialog.open ? "true" : "false");
+  if (gidsButton) {
+    gidsButton.disabled = !state.site;
+    gidsButton.setAttribute("aria-expanded", dialog.open ? "true" : "false");
+  }
+  const alarm = document.querySelector("#alarm");
+  if (alarm && !state.bootError) {
+    alarm.textContent = "";
+    delete alarm.dataset.current;
+  }
+  if (state.bootError) say(bootMessage(navigator.onLine), { urgent: true });
+  else say(status ?? shellStatus(state));
 
   if (scroll === "top") {
     window.scrollTo(0, 0);
+    main.scrollTop = 0;
     main.focus({ preventScroll: true });
     return;
   }
@@ -93,8 +162,22 @@ function sameBreed(slug) {
   return state.site.breeds.some((breed) => breed.slug === slug);
 }
 
+function breedName(slug) {
+  return state.site?.breeds.find((breed) => breed.slug === slug)?.name ?? "Dit ras";
+}
+
 function handleAction(el) {
   const action = el.dataset.action;
+  if (action === "text-size") {
+    const next = store.setTextSize(el.dataset.size);
+    applyTextSize(next);
+    if (!state.site && !state.bootError) {
+      say(textSizeStatus(next));
+      return;
+    }
+    paint({ scroll: "keep", focusKey: `text-${next}`, status: textSizeStatus(next) });
+    return;
+  }
   if (action === "retry") {
     location.reload();
     return;
@@ -122,8 +205,9 @@ function handleAction(el) {
     return;
   }
   if (action === "save") {
+    const was = state.saved.includes(el.dataset.slug);
     state.saved = store.toggleSaved(el.dataset.slug);
-    paint();
+    paint({ scroll: "keep", status: savedStatus(breedName(el.dataset.slug), !was) });
     return;
   }
   if (action === "compare") {
@@ -159,8 +243,17 @@ function handleAction(el) {
     return;
   }
   if (action === "play-video") {
-    state.videoOn = navigator.onLine ? true : "offline";
-    paint({ focusKey: state.videoOn === true ? "" : "play-video" });
+    if (navigator.onLine) {
+      state.videoOn = true;
+      paint({
+        focusKey: "hero-video",
+        status: state.reduceMotion ? shellCopy.videoReady : shellCopy.videoName,
+      });
+    } else {
+      state.videoOn = "offline";
+      state.online = false;
+      paint({ focusKey: "play-video", status: shellCopy.videoOffline });
+    }
     return;
   }
   if (action === "close-video") {
@@ -197,8 +290,16 @@ function query(filters) {
 }
 
 function syncNet() {
+  const online = navigator.onLine;
+  const changed = state.online !== online;
+  state.online = online;
   const banner = document.querySelector("#offline");
-  if (banner) banner.hidden = navigator.onLine;
+  if (banner) banner.hidden = online;
+  if (!changed) return;
+  if (!online && state.videoOn === true) state.videoOn = "offline";
+  if (state.site && !state.bootError) {
+    paint({ scroll: "keep", status: online ? shellCopy.onlineAgain : shellCopy.offlineBanner });
+  } else if (!online) say(shellCopy.offlineBanner);
 }
 
 document.addEventListener("click", (event) => {
@@ -214,6 +315,26 @@ document.addEventListener("click", (event) => {
   event.preventDefault();
   if (dialog.open) dialog.close();
   go(`${link.pathname}${link.search}${link.hash}`);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.altKey || event.ctrlKey || event.metaKey) return;
+  const target = event.target;
+  if (!(target instanceof HTMLElement)) return;
+  if (["INPUT", "SELECT", "TEXTAREA"].includes(target.tagName)) return;
+  const group = target.closest("[data-keys]");
+  if (!group) return;
+  const current = target.closest("button, a[href]");
+  if (!current || !group.contains(current)) return;
+  const stops = [...group.querySelectorAll("button, a[href]")];
+  const index = stops.indexOf(current);
+  if (index < 0) return;
+  const nextIndex = moveIndex(index, stops.length, event.key);
+  if (nextIndex == null) return;
+  event.preventDefault();
+  const next = stops[nextIndex];
+  if (group.dataset.keys === "tab") next.click();
+  next.focus();
 });
 
 document.addEventListener("submit", (event) => {
@@ -251,23 +372,82 @@ document.addEventListener("change", (event) => {
   }
 });
 
+const photoNotes = [];
+let photoTimer = 0;
+function queuePhoto(message) {
+  photoNotes.push(message);
+  window.clearTimeout(photoTimer);
+  photoTimer = window.setTimeout(() => {
+    const items = photoNotes.splice(0, photoNotes.length);
+    const summary = photosFail(items.length, navigator.onLine);
+    say(summary || items[0] || "");
+  }, 60);
+}
+
 document.addEventListener(
   "error",
   (event) => {
     const img = event.target;
     if (!(img instanceof HTMLImageElement) || img.dataset.broken === "1") return;
-    const note = document.createElement("p");
-    note.className = "photo-fallback";
-    note.textContent = img.alt || "Foto";
-    img.replaceWith(note);
+    img.dataset.broken = "1";
+    const src = img.getAttribute("src") || "";
+    const alt = img.alt || "";
+    const frame = img.closest(".photo-frame, .photo-plain");
+    const frameClass = frame ? frame.className : "";
+    const host = frame || img;
+    const box = document.createElement("div");
+    box.className = "photo-fallback";
+    const title = document.createElement("strong");
+    title.textContent = shellCopy.photoTitle;
+    const text = document.createElement("p");
+    text.textContent = photoMessage(alt, navigator.onLine);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "btn btn-line";
+    button.textContent = shellCopy.photoRetry;
+    button.addEventListener("click", () => {
+      const fresh = document.createElement("img");
+      fresh.alt = alt;
+      fresh.decoding = "async";
+      fresh.loading = "eager";
+      const width = img.getAttribute("width");
+      const height = img.getAttribute("height");
+      if (width) fresh.setAttribute("width", width);
+      if (height) fresh.setAttribute("height", height);
+      const retrySrc = navigator.onLine && src
+        ? `${src}${src.includes("?") ? "&" : "?"}opnieuw=${Date.now()}`
+        : src;
+      if (frameClass) {
+        const wrap = document.createElement("div");
+        wrap.className = frameClass;
+        wrap.append(fresh);
+        box.replaceWith(wrap);
+      } else box.replaceWith(fresh);
+      fresh.src = retrySrc;
+    });
+    box.append(title, text, button);
+    host.replaceWith(box);
+    queuePhoto(text.textContent);
   },
   true,
 );
+
+document.addEventListener("focusin", (event) => {
+  const el = event.target;
+  if (!(el instanceof HTMLElement)) return;
+  const chip = el.closest(".chips .chip, .chips a, .chips button, .atlas .place");
+  if (!chip) return;
+  const scroller = chip.closest(".chips, .filters, .results, .atlas");
+  if (!scroller) return;
+  const reduce = state.reduceMotion;
+  chip.scrollIntoView({ block: "nearest", inline: "nearest", behavior: reduce ? "auto" : "auto" });
+});
 
 document.querySelector("#gids-open").addEventListener("click", () => {
   if (!state.site) return;
   dialog.showModal();
   document.querySelector("#gids-open").setAttribute("aria-expanded", "true");
+  document.querySelector("#gids-sluit")?.focus();
 });
 
 dialog.addEventListener("click", (event) => {
@@ -286,10 +466,17 @@ window.addEventListener("popstate", () => {
 
 window.addEventListener("online", syncNet);
 window.addEventListener("offline", syncNet);
+motionQuery.addEventListener?.("change", () => {
+  state.reduceMotion = motionQuery.matches;
+  if (state.site) paint({ scroll: "keep" });
+});
 
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 
 async function boot() {
+  state.online = navigator.onLine;
+  state.reduceMotion = motionQuery.matches;
+  applyTextSize(store.read().textSize);
   try {
     const response = await fetch("/content/site.json");
     if (!response.ok) throw new Error(String(response.status));
@@ -299,6 +486,8 @@ async function boot() {
     state.answers = stored.answers;
     state.compare = stored.compare.filter((slug) => sameBreed(slug));
     state.englishNames = stored.englishNames;
+    state.textSize = stored.textSize;
+    applyTextSize(state.textSize);
     state.gaitId = state.site.gaits[0]?.id ?? "stap";
     state.bodyId = state.site.body[0]?.id ?? "oog";
     state.quizIndex = firstUnanswered(state.site.quiz, state.answers);
@@ -307,8 +496,10 @@ async function boot() {
     state.bootError = true;
   }
   readLocation();
+  const banner = document.querySelector("#offline");
+  if (banner) banner.hidden = state.online;
   paint({ scroll: location.hash ? "hash" : "none" });
-  syncNet();
+  if (!state.online) say(shellCopy.offlineBanner);
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/sw.js").catch(() => {});
   }

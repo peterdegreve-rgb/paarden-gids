@@ -7,6 +7,13 @@ import {
   searchGuide,
   slugId,
 } from "./logic.js";
+import {
+  bootMessage,
+  compareLabel,
+  rasWord,
+  saveLabel,
+  shellCopy,
+} from "./shell.js";
 
 export function esc(value) {
   return String(value ?? "")
@@ -38,14 +45,14 @@ function photo(src, alt, { eager = false, frame = true } = {}) {
 
 function saveButton(breed, saved) {
   const on = saved.includes(breed.slug);
-  return `<button type="button" class="btn ${on ? "btn-moss" : "btn-line"}" data-action="save" data-slug="${esc(breed.slug)}" data-focus-key="save-${esc(breed.slug)}" aria-pressed="${on ? "true" : "false"}">
+  return `<button type="button" class="btn ${on ? "btn-moss" : "btn-line"}" data-action="save" data-slug="${esc(breed.slug)}" data-focus-key="save-${esc(breed.slug)}" aria-pressed="${on ? "true" : "false"}" aria-label="${esc(saveLabel(breed.name, on))}">
     <span aria-hidden="true">${on ? "★" : "☆"}</span> ${on ? esc(copy.rassen.saved) : esc(copy.rassen.save)}
   </button>`;
 }
 
 function compareButton(breed, compare) {
   const on = compare.includes(breed.slug);
-  return `<button type="button" class="btn ${on ? "btn-moss" : "btn-line"}" data-action="compare" data-slug="${esc(breed.slug)}" data-focus-key="cmp-${esc(breed.slug)}" aria-pressed="${on ? "true" : "false"}">
+  return `<button type="button" class="btn ${on ? "btn-moss" : "btn-line"}" data-action="compare" data-slug="${esc(breed.slug)}" data-focus-key="cmp-${esc(breed.slug)}" aria-pressed="${on ? "true" : "false"}" aria-label="${esc(compareLabel(breed.name, on))}">
     ${on ? "Gekozen" : "Vergelijk"}
   </button>`;
 }
@@ -53,13 +60,15 @@ function compareButton(breed, compare) {
 function breedCard(breed, state, { actions = true } = {}) {
   const href = `/rassen${filtersToQuery({ ...state.filters, ras: breed.slug })}`;
   const english = state.englishNames && breed.english ? `<p class="en" lang="en">${esc(breed.english)}</p>` : "";
+  const nameId = `naam-${breed.slug}`;
+  const sizeId = `maat-${breed.slug}`;
   return `<article class="card">
-    <a class="card-link" href="${esc(href)}">
+    <a class="card-link" href="${esc(href)}" aria-labelledby="${esc(nameId)} ${esc(sizeId)}">
       ${photo(`/horses/${breed.slug}.jpg`, breed.imageAlt)}
       <div class="card-body">
         <div class="card-title">
-          <h2>${esc(breed.name)}</h2>
-          <span class="size">${esc(state.site.sizeLabels[breed.size] ?? breed.size)}</span>
+          <h2 id="${esc(nameId)}">${esc(breed.name)}</h2>
+          <span class="size" id="${esc(sizeId)}">${esc(state.site.sizeLabels[breed.size] ?? breed.size)}</span>
         </div>
         ${english}
         <p class="origin">${esc(breed.origin)}</p>
@@ -80,7 +89,10 @@ function rassenPage(state) {
   if (filters.ras) {
     if (!breed) {
       return `${header("", copy.rassen.missingTitle, copy.rassen.missingLede)}
-        <p><a class="text-link" href="/rassen">${esc(copy.rassen.backAll)}</a></p>`;
+        <div class="empty">
+          <p>${esc(shellCopy.missingBreedNext)}</p>
+          <p><a class="text-link" href="/rassen">${esc(copy.rassen.backAll)}</a></p>
+        </div>`;
     }
     return detailPage(state, breed);
   }
@@ -95,7 +107,7 @@ function rassenPage(state) {
           return `<button type="button" class="chip ${on ? "chip-on" : ""}" data-action="filter" data-key="${esc(key)}" data-value="${esc(option.id)}" data-focus-key="f-${esc(key)}-${esc(option.id)}" aria-pressed="${on ? "true" : "false"}">${esc(option.label)}</button>`;
         })
         .join("");
-      return `<div class="filter-block"><p id="lab-${esc(key)}">${esc(label)}</p><div class="chips" role="group" aria-labelledby="lab-${esc(key)}">${options}</div></div>`;
+      return `<div class="filter-block"><p id="lab-${esc(key)}">${esc(label)}</p><div class="chips" role="group" aria-labelledby="lab-${esc(key)}" data-keys="move">${options}</div></div>`;
     })
     .join("");
 
@@ -105,6 +117,7 @@ function rassenPage(state) {
     ? `<ul class="cards">${found.map((item) => `<li>${breedCard(item, state)}</li>`).join("")}</ul>`
     : `<div class="empty"><p>${esc(copy.rassen.empty)}</p>
         ${suggestions.length ? `<p>Bedoelde je ${suggestions.map((item) => `<a class="text-link" href="/rassen?ras=${esc(item.slug)}">${esc(item.name)}</a>`).join(", ")}?</p>` : ""}
+        <p>${esc(shellCopy.emptyRassenNext)}</p>
       </div>`;
   const guideBlock = guide.length
     ? `<section class="guide-hits"><h2>In de gids</h2><ul>${guide
@@ -114,20 +127,22 @@ function rassenPage(state) {
         .join("")}</ul></section>`
     : "";
 
-  return `${header(copy.rassen.kicker, copy.rassen.title, copy.rassen.lede)}
+  return `<div class="rassen-page">${header(copy.rassen.kicker, copy.rassen.title, copy.rassen.lede)}
     <div class="rassen-layout">
       <div class="filters">
-        <label class="sr-only" for="filter-zoek">${esc(copy.rassen.searchLabel)}</label>
-        <input id="filter-zoek" type="search" enterkeyhint="search" autocomplete="off" value="${esc(filters.q)}" placeholder="${esc(copy.rassen.searchPlaceholder)}">
+        <div role="search">
+          <label class="sr-only" for="filter-zoek">${esc(copy.rassen.searchLabel)}</label>
+          <input id="filter-zoek" type="search" enterkeyhint="search" autocomplete="off" value="${esc(filters.q)}" placeholder="${esc(copy.rassen.searchPlaceholder)}" aria-controls="ras-lijst" aria-describedby="ras-count">
+        </div>
         ${groups}
         <label class="switch">
           <input id="english-toggle" data-focus-key="english-toggle" type="checkbox" data-action="english" ${state.englishNames ? "checked" : ""}>
           <span>Toon de Engelse naam</span>
         </label>
       </div>
-      <div>
+      <div class="results${found.length ? "" : " results-empty"}" id="ras-lijst">
         <div class="count-row">
-          <p id="ras-count" role="status">${found.length} ${found.length === 1 ? "ras" : "rassen"}</p>
+          <p id="ras-count">${found.length} ${rasWord(found.length)}</p>
           ${active ? `<button type="button" class="btn btn-quiet" data-action="clear-filters" data-focus-key="clear-filters">${esc(copy.rassen.clear)}</button>` : ""}
         </div>
         ${state.notice ? `<p class="notice" role="status">${esc(state.notice)}</p>` : ""}
@@ -135,7 +150,7 @@ function rassenPage(state) {
         ${guideBlock}
         <aside class="open-q"><p><strong>Nog te vragen aan Fien.</strong> De Engelse naam van een ras staat in de gids. De uitleg is Nederlands. Een Engelse tekst is er nog niet.</p></aside>
       </div>
-    </div>`;
+    </div></div>`;
 }
 
 function detailPage(state, breed) {
@@ -146,7 +161,7 @@ function detailPage(state, breed) {
     )
     .join("");
   const related = relatedBreeds(breed, state.site.breeds);
-  return `<article>
+  return `<article class="breed-sheet">
     <p><a class="text-link back" href="${esc(listHref(state.filters))}">${esc(copy.rassen.backList)}</a></p>
     <div class="title-row">
       <div>
@@ -163,7 +178,7 @@ function detailPage(state, breed) {
     <section><h2>${esc(copy.rassen.storiesTitle)}</h2><ul class="notes">${breed.anecdotes.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></section>
     <section class="prose"><h2>${esc(copy.rassen.factsTitle)}</h2><ul class="fact-list">${breed.facts.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></section>
     <p class="disclaimer">${esc(copy.rassen.disclaimer)}</p>
-    <section><h2>${esc(copy.rassen.also)}</h2><ul class="cards">${related.map((item) => `<li>${breedCard(item, { ...state, filters: { ...state.filters, q: "", streek: "", grootte: "", gebruik: "", kleur: "", karakter: "" } })}</li>`).join("")}</ul></section>
+    <section class="also"><h2>${esc(copy.rassen.also)}</h2><ul class="cards">${related.map((item) => `<li>${breedCard(item, { ...state, filters: { ...state.filters, q: "", streek: "", grootte: "", gebruik: "", kleur: "", karakter: "" } })}</li>`).join("")}</ul></section>
   </article>`;
 }
 
@@ -175,16 +190,17 @@ function homePage(state) {
     const fact = site.facts.find((item) => item.id === id);
     return fact ? [fact] : [];
   });
-  const video = state.videoOn === true
-    ? `<video class="hero-video" poster="/horses/weide.jpg" controls playsinline preload="metadata" width="1280" height="720" autoplay>
+  const offlineVideo = state.online === false || state.videoOn === "offline";
+  const video = state.videoOn === true && state.online !== false
+    ? `<video class="hero-video" data-focus-key="hero-video" tabindex="0" poster="/horses/weide.jpg" controls playsinline preload="metadata" width="1280" height="720" ${state.reduceMotion ? "" : "autoplay"} aria-label="${esc(shellCopy.videoName)}">
         <source src="/horses/weide.mp4" type="video/mp4">
       </video>
-      <button type="button" class="btn btn-line video-close" data-action="close-video">Terug naar de foto</button>`
-    : `<button type="button" class="video-btn" data-action="play-video" data-focus-key="play-video">
+      <button type="button" class="btn btn-line video-close" data-action="close-video">${esc(shellCopy.closeVideo)}</button>`
+    : `<button type="button" class="video-btn" data-action="play-video" data-focus-key="play-video" aria-label="${esc(shellCopy.videoLabel)}" ${offlineVideo ? 'aria-describedby="video-offline"' : ""}>
         ${photo("/horses/weide.jpg", copy.home.videoAlt, { eager: true, frame: false })}
         <span>${esc(copy.home.videoButton)}</span>
       </button>
-      ${state.videoOn === "offline" ? `<p class="notice" role="status">De korte opname speelt als je online bent.</p>` : ""}`;
+      ${offlineVideo ? `<p class="notice" id="video-offline">${esc(shellCopy.videoOffline)}</p>` : ""}`;
 
   return `<div class="home-hero">
       <div>
@@ -241,7 +257,7 @@ function mapPage(state) {
       const count = state.site.breeds.filter((breed) => breed.regions.includes(region)).length;
       const on = selected === region;
       return `<button type="button" class="place place-${slugId(region)} ${on ? "place-on" : ""}" data-action="map" data-value="${esc(region)}" data-focus-key="map-${esc(slugId(region))}" aria-pressed="${on ? "true" : "false"}">
-        <span>${esc(region)}</span><small>${count}</small>
+        <span>${esc(region)}</span><small><span class="sr-only">, </span>${count}<span class="sr-only"> ${rasWord(count)}</span></small>
       </button>`;
     })
     .join("");
@@ -250,14 +266,14 @@ function mapPage(state) {
   const list = selected
     ? sorted.length
       ? `<ul class="cards">${sorted.map((breed) => `<li>${breedCard(breed, state)}</li>`).join("")}</ul>`
-      : `<div class="empty"><p>Geen ras in deze streek.</p></div>`
-    : `<div class="empty"><p>Tik een streek. De rassen uit de gids komen hieronder.</p></div>`;
-  return `${header("Kaart", "Kies een streek", "Tik een streek. Je ziet de rassen die de gids daarbij zet.")}
+      : `<div class="empty"><p>${esc(shellCopy.emptyRegion)}</p></div>`
+    : `<div class="empty"><p>${esc(shellCopy.emptyMap)}</p><p>${esc(shellCopy.emptyMapNext)}</p></div>`;
+  return `<div class="map-page">${header("Kaart", "Kies een streek", "Tik een streek. Je ziet de rassen die de gids daarbij zet.")}
     <aside class="open-q"><p><strong>Nog te vragen aan Fien.</strong> Dit is een keuzescherm van de streken die al in de gids staan. Een wereldkaart met een stip per ras is er nog niet.</p></aside>
     <div class="map-layout">
-      <div class="atlas" role="group" aria-label="Streken">${buttons}</div>
-      <div>${list}</div>
-    </div>`;
+      <div class="atlas" role="group" aria-label="Streken" data-keys="move">${buttons}</div>
+      <div class="results">${list}</div>
+    </div></div>`;
 }
 
 function landOf(breed) {
@@ -276,7 +292,7 @@ function comparePage(state) {
     const items = breeds
       .map((breed) => `<option value="${esc(breed.slug)}" ${breed.slug === current ? "selected" : ""}>${esc(breed.name)}</option>`)
       .join("");
-    return `<label class="slot">Ras ${slot + 1}
+    return `<label class="slot">Ras ${slot + 1}<span class="sr-only"> van twee</span>
       <select data-action="compare-slot" data-slot="${slot}" data-focus-key="slot-${slot}">
         <option value="" ${current ? "" : "selected"}>Kies een ras</option>
         ${items}
@@ -285,7 +301,7 @@ function comparePage(state) {
   };
   let body;
   if (chosen.length < 2) {
-    body = `<div class="empty"><p>${chosen.length === 1 ? "Kies nog een tweede ras." : "Kies twee rassen. Op elke kaart staat ook een knop Vergelijk."}</p><p><a class="text-link" href="/rassen">Naar de rassen</a></p></div>`;
+    body = `<div class="empty"><p>${esc(chosen.length === 1 ? shellCopy.emptyCompareOne : shellCopy.emptyCompareNone)}</p><p>${esc(shellCopy.emptyCompareNext)}</p><p><a class="text-link" href="/rassen">Naar de rassen</a></p></div>`;
   } else {
     const rows = [
       ["Foto", (breed) => photo(`/horses/${breed.slug}.jpg`, breed.imageAlt)],
@@ -301,9 +317,9 @@ function comparePage(state) {
       ["Grootte", (breed) => esc(state.site.sizeLabels[breed.size] ?? breed.size)],
       ["Behang", (breed) => esc(breed.feather ?? copy.heavy.emptyFeather)],
     ];
-    body = `<div class="cmp-scroll"><table class="cmp">
-      <caption class="sr-only">${esc(chosen[0].name)} en ${esc(chosen[1].name)}</caption>
-      <thead><tr><th scope="col"> </th>${chosen.map((breed) => `<th scope="col">${esc(breed.name)}</th>`).join("")}</tr></thead>
+    body = `<div class="cmp-scroll" tabindex="0" role="region" aria-label="${esc(chosen[0].name)} en ${esc(chosen[1].name)}"><table class="cmp">
+      <caption class="sr-only print-show">${esc(chosen[0].name)} en ${esc(chosen[1].name)}</caption>
+      <thead><tr><th scope="col"><span class="sr-only print-inline">Onderwerp</span></th>${chosen.map((breed) => `<th scope="col">${esc(breed.name)}</th>`).join("")}</tr></thead>
       <tbody>${rows
         .map(
           ([label, cell]) => `<tr><th scope="row">${esc(label)}</th>${chosen.map((breed) => `<td>${cell(breed)}</td>`).join("")}</tr>`,
@@ -315,7 +331,8 @@ function comparePage(state) {
   const heavyTable = `<section class="heavy">
       <h2>${esc(copy.heavy.title)}</h2>
       <p class="lede">${esc(copy.heavy.lede)}</p>
-      <div class="cmp-scroll"><table class="cmp">
+      <div class="cmp-scroll" tabindex="0" role="region" aria-label="${esc(copy.heavy.title)}"><table class="cmp">
+        <caption class="sr-only">${esc(copy.heavy.title)}</caption>
         <thead><tr>${copy.heavy.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join("")}</tr></thead>
         <tbody>${heavy
           .map(
@@ -344,7 +361,7 @@ function savedPage(state) {
     .filter(Boolean);
   const body = breeds.length
     ? `<ul class="cards">${breeds.map((breed) => `<li>${breedCard(breed, state)}</li>`).join("")}</ul>`
-    : `<div class="empty"><p>${esc(copy.savedPage.empty)}</p><p><a class="text-link" href="/rassen">${esc(copy.savedPage.toBreeds)}</a></p></div>`;
+    : `<div class="empty"><p>${esc(copy.savedPage.empty)}</p><p>${esc(shellCopy.emptySavedNext)}</p><p><a class="text-link" href="/rassen">${esc(copy.savedPage.toBreeds)}</a></p></div>`;
   return `${header(copy.savedPage.kicker, copy.savedPage.title, copy.savedPage.lede)}${body}`;
 }
 
@@ -373,7 +390,7 @@ function jobsPage(state) {
 
 function legendsPage(state) {
   const kinds = state.site.legends.kinds;
-  const nav = `<nav class="chips" aria-label="Legendes">${state.site.legends.items
+  const nav = `<nav class="chips" aria-label="Legendes" data-keys="move">${state.site.legends.items
     .map((item) => `<a class="chip" href="#${esc(item.id)}">${esc(item.title)}</a>`)
     .join("")}</nav>`;
   const items = state.site.legends.items
@@ -396,7 +413,7 @@ function legendsPage(state) {
 }
 
 function famousPage(state) {
-  const nav = `<nav class="chips" aria-label="Beroemde paarden">${state.site.famous
+  const nav = `<nav class="chips" aria-label="Beroemde paarden" data-keys="move">${state.site.famous
     .map((item) => `<a class="chip" href="#${esc(item.id)}">${esc(item.name)}</a>`)
     .join("")}</nav>`;
   const items = state.site.famous
@@ -450,11 +467,11 @@ function gaitsPage(state) {
   const tabs = state.site.gaits
     .map((item) => {
       const on = item.id === gait.id;
-      return `<button type="button" class="chip ${on ? "chip-on" : ""}" role="tab" data-action="gait" data-value="${esc(item.id)}" data-focus-key="gait-${esc(item.id)}" aria-selected="${on ? "true" : "false"}">${esc(item.title)}</button>`;
+      return `<button type="button" class="chip ${on ? "chip-on" : ""}" role="tab" id="gait-tab-${esc(item.id)}" aria-controls="gang-pane" tabindex="${on ? "0" : "-1"}" data-action="gait" data-value="${esc(item.id)}" data-focus-key="gait-${esc(item.id)}" aria-selected="${on ? "true" : "false"}">${esc(item.title)}</button>`;
     })
     .join("");
-  return `${header(copy.gaits.kicker, copy.gaits.title, copy.gaits.lede)}
-    <div class="chips" role="tablist" aria-label="Gangen">${tabs}</div>
+  return `<div class="gait-page">${header(copy.gaits.kicker, copy.gaits.title, copy.gaits.lede)}
+    <div class="chips" role="tablist" aria-label="Gangen" data-keys="tab">${tabs}</div>
     <div class="gait-layout">
       <div class="gait-board">
         <p class="origin">${esc(gait.beat)}</p>
@@ -462,11 +479,11 @@ function gaitsPage(state) {
         <p>${esc(copy.gaits.facing)}</p>
         <div class="hooves" aria-hidden="true">${pads}</div>
         <p class="disclaimer">${esc(copy.gaits.order)}</p>
-        <p>${esc(step.label)}</p>
+        <p id="gang-stap">${esc(step.label)}</p>
         <button type="button" class="btn btn-moss" data-action="next-step" data-focus-key="next-step">${esc(copy.gaits.next)}</button>
       </div>
-      <div class="prose"><h2>${esc(gait.title)}</h2>${paras(gait.paragraphs)}</div>
-    </div>`;
+      <div class="prose gait-copy" id="gang-pane" role="tabpanel" aria-labelledby="gait-tab-${esc(gait.id)}"><h2>${esc(gait.title)}</h2>${paras(gait.paragraphs)}</div>
+    </div></div>`;
 }
 
 function bodyPage(state) {
@@ -488,12 +505,12 @@ function bodyPage(state) {
     .map(([term, text]) => `<div><dt>${esc(term)}</dt><dd>${esc(text)}</dd></div>`)
     .join("");
   return `${header(copy.body.kicker, copy.body.title, copy.body.lede)}
-    <div class="body-map">
+    <div class="body-map" role="group" aria-label="Stippen op het paard" data-keys="move">
       <img src="/horses/lichaam.jpg" alt="${esc(copy.body.alt)}" width="1200" height="800">
       ${dots}
     </div>
-    <div class="chips">${chips}</div>
-    <section class="prose" aria-live="polite"><h2>${esc(part.name)}</h2>${paras(part.paragraphs)}</section>
+    <div class="chips" role="group" aria-label="Lichaamsdelen" data-keys="move">${chips}</div>
+    <section class="prose" id="lichaam-tekst"><h2>${esc(part.name)}</h2>${paras(part.paragraphs)}</section>
     <figure class="diagram">
       <svg viewBox="0 0 480 240" role="img" aria-labelledby="zicht-titel">
         <title id="zicht-titel">${esc(copy.body.diagramTitle)}</title>
@@ -552,7 +569,7 @@ function quizPage(state) {
       ? `<div class="study"><p><strong>${picked === question.answer ? esc(copy.quiz.right) : esc(copy.quiz.wrong)}</strong></p><p>${esc(question.why)}</p>
           <button type="button" class="btn btn-moss" data-action="next-quiz" data-focus-key="quiz-next">${index + 1 === total ? esc(copy.quiz.overview) : esc(copy.quiz.next)}</button></div>`
       : "";
-    body = `<section aria-live="polite"><h2>${esc(question.prompt)}</h2><ul class="choices">${choices}</ul>${explain}</section>`;
+    body = `<section><h2 id="vraag-titel">${esc(question.prompt)}</h2><ul class="choices" role="group" aria-labelledby="vraag-titel" data-keys="move">${choices}</ul>${explain}</section>`;
   }
   const status = done ? copy.quiz.score(correct, total) : copy.quiz.progress(Math.min(index + 1, total), total);
   return `${header(copy.quiz.kicker, copy.quiz.title, copy.quiz.lede)}
@@ -562,8 +579,17 @@ function quizPage(state) {
 }
 
 function missingPage() {
+  const links = [
+    ["/", "Start"],
+    ["/rassen", "Rassen"],
+    ["/kaart", "Kaart"],
+    ["/vergelijk", "Vergelijk"],
+    ["/favorieten", "Bewaard"],
+  ]
+    .map(([href, label]) => `<li><a href="${href}">${label}</a></li>`)
+    .join("");
   return `${header("", "Deze bladzijde staat niet in de gids.", "Kies iets in het menu hieronder, of ga terug naar de start.")}
-    <p><a class="text-link" href="/">Naar de start</a></p>`;
+    <ul class="recover">${links}</ul>`;
 }
 
 export function renderPage(state) {
@@ -638,6 +664,64 @@ export function pageTitle(state) {
   return `${names[state.path] ?? "Gids"} — Alles over paarden`;
 }
 
+export function shellStatus(state) {
+  if (state?.bootError && !state.site) return bootMessage(state.online !== false);
+  if (!state?.site) return "";
+  if (state.notice) return state.notice;
+  if (state.path === "/rassen" && state.filters?.ras) {
+    const breed = state.site.breeds.find((item) => item.slug === state.filters.ras);
+    if (!breed) return `${copy.rassen.missingTitle}. ${shellCopy.missingBreedNext}`;
+    return pageTitle(state);
+  }
+  if (state.path === "/rassen") {
+    const found = filterBreeds(state.site.breeds, state.filters, state.site.regionOrder);
+    if (!found.length) return `${copy.rassen.empty} ${shellCopy.emptyRassenNext}`;
+    return `${found.length} ${rasWord(found.length)}.`;
+  }
+  if (state.path === "/favorieten") {
+    if (!state.saved?.length) return `${copy.savedPage.empty} ${shellCopy.emptySavedNext}`;
+    return `Bewaard, ${state.saved.length} ${rasWord(state.saved.length)}.`;
+  }
+  if (state.path === "/kaart") {
+    if (!state.filters?.streek) return `${shellCopy.emptyMap} ${shellCopy.emptyMapNext}`;
+    const count = state.site.breeds.filter((breed) => breed.regions.includes(state.filters.streek)).length;
+    if (!count) return shellCopy.emptyRegion;
+    return `${state.filters.streek}, ${count} ${rasWord(count)}.`;
+  }
+  if (state.path === "/vergelijk") {
+    const chosen = (state.compare ?? [])
+      .map((slug) => state.site.breeds.find((breed) => breed.slug === slug))
+      .filter(Boolean)
+      .slice(0, 2);
+    if (chosen.length < 2) {
+      const lead = chosen.length === 1 ? shellCopy.emptyCompareOne : shellCopy.emptyCompareNone;
+      return `${lead} ${shellCopy.emptyCompareNext}`;
+    }
+    return `${chosen[0].name} en ${chosen[1].name}.`;
+  }
+  if (state.path === "/gangen") {
+    const gait = state.site.gaits.find((item) => item.id === state.gaitId) ?? state.site.gaits[0];
+    const step = gait?.steps?.[state.gaitStep % (gait.steps?.length || 1)];
+    if (gait && step) return `${gait.title}. ${step.label}`;
+  }
+  if (state.path === "/lichaam") {
+    const part = state.site.body.find((item) => item.id === state.bodyId) ?? state.site.body[0];
+    if (part) return part.name;
+  }
+  if (state.path === "/check") {
+    const quiz = state.site.quiz ?? [];
+    const index = Math.min(state.quizIndex ?? 0, quiz.length);
+    if (!quiz.length || index >= quiz.length) return copy.quiz.doneTitle;
+    const question = quiz[index];
+    const picked = state.answers?.[question.id];
+    if (picked) return `${picked === question.answer ? copy.quiz.right : copy.quiz.wrong} ${question.why}`;
+    return copy.quiz.progress(Math.min(index + 1, quiz.length), quiz.length);
+  }
+  const title = pageTitle(state);
+  if (title.startsWith("Gids —")) return shellCopy.missingPage;
+  return title;
+}
+
 const tabs = [
   ["/", "Start", houseIcon()],
   ["/rassen", "Rassen", booksIcon()],
@@ -670,7 +754,7 @@ export function renderNav(path, savedCount) {
     .map(([href, label, svg]) => {
       const on = href === "/rassen" ? path === "/rassen" : path === href;
       const extra = href === "/favorieten" && savedCount ? `<span class="badge" aria-hidden="true">${savedCount}</span>` : "";
-      const name = href === "/favorieten" && savedCount ? `Bewaard, ${savedCount} rassen` : label;
+      const name = href === "/favorieten" && savedCount ? `Bewaard, ${savedCount} ${rasWord(savedCount)}` : label;
       const labelAttr = name === label ? "" : ` aria-label="${esc(name)}"`;
       return `<a href="${href}" class="${on ? "tab tab-on" : "tab"}" ${on ? 'aria-current="page"' : ""}${labelAttr}>${svg}<span>${esc(label)}</span>${extra}</a>`;
     })
@@ -686,7 +770,7 @@ export function renderGids(site) {
   return `<div class="sheet">
     <div class="sheet-bar">
       <h2 id="gids-title">In de gids</h2>
-      <button type="button" class="btn btn-line" data-action="close-gids">Sluit</button>
+      <button type="button" class="btn btn-line" id="gids-sluit" data-action="close-gids" aria-label="Sluit de gids">Sluit</button>
     </div>
     <ul class="learn-grid">${links}</ul>
   </div>`;

@@ -1,7 +1,7 @@
 // Offline shell for the tablet. Text, fonts and photos are cached.
 // The meadow video stays on the network: it is large and only plays online.
 
-const CACHE = "paarden-gids-shell-v1";
+const CACHE = "paarden-gids-shell-v2";
 const SHELL = [
   "/",
   "/index.html",
@@ -11,6 +11,7 @@ const SHELL = [
   "/src/store.js",
   "/src/copy.js",
   "/src/render.js",
+  "/src/shell.js",
   "/content/site.json",
   "/favicon.svg",
   "/manifest.webmanifest",
@@ -58,6 +59,7 @@ async function cachePhotos() {
   for (const breed of site.breeds ?? []) urls.add(`/horses/${breed.slug}.jpg`);
   await Promise.all(
     [...urls].map(async (url) => {
+      if (url.endsWith(".mp4")) return;
       try {
         const hit = await cache.match(url);
         if (hit) return;
@@ -76,6 +78,10 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname === "/sw.js" || url.pathname.endsWith(".mp4")) return;
+  if (url.searchParams.has("opnieuw")) {
+    event.respondWith(fetch(request).catch(() => missing(request)));
+    return;
+  }
 
   if (request.mode === "navigate") {
     event.respondWith(networkFirstPage(request));
@@ -84,6 +90,46 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(cacheFirst(request));
 });
 
+function offlineDocument() {
+  const html = `<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alles over paarden</title>
+  <style>
+    body { margin: 0; background: #f3eee4; color: #1c1915; font: 18px/1.55 "Segoe UI", sans-serif; }
+    main { max-width: 38rem; margin: 0 auto; padding: 2.2rem 1.2rem 3rem; }
+    h1 { font-family: Georgia, serif; font-weight: 560; font-size: 2.1rem; line-height: 1.15; margin: 0.2rem 0 0.8rem; }
+    p { margin: 0.6rem 0; }
+    button { font: inherit; min-height: 3rem; margin-top: 0.8rem; padding: 0.55rem 1rem; border-radius: 0.85rem; border: 0; background: #243e32; color: #f3eee4; }
+  </style>
+</head>
+<body>
+  <main>
+    <p>Naslagwerk</p>
+    <h1>Alles over paarden</h1>
+    <p>Je bent offline, en deze tablet heeft de gids nog niet bewaard. Ga online en open de gids één keer. Daarna blijven de tekst en de foto's hier staan. De korte opname niet: die heeft altijd internet nodig.</p>
+    <p><button type="button" onclick="location.reload()">Opnieuw proberen</button></p>
+  </main>
+</body>
+</html>`;
+  return new Response(html, {
+    status: 503,
+    headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" },
+  });
+}
+
+function missing(request) {
+  if (request.destination === "image" || new URL(request.url).pathname.endsWith(".jpg")) {
+    return new Response("", { status: 504, statusText: "offline" });
+  }
+  return new Response("Niet op deze tablet.", {
+    status: 504,
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
+  });
+}
+
 async function networkFirstPage(request) {
   const cache = await caches.open(CACHE);
   try {
@@ -91,12 +137,9 @@ async function networkFirstPage(request) {
     if (fresh.ok) await cache.put("/index.html", fresh.clone());
     return fresh;
   } catch {
-    const cached = await cache.match("/index.html");
+    const cached = (await cache.match("/index.html")) || (await cache.match("/"));
     if (cached) return cached;
-    return new Response("De gids is offline en nog niet op deze tablet opgeslagen.", {
-      status: 503,
-      headers: { "Content-Type": "text/plain; charset=utf-8" },
-    });
+    return offlineDocument();
   }
 }
 
@@ -104,7 +147,11 @@ async function cacheFirst(request) {
   const cache = await caches.open(CACHE);
   const cached = await cache.match(request);
   if (cached) return cached;
-  const fresh = await fetch(request);
-  if (fresh.ok) await cache.put(request, fresh.clone());
-  return fresh;
+  try {
+    const fresh = await fetch(request);
+    if (fresh.ok && !new URL(request.url).pathname.endsWith(".mp4")) await cache.put(request, fresh.clone());
+    return fresh;
+  } catch {
+    return missing(request);
+  }
 }

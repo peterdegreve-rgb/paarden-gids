@@ -14,23 +14,41 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/icons/icon-180.png">
   <link rel="stylesheet" href="/app.css">
+  <script>
+    try {
+      var saved = JSON.parse(localStorage.getItem("paarden-gids-voorkeur") || "null");
+      if (saved && (saved.textSize === "klein" || saved.textSize === "groot")) {
+        document.documentElement.dataset.text = saved.textSize;
+      }
+    } catch (e) {}
+  </script>
   <meta property="og:title" content="Alles over paarden">
   <meta property="og:image" content="/og.jpg">
 </head>
 <body>
   <a class="skip" href="#inhoud">Naar de inhoud</a>
+  <a class="skip skip-menu" href="#tabbar">Naar het menu</a>
   <header class="top">
     <div class="brand">
       <a href="/">Alles over paarden</a>
       <p>Een naslagwerk om te lezen</p>
     </div>
+    <div class="type-size" role="radiogroup" aria-labelledby="tekst-label" data-keys="tab">
+      <span class="type-size-label" id="tekst-label">Tekst</span>
+      <button type="button" id="text-klein" role="radio" data-action="text-size" data-size="klein" data-focus-key="text-klein" aria-checked="false" tabindex="-1" aria-label="Kleine tekst"><span aria-hidden="true" class="aa aa-s">A</span></button>
+      <button type="button" id="text-gewoon" role="radio" data-action="text-size" data-size="gewoon" data-focus-key="text-gewoon" aria-checked="true" tabindex="0" aria-label="Gewone tekst"><span aria-hidden="true" class="aa aa-m">A</span></button>
+      <button type="button" id="text-groot" role="radio" data-action="text-size" data-size="groot" data-focus-key="text-groot" aria-checked="false" tabindex="-1" aria-label="Grote tekst"><span aria-hidden="true" class="aa aa-l">A</span></button>
+    </div>
     <button type="button" class="btn btn-line" id="gids-open" aria-haspopup="dialog" aria-controls="gids" aria-expanded="false">In de gids</button>
   </header>
-  <p id="offline" class="offline" role="status" hidden>Je bent offline. De tekst en de foto's op deze tablet blijven. De korte opname niet.</p>
+  <p id="offline" class="offline" hidden>Je bent offline. De tekst en de foto's op deze tablet blijven. De korte opname niet. Kies Start, Rassen of Bewaard om verder te lezen.</p>
+  <div id="zeg" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <div id="alarm" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
   <main id="inhoud" tabindex="-1">
-    <p class="loading">De gids wordt geopend…</p>
+    <p class="loading" role="status">De gids wordt geopend…</p>
+    <noscript><p class="noscript">De gids heeft JavaScript nodig. Zet het aan op deze tablet en open de pagina opnieuw.</p></noscript>
   </main>
-  <nav class="tabbar" id="tabbar" aria-label="Hoofdmenu"></nav>
+  <nav class="tabbar" id="tabbar" aria-label="Hoofdmenu" tabindex="-1"></nav>
   <dialog id="gids" aria-labelledby="gids-title"></dialog>
   <script type="module" src="/app.js"></script>
 </body>
