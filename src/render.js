@@ -190,8 +190,9 @@ function homePage(state) {
     const fact = site.facts.find((item) => item.id === id);
     return fact ? [fact] : [];
   });
-  const offlineVideo = state.online === false || state.videoOn === "offline";
-  const video = state.videoOn === true && state.online !== false
+  const canPlay = state.online !== false || state.videoCached === true;
+  const offlineVideo = !canPlay || state.videoOn === "offline";
+  const video = state.videoOn === true && canPlay
     ? `<video class="hero-video" data-focus-key="hero-video" tabindex="0" poster="/horses/weide.jpg" controls playsinline preload="metadata" width="1280" height="720" ${state.reduceMotion ? "" : "autoplay"} aria-label="${esc(shellCopy.videoName)}">
         <source src="/horses/weide.mp4" type="video/mp4">
       </video>
@@ -472,7 +473,7 @@ function gaitsPage(state) {
     .join("");
   return `<div class="gait-page">${header(copy.gaits.kicker, copy.gaits.title, copy.gaits.lede)}
     <div class="chips" role="tablist" aria-label="Gangen" data-keys="tab">${tabs}</div>
-    <div class="gait-layout">
+    <div class="gait-layout screen-only">
       <div class="gait-board">
         <p class="origin">${esc(gait.beat)}</p>
         <p class="hear">${esc(gait.hear)}</p>
@@ -483,7 +484,13 @@ function gaitsPage(state) {
         <button type="button" class="btn btn-moss" data-action="next-step" data-focus-key="next-step">${esc(copy.gaits.next)}</button>
       </div>
       <div class="prose gait-copy" id="gang-pane" role="tabpanel" aria-labelledby="gait-tab-${esc(gait.id)}"><h2>${esc(gait.title)}</h2>${paras(gait.paragraphs)}</div>
-    </div></div>`;
+    </div>
+    <div class="print-only">${state.site.gaits
+      .map(
+        (item) => `<section class="chapter"><h2>${esc(item.title)}</h2><p class="origin">${esc(item.beat)}</p><p class="hear">${esc(item.hear)}</p><div class="prose">${paras(item.paragraphs)}</div></section>`,
+      )
+      .join("")}</div>
+    </div>`;
 }
 
 function bodyPage(state) {
@@ -509,8 +516,13 @@ function bodyPage(state) {
       <img src="/horses/lichaam.jpg" alt="${esc(copy.body.alt)}" width="1200" height="800">
       ${dots}
     </div>
-    <div class="chips" role="group" aria-label="Lichaamsdelen" data-keys="move">${chips}</div>
-    <section class="prose" id="lichaam-tekst"><h2>${esc(part.name)}</h2>${paras(part.paragraphs)}</section>
+    <div class="chips screen-only" role="group" aria-label="Lichaamsdelen" data-keys="move">${chips}</div>
+    <section class="prose screen-only" id="lichaam-tekst"><h2>${esc(part.name)}</h2>${paras(part.paragraphs)}</section>
+    <div class="print-only">${state.site.body
+      .map(
+        (item) => `<section class="chapter"><h2>${esc(item.name)}</h2><div class="prose">${paras(item.paragraphs)}</div></section>`,
+      )
+      .join("")}</div>
     <figure class="diagram">
       <svg viewBox="0 0 480 240" role="img" aria-labelledby="zicht-titel">
         <title id="zicht-titel">${esc(copy.body.diagramTitle)}</title>

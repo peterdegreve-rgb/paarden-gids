@@ -2,10 +2,13 @@
 // Strings in src/copy.js stay as they are.
 
 export const TEXT_SIZES = ["klein", "gewoon", "groot"];
+export const VIDEO_PATH = "/horses/weide.mp4";
 
 export const shellCopy = {
   offlineBanner:
     "Je bent offline. De tekst en de foto's op deze tablet blijven. De korte opname niet. Kies Start, Rassen of Bewaard om verder te lezen.",
+  offlineBannerSaved:
+    "Je bent offline. De tekst, de foto's en de korte opname op deze tablet blijven. Kies Start, Rassen of Bewaard om verder te lezen.",
   onlineAgain: "Je bent weer online. De korte opname kan weer, als je erom vraagt.",
   bootTitle: "De gids kon niet openen.",
   bootOffline:
@@ -88,6 +91,34 @@ export function compareLabel(name, on) {
 
 export function savedStatus(name, on) {
   return on ? `${name} staat bij bewaard, op deze tablet.` : `${name} staat niet meer bij bewaard.`;
+}
+
+export function offlineBanner(videoCached) {
+  return videoCached ? shellCopy.offlineBannerSaved : shellCopy.offlineBanner;
+}
+
+// Byte range for the cached meadow recording. A video element asks for slices.
+export function byteRange(total, header) {
+  const size = Number(total) || 0;
+  if (!header || size <= 0) return null;
+  const match = /^bytes=(\d*)-(\d*)$/i.exec(String(header).trim());
+  if (!match) return null;
+  const suffix = match[1] === "" && match[2] !== "";
+  let start;
+  let end;
+  if (suffix) {
+    const tail = Number(match[2]);
+    if (!Number.isFinite(tail) || tail <= 0) return null;
+    start = Math.max(0, size - tail);
+    end = size - 1;
+  } else {
+    start = match[1] === "" ? 0 : Number(match[1]);
+    end = match[2] === "" ? size - 1 : Number(match[2]);
+  }
+  if (!Number.isFinite(start) || !Number.isFinite(end)) return null;
+  if (start < 0 || start >= size || end < start) return null;
+  end = Math.min(end, size - 1);
+  return { start, end, total: size };
 }
 
 export function bootMessage(online) {

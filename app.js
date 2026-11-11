@@ -1,9 +1,11 @@
 import { firstUnanswered, parseFilters, toggleCompare } from "./src/logic.js";
 import { esc, pageTitle, renderGids, renderNav, renderPage, shellStatus } from "./src/render.js";
 import {
+  VIDEO_PATH,
   bootMessage,
   moveIndex,
   normalizeTextSize,
+  offlineBanner,
   photoMessage,
   photosFail,
   savedStatus,
@@ -32,6 +34,7 @@ const state = {
   quizIndex: 0,
   notice: "",
   online: true,
+  videoCached: false,
   reduceMotion: false,
 };
 
@@ -243,7 +246,7 @@ function handleAction(el) {
     return;
   }
   if (action === "play-video") {
-    if (navigator.onLine) {
+    if (navigator.onLine || state.videoCached) {
       state.videoOn = true;
       paint({
         focusKey: "hero-video",
@@ -289,17 +292,33 @@ function query(filters) {
   return text ? `?${text}` : "";
 }
 
+function applyBanner() {
+  const banner = document.querySelector("#offline");
+  if (!banner) return;
+  banner.textContent = offlineBanner(state.videoCached);
+  banner.hidden = state.online;
+}
+
+async function refreshVideoCache() {
+  if (!("caches" in window)) return;
+  try {
+    state.videoCached = Boolean(await caches.match(VIDEO_PATH));
+  } catch {
+    state.videoCached = false;
+  }
+  applyBanner();
+}
+
 function syncNet() {
   const online = navigator.onLine;
   const changed = state.online !== online;
   state.online = online;
-  const banner = document.querySelector("#offline");
-  if (banner) banner.hidden = online;
+  applyBanner();
   if (!changed) return;
-  if (!online && state.videoOn === true) state.videoOn = "offline";
-  if (state.site && !state.bootError) {
-    paint({ scroll: "keep", status: online ? shellCopy.onlineAgain : shellCopy.offlineBanner });
-  } else if (!online) say(shellCopy.offlineBanner);
+  if (!online && state.videoOn === true && !state.videoCached) state.videoOn = "offline";
+  const status = online ? shellCopy.onlineAgain : offlineBanner(state.videoCached);
+  if (state.site && !state.bootError) paint({ scroll: "keep", status });
+  else if (!online) say(status);
 }
 
 document.addEventListener("click", (event) => {
@@ -321,6 +340,12 @@ document.addEventListener("keydown", (event) => {
   if (event.altKey || event.ctrlKey || event.metaKey) return;
   const target = event.target;
   if (!(target instanceof HTMLElement)) return;
+  if (event.key === "Escape" && state.videoOn === true && !dialog.open) {
+    event.preventDefault();
+    state.videoOn = false;
+    paint({ focusKey: "play-video" });
+    return;
+  }
   if (["INPUT", "SELECT", "TEXTAREA"].includes(target.tagName)) return;
   const group = target.closest("[data-keys]");
   if (!group) return;
@@ -496,12 +521,17 @@ async function boot() {
     state.bootError = true;
   }
   readLocation();
-  const banner = document.querySelector("#offline");
-  if (banner) banner.hidden = state.online;
+  await refreshVideoCache();
+  applyBanner();
   paint({ scroll: location.hash ? "hash" : "none" });
-  if (!state.online) say(shellCopy.offlineBanner);
+  if (!state.online) say(offlineBanner(state.videoCached));
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/sw.js").catch(() => {});
+    navigator.serviceWorker.addEventListener("message", (event) => {
+      if (event.data?.type !== "video-cached") return;
+      state.videoCached = true;
+      applyBanner();
+    });
+    navigator.serviceWorker.register("/sw.js", { type: "module" }).then(() => refreshVideoCache()).catch(() => {});
   }
 }
 

@@ -13,9 +13,12 @@ import {
 } from "../src/logic.js";
 import { esc, renderNav, renderPage, shellStatus } from "../src/render.js";
 import {
+  VIDEO_PATH,
   bootMessage,
+  byteRange,
   compareLabel,
   moveIndex,
+  offlineBanner,
   photoMessage,
   photosFail,
   rasWord,
@@ -194,6 +197,9 @@ test("shell colours stay light and readable", async () => {
   assert.match(css, /prefers-reduced-motion:\s*reduce/);
   assert.match(css, /prefers-contrast:\s*more/);
   assert.match(css, /forced-colors:\s*active/);
+  assert.match(css, /background:\s*Highlight/);
+  assert.match(css, /safe-area-inset-left/);
+  assert.match(css, /safe-area-inset-top/);
   assert.match(css, /@media print/);
   assert.match(css, /@page/);
   assert.match(css, /\.breed-sheet/);
@@ -251,6 +257,10 @@ test("empty, missing and offline states tell a child what to do next", () => {
   const offlineHome = renderPage(state({ online: false }));
   assert.equal(offlineHome.includes(".mp4"), false);
   assert.match(offlineHome, /korte opname heeft internet nodig/);
+  const cachedVideo = renderPage(state({ online: false, videoCached: true, videoOn: true }));
+  assert.match(cachedVideo, /\/horses\/weide\.mp4/);
+  assert.equal(offlineBanner(true), shellCopy.offlineBannerSaved);
+  assert.equal(offlineBanner(false), shellCopy.offlineBanner);
   const playing = renderPage(state({ videoOn: true }));
   assert.match(playing, /\/horses\/weide\.mp4/);
   assert.match(playing, /autoplay/);
@@ -276,6 +286,11 @@ test("breed and compare pages name controls and keep the published fields", () =
   assert.match(gaits, /role="tablist"/);
   assert.match(gaits, /aria-controls="gang-pane"/);
   assert.match(gaits, /tabindex="-1"/);
+  assert.match(gaits, /print-only/);
+  assert.match(gaits, /screen-only/);
+  const bodyPage = renderPage(state({ path: "/lichaam" }));
+  assert.match(bodyPage, /print-only/);
+  assert.ok(bodyPage.split("print-only")[1].includes("<h2>"));
   assert.equal(shellStatus(state({ path: "/favorieten" })), `${copy.savedPage.empty} ${shellCopy.emptySavedNext}`);
   assert.match(shellStatus(state({ path: "/gangen" })), /Stap/);
   assert.match(shellStatus(state({ path: "/nope" })), /Deze bladzijde staat niet in de gids/);
@@ -316,12 +331,20 @@ test("text size stays out of the favourites record", () => {
   assert.deepEqual(store.read().saved, ["fjord"]);
 });
 
-test("the service worker still leaves the meadow video online", async () => {
+test("the meadow recording is cached, and no other video is added", async () => {
   const sw = await readFile(new URL("../sw.js", import.meta.url), "utf8");
-  assert.equal(sw.includes("weide.mp4"), false);
+  const app = await readFile(new URL("../app.js", import.meta.url), "utf8");
+  assert.equal(VIDEO_PATH, "/horses/weide.mp4");
+  assert.match(sw, /VIDEO_PATH/);
+  assert.match(sw, /Content-Range/);
   assert.match(sw, /endsWith\("\.mp4"\)/);
-  assert.match(sw, /paarden-gids-shell-v2/);
+  assert.match(sw, /paarden-gids-shell-v3/);
   assert.match(sw, /nog niet bewaard/);
   assert.match(sw, /src\/shell\.js/);
-  assert.equal(sw.includes("/horses/weide.mp4"), false);
+  assert.match(app, /type:\s*"module"/);
+  assert.deepEqual(byteRange(1000, "bytes=0-99"), { start: 0, end: 99, total: 1000 });
+  assert.deepEqual(byteRange(1000, "bytes=0-"), { start: 0, end: 999, total: 1000 });
+  assert.deepEqual(byteRange(1000, "bytes=-100"), { start: 900, end: 999, total: 1000 });
+  assert.equal(byteRange(1000, "bytes=1000-"), null);
+  assert.equal(byteRange(1000, "notes"), null);
 });

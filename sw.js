@@ -1,7 +1,9 @@
-// Offline shell for the tablet. Text, fonts and photos are cached.
-// The meadow video stays on the network: it is large and only plays online.
+// Offline shell for the tablet. Text, fonts, photos and the one meadow
+// recording are cached. Any other video stays on the network.
 
-const CACHE = "paarden-gids-shell-v2";
+import { VIDEO_PATH, byteRange } from "./src/shell.js";
+
+const CACHE = "paarden-gids-shell-v3";
 const SHELL = [
   "/",
   "/index.html",
@@ -24,6 +26,8 @@ const SHELL = [
   "/fonts/source-sans-3-italic.woff2",
 ];
 
+let videoBytes = null;
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE).then((cache) => cache.addAll(SHELL)).then(() => self.skipWaiting()),
@@ -37,6 +41,7 @@ self.addEventListener("activate", (event) => {
       await Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key)));
       await self.clients.claim();
       await cachePhotos();
+      await cacheVideo();
     })(),
   );
 });
@@ -72,12 +77,39 @@ async function cachePhotos() {
   );
 }
 
+async function tellVideo() {
+  const clients = await self.clients.matchAll({ includeUncontrolled: true });
+  for (const client of clients) client.postMessage({ type: "video-cached" });
+}
+
+async function cacheVideo() {
+  try {
+    const cache = await caches.open(CACHE);
+    if (await cache.match(VIDEO_PATH)) {
+      await tellVideo();
+      return;
+    }
+    const fresh = await fetch(VIDEO_PATH);
+    if (!fresh.ok) return;
+    await cache.put(VIDEO_PATH, fresh);
+    videoBytes = null;
+    await tellVideo();
+  } catch {
+    /* the recording can arrive on the next visit */
+  }
+}
+
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   if (request.method !== "GET") return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname === "/sw.js" || url.pathname.endsWith(".mp4")) return;
+  if (url.pathname === "/sw.js") return;
+  if (url.pathname === VIDEO_PATH) {
+    event.respondWith(rangedVideo(request));
+    return;
+  }
+  if (url.pathname.endsWith(".mp4")) return;
   if (url.searchParams.has("opnieuw")) {
     event.respondWith(fetch(request).catch(() => missing(request)));
     return;
@@ -127,6 +159,54 @@ function missing(request) {
   return new Response("Niet op deze tablet.", {
     status: 504,
     headers: { "Content-Type": "text/plain; charset=utf-8" },
+  });
+}
+
+async function loadVideoBytes() {
+  if (videoBytes) return videoBytes;
+  const cache = await caches.open(CACHE);
+  let hit = await cache.match(VIDEO_PATH);
+  if (!hit) {
+    const fresh = await fetch(VIDEO_PATH);
+    if (!fresh.ok) return null;
+    await cache.put(VIDEO_PATH, fresh.clone());
+    hit = fresh;
+    await tellVideo();
+  }
+  videoBytes = await hit.arrayBuffer();
+  return videoBytes;
+}
+
+async function rangedVideo(request) {
+  let bytes;
+  try {
+    bytes = await loadVideoBytes();
+  } catch {
+    bytes = null;
+  }
+  if (!bytes) return new Response("", { status: 504, statusText: "offline", headers: { "Content-Type": "video/mp4" } });
+  const range = request.headers.get("range");
+  const span = range ? byteRange(bytes.byteLength, range) : null;
+  if (!span) {
+    const whole = bytes.slice(0);
+    return new Response(whole, {
+      status: 200,
+      headers: {
+        "Content-Type": "video/mp4",
+        "Content-Length": String(whole.byteLength),
+        "Accept-Ranges": "bytes",
+      },
+    });
+  }
+  const slice = bytes.slice(span.start, span.end + 1);
+  return new Response(slice, {
+    status: 206,
+    headers: {
+      "Content-Type": "video/mp4",
+      "Content-Length": String(slice.byteLength),
+      "Content-Range": `bytes ${span.start}-${span.end}/${span.total}`,
+      "Accept-Ranges": "bytes",
+    },
   });
 }
 
