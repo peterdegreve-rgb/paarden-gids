@@ -521,7 +521,14 @@ dialog {
 dialog::backdrop { background: rgba(28, 25, 21, 0.45); }
 .sheet { padding: 1rem 1rem 1.2rem; }
 .sheet-bar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 0.6rem; }
-.loading { color: var(--muted); }
+.loading {
+  margin: 0.4rem 0 1rem;
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+}
 
 @media (min-width: 700px) {
   .cards, .learn-grid, .fact-grid { grid-template-columns: 1fr 1fr; }
@@ -545,6 +552,48 @@ dialog::backdrop { background: rgba(28, 25, 21, 0.45); }
 @media (max-width: 699px) {
   .brand p { display: none; }
   h1 { font-size: 2rem; }
+  .top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "brand gids" "type type";
+    align-items: center;
+    gap: 0.4rem 0.6rem;
+  }
+  .brand { grid-area: brand; margin-right: 0; min-width: 0; }
+  .brand a { font-size: 1.2rem; }
+  #gids-open { grid-area: gids; }
+  .type-size { grid-area: type; margin: 0; justify-content: flex-start; }
+  .search-row { flex-wrap: nowrap; align-items: stretch; }
+  .search-row input { flex: 1 1 auto; min-width: 0; }
+  .search-row .btn { white-space: nowrap; padding-inline: 0.7rem; }
+  .chips { flex-wrap: wrap; overflow: visible; }
+  .place {
+    min-height: 2.75rem;
+    padding: 0.35rem 0.65rem;
+    font-size: 0.98rem;
+    line-height: 1.2;
+  }
+  .atlas { gap: 0.35rem; }
+  .open-q { margin: 0.55rem 0; padding: 0.65rem 0.75rem; }
+  .cmp { min-width: 0; }
+  .heavy .cmp { min-width: 32rem; }
+  .cmp th, .cmp td { padding: 0.55rem 0.45rem; }
+  .cards > li { content-visibility: auto; contain-intrinsic-size: auto 22rem; }
+}
+@media (max-height: 520px) {
+  :root { --nav: calc(3.15rem + env(safe-area-inset-bottom)); --tap: 2.75rem; }
+  .brand p { display: none; }
+  .top { padding-top: calc(0.35rem + env(safe-area-inset-top)); padding-bottom: 0.3rem; }
+  .brand a { font-size: 1.15rem; }
+  h1 { font-size: 1.55rem; }
+  .kicker { font-size: 1rem; }
+  .lede { font-size: 0.98rem; }
+  .page-head { margin-bottom: 0.35rem; }
+  main { padding-top: 0.4rem; padding-bottom: calc(var(--nav) + 0.45rem); }
+  .tab { min-height: 2.9rem; padding: 0.1rem 0.1rem 0.15rem; }
+  .tab svg { width: 1.25rem; height: 1.25rem; }
+  .tab span { font-size: 0.72rem; }
+  .tiles a { min-height: 0; padding: 0.45rem 0.7rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -595,7 +644,7 @@ dialog::backdrop { background: rgba(28, 25, 21, 0.45); }
 .aa-s { font-size: 0.85rem; }
 .aa-m { font-size: 1.15rem; }
 .aa-l { font-size: 1.45rem; }
-.noscript, .loading { color: var(--muted); }
+.noscript { color: var(--muted); }
 .noscript {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -884,6 +933,7 @@ dialog::backdrop { background: rgba(28, 25, 21, 0.45); }
   }
   .body-map { overflow: visible !important; border: 0 !important; background: transparent !important; }
   .body-map img { object-fit: contain !important; height: auto !important; max-height: 85mm; background: #fff; }
+  .cards > li { content-visibility: visible; contain-intrinsic-size: auto; }
   .print-only { display: block !important; }
   .screen-only { display: none !important; }
   .study, .callout, .remember, .glossary div {

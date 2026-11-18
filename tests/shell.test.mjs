@@ -200,6 +200,8 @@ test("shell colours stay light and readable", async () => {
   assert.match(css, /background:\s*Highlight/);
   assert.match(css, /safe-area-inset-left/);
   assert.match(css, /safe-area-inset-top/);
+  assert.match(css, /grid-template-areas:\s*"brand gids" "type type"/);
+  assert.match(css, /content-visibility:\s*auto/);
   assert.match(css, /@media print/);
   assert.match(css, /@page/);
   assert.match(css, /\.breed-sheet/);

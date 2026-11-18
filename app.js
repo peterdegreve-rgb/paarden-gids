@@ -154,6 +154,7 @@ function paint({ scroll = "keep", focusKey = null, status = null } = {}) {
 }
 
 function go(url, { replace = false } = {}) {
+  window.clearTimeout(filterTimer);
   const next = new URL(url, location.origin);
   history[replace ? "replaceState" : "pushState"]({}, "", `${next.pathname}${next.search}${next.hash}`);
   readLocation();
@@ -370,13 +371,18 @@ document.addEventListener("submit", (event) => {
   go(`/rassen${query({ ...emptyFilters, q })}`);
 });
 
+let filterTimer = 0;
 document.addEventListener("input", (event) => {
   if (event.target.id !== "filter-zoek") return;
-  const filters = { ...state.filters, q: event.target.value, ras: "" };
-  history.replaceState({}, "", `/rassen${query(filters)}`);
-  readLocation();
-  state.notice = "";
-  paint();
+  const value = event.target.value;
+  window.clearTimeout(filterTimer);
+  filterTimer = window.setTimeout(() => {
+    const filters = { ...state.filters, q: value, ras: "" };
+    history.replaceState({}, "", `/rassen${query(filters)}`);
+    readLocation();
+    state.notice = "";
+    paint();
+  }, 140);
 });
 
 document.addEventListener("change", (event) => {
@@ -484,6 +490,7 @@ dialog.addEventListener("close", () => {
 });
 
 window.addEventListener("popstate", () => {
+  window.clearTimeout(filterTimer);
   readLocation();
   state.notice = "";
   paint({ scroll: location.hash ? "hash" : "top" });
